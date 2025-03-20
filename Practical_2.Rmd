@@ -1,0 +1,411 @@
+---
+title: "Practical 2 Worksheet"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+Use this workspace to complete the Visualization Practical. 
+
+---
+
+Install Packages if needed by running install.packages("tidyverse")
+
+Load packages in the local library:
+```{r}
+library(tidyverse)
+library(tinytex)
+library(readr)
+```
+
+---
+---
+
+**Question 1: We are trying to understand the factors that may affect the price of the diamonds. Run the following code examples, and identify which graph represents the best visualization of the data.**
+
+---
+
+Copy and Paste each code block here:
+
+```{r}
+library(ISLR)
+library(tidyverse)
+
+dia.ex1 <- ggplot(data = diamonds, mapping = aes(x = carat, y = price)) +
+  geom_point() + 
+  labs(y = "Price in USD", x = "Carat", title = "Price of Diamond by Carat") + 
+  theme_classic()
+dia.ex1
+
+dia.ex2 <- ggplot(data = diamonds, mapping = aes(x = carat, y = price,                                                       colour = color)) +
+  geom_point(size=0.5, alpha=0.5) + 
+  labs(y = "Price in USD", x = "Carat", title = "Price of Diamond by Carat") + 
+  theme_minimal()
+dia.ex2
+
+dia.ex3 <- dia.ex2 + facet_wrap(~ color)
+dia.ex3
+
+# I consider the last graph as the best one according to the CRAP design rules:
+# Contrast: Each subplot uses a unique color to represent different diamond colors (D through J), allowing clear distinction between categories within the same variable of carat size. The contrast helps in easily differentiating data groups.
+# Repetition: The consistent use of point style and grid layout across subplots maintains a coherent visual structure, enhancing understanding across multiple categories.
+# Alignment: The alignment of the axes suffer a bit due to the presence of multiple graphs. Other graphs represent it in a more structured way, still a viewer can understand what is presented on graphs and according to the CRAP design rules, axes are presented as on the other graphs.
+# Proximity: Related information is grouped closely, avoiding any clutters, facilitating an easy comparison of how price correlates with carat across different diamond colors. This grouping reduces cognitive load by logically organizing the data.
+
+# I consider the first graph as the worst one According to the CRAP design rules:
+# Contrast: There is no contrast between different data points since all are in black, making it difficult to distinguish between points or identify any subgroup characteristics or outliers effectively.
+# Repetition: The use of a single color and the lack of additional visual elements result in a monotonous display that fails to engage or inform effectively.
+# Alignment: While the axes are well-aligned, the lack of differentiation in the data presentation style makes it harder for the viewer to extract meaningful insights or compare different segments of the data.
+# Proximity: The data points are densely packed, especially in areas where carat sizes are small but prices vary greatly. 
+```
+
+
+---
+
+**Question 2a: Using your knowledge and understanding of what makes a good, clear graph, improve one of the two graphs (if you improve the worst graph, change it differently than the ‘best’ graph given!).**
+
+---
+
+Copy and Paste your code here and edit accordingly
+```{r}
+library(ggplot2)
+
+
+ggplot(diamonds, aes(x = carat, y = price, color = color)) +
+  geom_point(alpha = 0.3, size = 1.5) +  
+  scale_color_viridis_d(begin = 0.3, end = 0.9, option = "C") + 
+  labs(
+    title = "Improved Scatter Plot of Diamond Price vs. Carat",
+    x = "Carat",
+    y = "Price in USD"
+  ) +
+  theme_minimal() +  
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold"),
+    legend.title = element_text(face = "bold"),
+    legend.position = "right",
+    legend.background = element_blank(),  
+    plot.background = element_blank(),  
+    panel.grid.major = element_line(color = "gray80", size = 0.2),
+    panel.grid.minor = element_blank()  
+  )
+
+# Changes: 
+# Change of Color Palette: the graph now uses the viridis color palette. This palette not only adds vibrant colors that differentiate between the diamond colors more distinctly but also ensures that the colors are uniform. This means they are easier to distinguish for everyone, including those with color vision deficiencies.
+# Adjustment in Dot Size and Transparency: the dots representing each diamond are smaller and more transparent. Smaller and more transparent dots help reduce the visual noise in areas where many dots overlap. This makes it easier to see where concentrations of data points are and reduces the impact of overplotting, allowing for a clearer view of the data distribution.
+# Introduction of a Legend: a legend has been added or modified to clarify what each color represents in the context of diamond colors.
+# Use of Minimal the minimal theme in ggplot reduces background clutter and focuses more on the data by minimizing the use of grid lines and background colors.
+
+```
+
+---
+
+**Question 2b: Now using your knowledge and understanding, worsen one of the two graphs (if you worsen the best graph, change it differently than the ‘worse’ graph given!).**
+
+---
+
+Copy and Paste your code here and edit accordingly
+```{r}
+library(ggplot2)
+library(RColorBrewer)
+
+ggplot(diamonds, aes(x = carat, y = price, color = color)) +
+  geom_point(size = 3, shape = 16) +  # Larger, solid dots
+  scale_color_brewer(palette = "Dark2", guide = guide_legend(title = "Diamond Color")) +  # Non-uniform color palette
+  scale_y_continuous(trans = 'log10', labels = scales::comma) +  # Misleading scale
+  facet_wrap(~color, scales = "free_y") +  # Faceting by color with free y scales
+  labs(title = "Price of Diamond by Carat",
+       x = "Carat (Weight in Carats)",
+       y = "Price in USD (Log Scale)") +
+  theme_bw() +  # Adding a busier theme
+  theme(panel.grid.major = element_line(size = 0.5, linetype = 'solid', color = "black"),  # Heavy grid lines
+        plot.title = element_text(size = 8, face = "bold"),  # Small title
+        axis.text.x = element_text(size = 6),  # Small axis text
+        axis.text.y = element_text(size = 6),  # Small axis text
+        legend.position = "bottom",  # Cluttered legend at the bottom
+        legend.text = element_text(size = 6))  # Small legend text
+
+# I took the best graph which was the last one and worsen it. So, here what became worse according to the CRAP design rules.
+# Contrast: The colors do not differ greatly which makes it harder to distinguish between the graphs, especially D and H. Moreover, the logarithmic background is not appropriate here as it mostly confuse.
+# Repetition: The information is presented not truly in the coherent way. The colors can be confuse a viewer.
+# Alignment: The titles are to be and capture to much space, x-axis is confusing. The x-axis relation is hard to comprehend: whether it relates to the one specific graph or to each of them.
+# Proximity: Dots are too large and clutters the space. The legend title is too big and rather be placed on the side.
+
+```
+
+
+---
+
+**Question 3a: Within each of the following code examples, identify what each layer does within the graph**
+
+---
+
+1. Add Comments for each line in the function
+```{r}
+ggplot(data = diamonds,                    # We are tajking a dataset diamonds in order to make a graph 
+       mapping = aes(                      # Mapping aesthetics
+         x = carat,                        # 'x' is mapped to 'carat'
+         y = price)) +                     # 'y' is mapped to 'price' 
+  geom_point() +                           # Add points to the plot
+  labs(                                    # Specify labels for the plot
+    y = "Price in USD",                    # label for y axis
+    x = "Carat of Diamond",                # label for x axis
+    title = "Price of Diamond per Carat")  # Title of the plot
+ 
+```
+
+2. Add Comments for each line in the function
+```{r}
+ggplot(data = diamonds,                   # Initialize the plot with the 'diamonds' dataset
+        mapping = aes(                    # Set the aesthetic mappings
+         x = carat,                       # Map 'x' to 'carat' attribute of diamonds
+         y = price,                       # Map 'y' to 'price' attribute of diamonds
+         colour = clarity,                # Map 'colour' to 'clarity' to differentiate data points by clarity
+         shape = cut)) +                  # Map 'shape' to 'cut' to differentiate data points by cut
+  geom_point() +                          # Add points to the plot with the specified aesthetics
+  labs(                                   # Set labels for various components of the plot
+    y = "Price in USD",                   # Label for the y-axis
+    x = "Carat of Diamond",               # Label for the x-axis
+    title = "Price of Diamond per Carat", # Title of the plot
+    colour = "Diamond Clarity",           # Legend title for the colour aesthetic
+    shape = "Diamond Cut") +              # Legend title for the shape aesthetic
+  theme_minimal()                         # Use a minimal theme for the plot to reduce visual clutter
+```
+
+---
+
+**Question 3b: Using the previous examples as a basis, attempt to reproduce the plot in the HTML file**
+
+---
+
+Use this block to reproduce the graph
+```{r}
+
+
+ggplot(data = diamonds, mapping = aes(x = carat, y = price, colour = clarity, shape = cut)) +
+  geom_point() +  
+  labs(
+    y = "Price in USD",                   # Label for the y-axis
+    x = "Carat of Diamond",               # Label for the x-axis
+    title = "Price of Diamond per Carat", # Title of the plot
+    colour = "Diamond Clarity",           # Legend title for the colour aesthetic
+    shape = "Diamond Cut"                 # Legend title for the shape aesthetic
+  ) +
+  theme_minimal()  
+
+
+
+
+```
+
+---
+
+**Question 4: Using your knowledge of faceting, change the following code example so that it converts it from a (complex) scatter plot to a series of faceted plots.**
+
+---
+
+Change this code accordingly:
+```{r}
+ggplot(data = msleep, 
+       mapping = aes(x = sleep_rem, y = awake, colour = vore, size = brainwt)) + 
+  geom_point() + 
+  labs(x = "Amount of REM Sleep", y = "Amount of Time Spent Awake",
+       title = "Amount of REM Sleep compared to the Time Spent Awake",
+       colour = "Diet", size = "Brain Weight") +
+  theme_minimal()
+```
+
+
+---
+
+**Question 5: Under each tab, examine the different graphs produced using the same information, which best displays the information present. Explain why you think the graph best displays the information.**
+
+---
+
+**Question 6: Follow the steps to plot the course of these stock prices over six months** 
+
+---
+
+Following the steps on HTML file, plot the data below.
+
+  Step Zero:
+```{r}
+library(readr)  # for read_csv()
+
+appl_stk <- HistoricalData_AAPI_6m
+msft_stk <- HistoricalData_MSFT_6m
+fb_stk <- HistoricalData_FB_6m
+
+
+```
+
+  Step One
+```{r}
+library(dplyr)  # for data manipulation
+library(lubridate)  # for date conversion
+library(stringr)  # for string manipulation
+
+# Modify the data
+appl_stk <- appl_stk %>%
+  mutate(`Close/Last` = as.numeric(str_replace(`Close/Last`, "\\$", "")),
+         Date = mdy(Date))
+
+msft_stk <- msft_stk %>%
+  mutate(`Close/Last` = as.numeric(str_replace(`Close/Last`, "\\$", "")),
+         Date = mdy(Date))
+
+fb_stk <- fb_stk %>%
+  mutate(`Close/Last` = as.numeric(str_replace(`Close/Last`, "\\$", "")),
+         Date = mdy(Date))
+
+
+```
+
+  Step Two
+```{r}
+library(ggplot2)
+
+# Plot for Apple
+p_appl <- ggplot(data = appl_stk, aes(x = Date, y = `Close/Last`)) +
+  geom_line() +
+  labs(title = "Apple Stock Price Over 6 Months", x = "Date", y = "Close/Last Price")
+print(p_appl)
+
+# Plot for Microsoft
+p_msft <- ggplot(data = msft_stk, aes(x = Date, y = `Close/Last`)) +
+  geom_line() +
+  labs(title = "Microsoft Stock Price Over 6 Months", x = "Date", y = "Close/Last Price")
+print(p_msft)
+
+# Plot for Facebook
+p_fb <- ggplot(data = fb_stk, aes(x = Date, y = `Close/Last`)) +
+  geom_line() +
+  labs(title = "Facebook Stock Price Over 6 Months", x = "Date", y = "Close/Last Price")
+print(p_fb)
+
+```
+
+  Step Three & Four
+```{r}
+# Combine all stocks into one dataframe
+stk <- bind_rows(appl = appl_stk, msft = msft_stk, fb = fb_stk, .id = "type")
+stk$type <- as.factor(stk$type)
+
+# Combined plot
+p_combined <- ggplot(data = stk, aes(x = Date, y = `Close/Last`, group = type, colour = type)) +
+  geom_line() +
+  labs(title = "Stock Prices Over 6 Months", x = "Date", y = "Close/Last Price") +
+  scale_color_discrete(name = "Company", labels = c("Apple", "Microsoft", "Facebook"))
+
+print(p_combined)
+
+
+
+ggsave("figures/stock_prices.pdf", plot = p_combined, width = 10, height = 6, units = "in")
+
+
+```
+
+---
+
+**Question 7a:  After exploring the huge amount of colour platettes available, use the provided template and change the scale colour.**
+
+---
+
+```{r eval = FALSE}
+ggplot(data = airquality, mapping = aes(x = Wind, y = Solar.R, colour = Temp)) + geom_point() + 
+    #Colour Function
+```
+
+--- 
+
+**Question 7b: using the dataset midwest (from ggplot); produce a density plot which examines the density of a specific variable of your choosing, grouped by another variable from the dataset, using this information regarding colours for density plots.**
+
+---
+
+```{r}
+ggplot(data = economics, 
+       mapping = aes(date, unemploy, colour = pop)) +
+  geom_line() +
+  theme_minimal()
+
+```
+
+---
+
+**Question 8: Using the dataset msleep, plot sleep_rem against awake, including brainwt as the size and vore as the shape**
+
+---
+
+```{r}
+
+
+```
+
+---
+
+**Question 9a: Using the template provided, add in sufficient labels too all the data included**
+
+---
+
+```{r}
+ggplot(data = mpg, 
+       mapping = aes(x = displ, y = cty, shape = drv, colour = fl)) +
+    geom_point() + 
+    theme_minimal()
+
+```
+
+---
+
+**Question 9b: Using the stock graph you produced in Question 6, using annotate highlight a period of time (for example “2019-11-01” - “2020-01-01”) and a specific data (for example “2020-14-02”).**
+
+---
+
+```{r}
+
+
+```
+
+---
+
+**Question 10: Using all of the skills, templates and materials covered, as well as your own knowledge, using one of the following datasets available within ggplot, produce your own graph expressing some of the information within it.**
+
+---
+
+```{r}
+library(ggplot2)
+
+# Base plot
+p <- ggplot(data = economics, mapping = aes(x = date, y = unemploy, colour = pop)) +
+  geom_line() +
+  theme_minimal()
+
+
+p + scale_colour_gradient(low = "green", high = "red") +
+  theme(
+    
+    panel.background = element_rect(fill = "#f7f7f7", colour = "#cccccc", size = 0.5, linetype = "solid"),
+    
+    
+    panel.grid.major = element_line(size = 0.5, linetype = 'solid', colour = "gray80"),
+    panel.grid.minor = element_line(size = 0.25, linetype = 'solid', colour = "gray90"),
+    
+   
+    plot.background = element_rect(fill = "white", colour = NA),
+    
+   
+    axis.text = element_text(colour = "gray40", size = 12, face = "plain"),
+    axis.title = element_text(colour = "gray20", size = 14, face = "bold"),
+    
+    
+    legend.background = element_rect(fill = "white", colour = "gray90"),
+    legend.position = "right",
+    
+
+    plot.title = element_text(size = 16, face = "bold", hjust = 0.5)
+  )
+
+
+
+```

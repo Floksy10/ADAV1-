@@ -1,0 +1,64 @@
+y7---
+title: "Group_Task"
+author: "Mykola Chuprinskiy, Paul, Faradina, Abe"
+date: "2024-05-07"
+output: html_document
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(comment = NA)
+```
+
+
+
+```{r}
+library(ggplot2)
+
+p <- ggplot(data = economics, mapping = aes(x = date, y = unemploy, colour = pop)) +
+  geom_line() +
+  theme_minimal()
+
+p + scale_colour_gradient(low = "green", high = "red", name = "Population") +
+  theme(
+
+    panel.background = element_rect(fill = "#f7f7f7", colour = "#cccccc", size = 0.5, linetype = "solid"),
+    
+    panel.grid.major = element_line(size = 0.5, linetype = 'solid', colour = "gray80"),
+    panel.grid.minor = element_line(size = 0.25, linetype = 'solid', colour = "gray90"),
+    
+    plot.background = element_rect(fill = "white", colour = NA),
+    
+    axis.text = element_text(colour = "gray40", size = 12, face = "plain"),
+    axis.title = element_text(colour = "gray20", size = 14, face = "bold"),
+    
+    legend.background = element_rect(fill = "white", colour = "gray90"),
+    legend.position = "right",
+    
+    plot.title = element_text(size = 16, face = "bold", hjust = 0.5)
+  )
+
+#Exploring Economic Trends: Unemployment and Population Dynamics
+
+#Visualization Techniques and Design Principles:
+
+#Color Encoding: The line color transitions from green to red, where green represents lower population values, suggesting regions or times of lower population density. Conversely, red indicates higher population values, highlighting areas or periods with increased population density. This gradient provides an intuitive means to observe how population fluctuations correlate with changes in unemployment rates.
+
+#Minimalistic Design: Adopting a theme_minimal(), the graph maintains a clean and uncluttered aesthetic. This minimalist approach focuses the viewer’s attention on the data itself, free from unnecessary visual distractions.
+
+#Enhanced Readability: Text elements such as axis labels and the title are carefully formatted to enhance readability. They are styled to ensure they are immediately distinguishable yet subtle enough not to overshadow the data presented.
+
+#Contrast: High contrast between the text (dark gray) and the background (light gray and white) ensures that the information is easy to read. The color gradient from green to red not only signifies different data values but also enhances the visual impact of the graph, making significant data points stand out.
+
+#Alignment: Text elements and graphical components are aligned to create a clean, organized appearance that guides the viewer's eye through the data. The legend and axis titles are aligned to ensure coherence in data interpretation.
+
+#Repetition: The consistent use of typography, line styles, and color schemes throughout the visualization reinforces the theme and helps in reinforcing viewer understanding. Repeating these elements provides a cohesive and harmonious visual experience.
+
+#Proximity: Related elements, such as the graph title, axis labels, and legend, are placed close to each other to emphasize their relationships and improve the viewer’s ability to quickly associate graphical data with its descriptive elements.
+
+#This dynamic approach to data presentation helps stakeholders, policymakers, and economists to identify patterns and make informed decisions based on the interplay between population metrics and unemployment rates.
+
+#Usage of AI:
+
+#We have used a ChatGPT by OpenAI in order to make a clarification for our group how to make a back ground more readable for everyone. And after it made a perfect grid and visibility of the graph.
+```
+
