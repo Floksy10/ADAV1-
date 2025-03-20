@@ -1,0 +1,802 @@
+name,japanese_name,pokedex_number,generation,abilities,type1,type2,is_legendary,percentage_male,height_m,weight_kg,classfication,experience_growth,capture_rate,base_total,attack,defense,hp,sp_attack,sp_defense,speed,base_egg_steps,base_happiness,against_bug,against_dark,against_dragon,against_electric,against_fairy,against_fight,against_fire,against_flying,against_ghost,against_grass,against_ground,against_ice,against_normal,against_poison,against_psychic,against_rock,against_steel,against_water
+Bulbasaur,Fushigidaneフシギダネ,1,1,"['Overgrow', 'Chlorophyll']",grass,poison,0,88.1,0.7,6.9,Seed Pokémon,1059860,45,318,49,49,45,65,65,45,5120,70,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+Ivysaur,Fushigisouフシギソウ,2,1,"['Overgrow', 'Chlorophyll']",grass,poison,0,88.1,1,13,Seed Pokémon,1059860,45,405,62,63,60,80,80,60,5120,70,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+Venusaur,Fushigibanaフシギバナ,3,1,"['Overgrow', 'Chlorophyll']",grass,poison,0,88.1,2,100,Seed Pokémon,1059860,45,625,100,123,80,122,120,80,5120,70,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+Charmander,Hitokageヒトカゲ,4,1,"['Blaze', 'Solar Power']",fire,NA,0,88.1,0.6,8.5,Lizard Pokémon,1059860,45,309,52,43,39,60,50,65,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Charmeleon,Lizardoリザード,5,1,"['Blaze', 'Solar Power']",fire,NA,0,88.1,1.1,19,Flame Pokémon,1059860,45,405,64,58,58,80,65,80,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Charizard,Lizardonリザードン,6,1,"['Blaze', 'Solar Power']",fire,flying,0,88.1,1.7,90.5,Flame Pokémon,1059860,45,634,104,78,78,159,115,100,5120,70,0.25,1,1,2,0.5,0.5,0.5,1,1,0.25,0,1,1,1,1,4,0.5,2
+Squirtle,Zenigameゼニガメ,7,1,"['Torrent', 'Rain Dish']",water,NA,0,88.1,0.5,9,Tiny Turtle Pokémon,1059860,45,314,48,65,44,50,64,43,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Wartortle,Kameilカメール,8,1,"['Torrent', 'Rain Dish']",water,NA,0,88.1,1,22.5,Turtle Pokémon,1059860,45,405,63,80,59,65,80,58,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Blastoise,Kamexカメックス,9,1,"['Torrent', 'Rain Dish']",water,NA,0,88.1,1.6,85.5,Shellfish Pokémon,1059860,45,630,103,120,79,135,115,78,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Caterpie,Caterpieキャタピー,10,1,"['Shield Dust', 'Run Away']",bug,NA,0,50,0.3,2.9,Worm Pokémon,1000000,255,195,30,35,45,20,20,45,3840,70,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+Metapod,Transelトランセル,11,1,['Shed Skin'],bug,NA,0,50,0.7,9.9,Cocoon Pokémon,1000000,120,205,20,55,50,25,25,30,3840,70,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+Butterfree,Butterfreeバタフリー,12,1,"['Compoundeyes', 'Tinted Lens']",bug,flying,0,50,1.1,32,Butterfly Pokémon,1000000,45,395,45,50,60,90,80,70,3840,70,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+Weedle,Beedleビードル,13,1,"['Shield Dust', 'Run Away']",bug,poison,0,50,0.3,3.2,Hairy Pokémon,1000000,255,195,35,30,40,20,20,50,3840,70,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+Kakuna,Cocoonコクーン,14,1,['Shed Skin'],bug,poison,0,50,0.6,10,Cocoon Pokémon,1000000,120,205,25,50,45,25,25,35,3840,70,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+Beedrill,Spearスピアー,15,1,"['Swarm', 'Sniper']",bug,poison,0,50,1,29.5,Poison Bee Pokémon,1000000,45,495,150,40,65,15,80,145,3840,70,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+Pidgey,Poppoポッポ,16,1,"['Keen Eye', 'Tangled Feet', 'Big Pecks']",normal,flying,0,50,0.3,1.8,Tiny Bird Pokémon,1059860,255,251,45,40,40,35,35,56,3840,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Pidgeotto,Pigeonピジョン,17,1,"['Keen Eye', 'Tangled Feet', 'Big Pecks']",normal,flying,0,50,1.1,30,Bird Pokémon,1059860,120,349,60,55,63,50,50,71,3840,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Pidgeot,Pigeotピジョット,18,1,"['Keen Eye', 'Tangled Feet', 'Big Pecks']",normal,flying,0,50,1.5,39.5,Bird Pokémon,1059860,45,579,80,80,83,135,80,121,3840,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Rattata,Korattaコラッタ,19,1,"['Run Away', 'Guts', 'Hustle', 'Gluttony', 'Hustle', 'Thick Fat']",normal,dark,0,50,NA,NA,Mouse Pokémon,1000000,255,253,56,35,30,25,35,72,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Raticate,Rattaラッタ,20,1,"['Run Away', 'Guts', 'Hustle', 'Gluttony', 'Hustle', 'Thick Fat']",normal,dark,0,50,NA,NA,Mouse Pokémon,1000000,127,413,71,70,75,40,80,77,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Spearow,Onisuzumeオニスズメ,21,1,"['Keen Eye', 'Sniper']",normal,flying,0,50,0.3,2,Tiny Bird Pokémon,1000000,255,262,60,30,40,31,31,70,3840,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Fearow,Onidrillオニドリル,22,1,"['Keen Eye', 'Sniper']",normal,flying,0,50,1.2,38,Beak Pokémon,1000000,90,442,90,65,65,61,61,100,3840,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Ekans,Arboアーボ,23,1,"['Intimidate', 'Shed Skin', 'Unnerve']",poison,NA,0,50,2,6.9,Snake Pokémon,1000000,255,288,60,44,35,40,54,55,5120,70,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+Arbok,Arbokアーボック,24,1,"['Intimidate', 'Shed Skin', 'Unnerve']",poison,NA,0,50,3.5,65,Cobra Pokémon,1000000,90,448,95,69,60,65,79,80,5120,70,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+Pikachu,Pikachuピカチュウ,25,1,"['Static', 'Lightningrod']",electric,NA,0,50,0.4,6,Mouse Pokémon,1000000,190,320,55,40,35,50,50,90,2560,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Raichu,Raichuライチュウ,26,1,"['Static', 'Lightningrod', 'Surge Surfer']",electric,electric,0,50,NA,NA,Mouse Pokémon,1000000,75,485,85,50,60,95,85,110,2560,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Sandshrew,Sandサンド,27,1,"['Sand Veil', 'Sand Rush', 'Snow Cloak', 'Slush Rush']",ground,ice,0,50,NA,NA,Mouse Pokémon,1000000,255,300,75,90,50,10,35,40,5120,70,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+Sandslash,Sandpanサンドパン,28,1,"['Sand Veil', 'Sand Rush', 'Snow Cloak', 'Slush Rush']",ground,ice,0,50,NA,NA,Mouse Pokémon,1000000,90,450,100,120,75,25,65,65,5120,70,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+Nidoran♀,Nidoran?ニドラン♀,29,1,"['Poison Point', 'Rivalry', 'Hustle']",poison,NA,0,0,0.4,7,Poison Pin Pokémon,1059860,235,275,47,52,55,40,40,41,5120,70,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+Nidorina,Nidorinaニドリーナ,30,1,"['Poison Point', 'Rivalry', 'Hustle']",poison,NA,0,0,0.8,20,Poison Pin Pokémon,1059860,120,365,62,67,70,55,55,56,5120,70,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+Nidoqueen,Nidoqueenニドクイン,31,1,"['Poison Point', 'Rivalry', 'Sheer Force']",poison,ground,0,0,1.3,60,Drill Pokémon,1059860,45,505,92,87,90,75,85,76,5120,70,0.5,1,1,0,0.5,0.5,1,1,1,1,2,2,1,0.25,2,0.5,1,2
+Nidoran♂,Nidoran?ニドラン♂,32,1,"['Poison Point', 'Rivalry', 'Hustle']",poison,NA,0,100,0.5,9,Poison Pin Pokémon,1059860,235,273,57,40,46,40,40,50,5120,70,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+Nidorino,Nidorinoニドリーノ,33,1,"['Poison Point', 'Rivalry', 'Hustle']",poison,NA,0,100,0.9,19.5,Poison Pin Pokémon,1059860,120,365,72,57,61,55,55,65,5120,70,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+Nidoking,Nidokingニドキング,34,1,"['Poison Point', 'Rivalry', 'Sheer Force']",poison,ground,0,100,1.4,62,Drill Pokémon,1059860,45,505,102,77,81,85,75,85,5120,70,0.5,1,1,0,0.5,0.5,1,1,1,1,2,2,1,0.25,2,0.5,1,2
+Clefairy,Pippiピッピ,35,1,"['Cute Charm', 'Magic Guard', 'Friend Guard']",fairy,NA,0,24.6,0.6,7.5,Fairy Pokémon,800000,150,323,45,48,70,60,65,35,2560,140,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+Clefable,Pixyピクシー,36,1,"['Cute Charm', 'Magic Guard', 'Unaware']",fairy,NA,0,24.6,1.3,40,Fairy Pokémon,800000,25,483,70,73,95,95,90,60,2560,140,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+Vulpix,Rokonロコン,37,1,"['Flash Fire', 'Drought', 'Snow Cloak', 'Snow Warning']",fire,ice,0,24.6,NA,NA,Fox Pokémon,1000000,190,299,41,40,38,50,65,65,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Ninetales,Kyukonキュウコン,38,1,"['Flash Fire', 'Drought', 'Snow Cloak', 'Snow Warning']",fire,ice,0,24.6,NA,NA,Fox Pokémon,1000000,75,505,67,75,73,81,100,109,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Jigglypuff,Purinプリン,39,1,"['Cute Charm', 'Competitive', 'Friend Guard']",normal,fairy,0,24.6,0.5,5.5,Balloon Pokémon,800000,170,270,45,20,115,45,25,20,2560,70,0.5,0.5,0,1,1,1,1,1,0,1,1,1,1,2,1,1,2,1
+Wigglytuff,Pukurinプクリン,40,1,"['Cute Charm', 'Competitive', 'Frisk']",normal,fairy,0,24.6,1,12,Balloon Pokémon,800000,50,435,70,45,140,85,50,45,2560,70,0.5,0.5,0,1,1,1,1,1,0,1,1,1,1,2,1,1,2,1
+Zubat,Zubatズバット,41,1,"['Inner Focus', 'Infiltrator']",poison,flying,0,50,0.8,7.5,Bat Pokémon,1000000,255,245,45,35,40,30,40,55,3840,70,0.25,1,1,2,0.5,0.25,1,1,1,0.25,0,2,1,0.5,2,2,1,1
+Golbat,Golbatゴルバット,42,1,"['Inner Focus', 'Infiltrator']",poison,flying,0,50,1.6,55,Bat Pokémon,1000000,90,455,80,70,75,65,75,90,3840,70,0.25,1,1,2,0.5,0.25,1,1,1,0.25,0,2,1,0.5,2,2,1,1
+Oddish,Nazonokusaナゾノクサ,43,1,"['Chlorophyll', 'Run Away']",grass,poison,0,50,0.5,5.4,Weed Pokémon,1059860,255,320,50,55,45,75,65,30,5120,70,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+Gloom,Kusaihanaクサイハナ,44,1,"['Chlorophyll', 'Stench']",grass,poison,0,50,0.8,8.6,Weed Pokémon,1059860,120,395,65,70,60,85,75,40,5120,70,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+Vileplume,Ruffresiaラフレシア,45,1,"['Chlorophyll', 'Effect Spore']",grass,poison,0,50,1.2,18.6,Flower Pokémon,1059860,45,490,80,85,75,110,90,50,5120,70,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+Paras,Parasパラス,46,1,"['Effect Spore', 'Dry Skin', 'Damp']",bug,grass,0,50,0.3,5.4,Mushroom Pokémon,1000000,190,285,70,55,35,45,55,25,5120,70,2,1,1,0.5,1,0.5,4,4,1,0.25,0.25,2,1,2,1,2,1,0.5
+Parasect,Parasectパラセクト,47,1,"['Effect Spore', 'Dry Skin', 'Damp']",bug,grass,0,50,1,29.5,Mushroom Pokémon,1000000,75,405,95,80,60,60,80,30,5120,70,2,1,1,0.5,1,0.5,4,4,1,0.25,0.25,2,1,2,1,2,1,0.5
+Venonat,Kongpangコンパン,48,1,"['Compoundeyes', 'Tinted Lens', 'Run Away']",bug,poison,0,50,1,30,Insect Pokémon,1000000,190,305,55,50,60,40,55,45,5120,70,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+Venomoth,Morphonモルフォン,49,1,"['Shield Dust', 'Tinted Lens', 'Wonder Skin ']",bug,poison,0,50,1.5,12.5,Poison Moth Pokémon,1000000,75,450,65,60,70,90,75,90,5120,70,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+Diglett,Digdaディグダ,50,1,"['Sand Veil', 'Arena Trap', 'Sand Force', 'Sand Veil', 'Tangling Hair', 'Sand Force']",ground,ground,0,50,NA,NA,Mole Pokémon,1000000,255,265,55,30,10,35,45,90,5120,70,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+Dugtrio,Dugtrioダグトリオ,51,1,"['Sand Veil', 'Arena Trap', 'Sand Force', 'Sand Veil', 'Tangling Hair', 'Sand Force']",ground,ground,0,50,NA,NA,Mole Pokémon,1000000,50,425,100,60,35,50,70,110,5120,70,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+Meowth,Nyarthニャース,52,1,"['Pickup', 'Technician', 'Unnerve', 'Pickup', 'Technician', 'Rattled']",normal,dark,0,50,NA,NA,Scratch Cat Pokémon,1000000,255,290,35,35,40,50,40,90,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Persian,Persianペルシアン,53,1,"['Limber', 'Technician', 'Unnerve', 'Fur Coat', 'Technician', 'Rattled']",normal,dark,0,50,NA,NA,Classy Cat Pokémon,1000000,90,440,60,60,65,75,65,115,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Psyduck,Koduckコダック,54,1,"['Damp', 'Cloud Nine', 'Swift Swim']",water,NA,0,50,0.8,19.6,Duck Pokémon,1000000,190,320,52,48,50,65,50,55,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Golduck,Golduckゴルダック,55,1,"['Damp', 'Cloud Nine', 'Swift Swim']",water,NA,0,50,1.7,76.6,Duck Pokémon,1000000,75,500,82,78,80,95,80,85,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Mankey,Mankeyマンキー,56,1,"['Vital Spirit', 'Anger Point', 'Defiant']",fighting,NA,0,50,0.5,28,Pig Monkey Pokémon,1000000,190,305,80,35,40,35,45,70,5120,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Primeape,Okorizaruオコリザル,57,1,"['Vital Spirit', 'Anger Point', 'Defiant']",fighting,NA,0,50,1,32,Pig Monkey Pokémon,1000000,75,455,105,60,65,60,70,95,5120,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Growlithe,Gardieガーディ,58,1,"['Intimidate', 'Flash Fire', 'Justified']",fire,NA,0,75.4,0.7,19,Puppy Pokémon,1250000,190,350,70,45,55,70,50,60,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Arcanine,Windieウインディ,59,1,"['Intimidate', 'Flash Fire', 'Justified']",fire,NA,0,75.4,1.9,155,Legendary Pokémon,1250000,75,555,110,80,90,100,80,95,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Poliwag,Nyoromoニョロモ,60,1,"['Water Absorb', 'Damp', 'Swift Swim']",water,NA,0,50,0.6,12.4,Tadpole Pokémon,1059860,255,300,50,40,40,40,40,90,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Poliwhirl,Nyorozoニョロゾ,61,1,"['Water Absorb', 'Damp', 'Swift Swim']",water,NA,0,50,1,20,Tadpole Pokémon,1059860,120,385,65,65,65,50,50,90,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Poliwrath,Nyorobonニョロボン,62,1,"['Water Absorb', 'Damp', 'Swift Swim']",water,fighting,0,50,1.3,54,Tadpole Pokémon,1059860,45,510,95,95,90,70,90,70,5120,70,0.5,0.5,1,2,2,1,0.5,2,1,2,1,0.5,1,1,2,0.5,0.5,0.5
+Abra,Caseyケーシィ,63,1,"['Synchronize', 'Inner Focus', 'Magic Guard']",psychic,NA,0,75.4,0.9,19.5,Psi Pokémon,1059860,200,310,20,15,25,105,55,90,5120,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Kadabra,Yungererユンゲラー,64,1,"['Synchronize', 'Inner Focus', 'Magic Guard']",psychic,NA,0,75.4,1.3,56.5,Psi Pokémon,1059860,100,400,35,30,40,120,70,105,5120,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Alakazam,Foodinフーディン,65,1,"['Synchronize', 'Inner Focus', 'Magic Guard']",psychic,NA,0,75.4,1.5,48,Psi Pokémon,1059860,50,600,50,65,55,175,105,150,5120,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Machop,Wanrikyワンリキー,66,1,"['Guts', 'No Guard', 'Steadfast']",fighting,NA,0,75.4,0.8,19.5,Superpower Pokémon,1059860,180,305,80,50,70,35,35,35,5120,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Machoke,Gorikyゴーリキー,67,1,"['Guts', 'No Guard', 'Steadfast']",fighting,NA,0,75.4,1.5,70.5,Superpower Pokémon,1059860,90,405,100,70,80,50,60,45,5120,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Machamp,Kairikyカイリキー,68,1,"['Guts', 'No Guard', 'Steadfast']",fighting,NA,0,75.4,1.6,130,Superpower Pokémon,1059860,45,505,130,80,90,65,85,55,5120,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Bellsprout,Madatsubomiマダツボミ,69,1,"['Chlorophyll', 'Gluttony']",grass,poison,0,50,0.7,4,Flower Pokémon,1059860,255,300,75,35,50,70,30,40,5120,70,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+Weepinbell,Utsudonウツドン,70,1,"['Chlorophyll', 'Gluttony']",grass,poison,0,50,1,6.4,Flycatcher Pokémon,1059860,120,390,90,50,65,85,45,55,5120,70,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+Victreebel,Utsubotウツボット,71,1,"['Chlorophyll', 'Gluttony']",grass,poison,0,50,1.7,15.5,Flycatcher Pokémon,1059860,45,490,105,65,80,100,70,70,5120,70,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+Tentacool,Menokurageメノクラゲ,72,1,"['Clear Body', 'Liquid Ooze', 'Rain Dish']",water,poison,0,50,0.9,45.5,Jellyfish Pokémon,1250000,190,335,40,35,40,50,100,70,5120,70,0.5,1,1,2,0.5,0.5,0.5,1,1,1,2,0.5,1,0.5,2,1,0.5,0.5
+Tentacruel,Dokukurageドククラゲ,73,1,"['Clear Body', 'Liquid Ooze', 'Rain Dish']",water,poison,0,50,1.6,55,Jellyfish Pokémon,1250000,60,515,70,65,80,80,120,100,5120,70,0.5,1,1,2,0.5,0.5,0.5,1,1,1,2,0.5,1,0.5,2,1,0.5,0.5
+Geodude,Isitsubuteイシツブテ,74,1,"['Rock Head', 'Sturdy', 'Sand Veil', 'Magnet Pull', 'Sturdy', 'Galvanize']",rock,ground,0,50,NA,NA,Rock Pokémon,1059860,255,300,80,100,40,30,30,20,3840,70,1,1,1,0,1,2,0.5,0.5,1,4,2,2,0.5,0.25,1,0.5,2,4
+Graveler,Goloneゴローン,75,1,"['Rock Head', 'Sturdy', 'Sand Veil', 'Magnet Pull', 'Sturdy', 'Galvanize']",rock,ground,0,50,NA,NA,Rock Pokémon,1059860,120,390,95,115,55,45,45,35,3840,70,1,1,1,0,1,2,0.5,0.5,1,4,2,2,0.5,0.25,1,0.5,2,4
+Golem,Golonyaゴローニャ,76,1,"['Rock Head', 'Sturdy', 'Sand Veil', 'Magnet Pull', 'Sturdy', 'Galvanize']",rock,ground,0,50,NA,NA,Megaton Pokémon,1059860,45,495,120,130,80,55,65,45,3840,70,1,1,1,0,1,2,0.5,0.5,1,4,2,2,0.5,0.25,1,0.5,2,4
+Ponyta,Ponytaポニータ,77,1,"['Run Away', 'Flash Fire', 'Flame Body']",fire,NA,0,50,1,30,Fire Horse Pokémon,1000000,190,410,85,55,50,65,65,90,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Rapidash,Gallopギャロップ,78,1,"['Run Away', 'Flash Fire', 'Flame Body']",fire,NA,0,50,1.7,95,Fire Horse Pokémon,1000000,60,500,100,70,65,80,80,105,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Slowpoke,Yadonヤドン,79,1,"['Oblivious', 'Own Tempo', 'Regenerator']",water,psychic,0,50,1.2,36,Dopey Pokémon,1000000,190,315,65,65,90,40,40,15,5120,70,2,2,1,2,1,0.5,0.5,1,2,2,1,0.5,1,1,0.5,1,0.5,0.5
+Slowbro,Yadoranヤドラン,80,1,"['Oblivious', 'Own Tempo', 'Regenerator']",water,psychic,0,50,1.6,78.5,Hermit Crab Pokémon,1000000,75,590,75,180,95,130,80,30,5120,70,2,2,1,2,1,0.5,0.5,1,2,2,1,0.5,1,1,0.5,1,0.5,0.5
+Magnemite,Coilコイル,81,1,"['Magnet Pull', 'Sturdy', 'Analytic']",electric,steel,0,NA,0.3,6,Magnet Pokémon,1000000,190,325,35,70,25,95,55,45,5120,70,0.5,1,0.5,0.5,0.5,2,2,0.25,1,0.5,4,0.5,0.5,0,0.5,0.5,0.25,1
+Magneton,Rarecoilレアコイル,82,1,"['Magnet Pull', 'Sturdy', 'Analytic']",electric,steel,0,NA,1,60,Magnet Pokémon,1000000,60,465,60,95,50,120,70,70,5120,70,0.5,1,0.5,0.5,0.5,2,2,0.25,1,0.5,4,0.5,0.5,0,0.5,0.5,0.25,1
+Farfetch'd,Kamonegiカモネギ,83,1,"['Keen Eye', 'Inner Focus', 'Defiant']",normal,flying,0,50,0.8,15,Wild Duck Pokémon,1000000,45,377,90,55,52,58,62,60,5120,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Doduo,Dodoドードー,84,1,"['Run Away', 'Early Bird', 'Tangled Feet']",normal,flying,0,50,1.4,39.2,Twin Bird Pokémon,1000000,190,310,85,45,35,35,35,75,5120,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Dodrio,Dodorioドードリオ,85,1,"['Run Away', 'Early Bird', 'Tangled Feet']",normal,flying,0,50,1.8,85.2,Triple Bird Pokémon,1000000,45,470,110,70,60,60,60,110,5120,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Seel,Pawouパウワウ,86,1,"['Thick Fat', 'Hydration', 'Ice Body']",water,NA,0,50,1.1,90,Sea Lion Pokémon,1000000,190,325,45,55,65,45,70,45,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Dewgong,Jugonジュゴン,87,1,"['Thick Fat', 'Hydration', 'Ice Body']",water,ice,0,50,1.7,120,Sea Lion Pokémon,1000000,75,475,70,80,90,70,95,70,5120,70,1,1,1,2,1,2,1,1,1,2,1,0.25,1,1,1,2,1,0.5
+Grimer,Betbeterベトベター,88,1,"['Stench', 'Sticky Hold', 'Poison Touch', 'Poison Touch', 'Gluttony', 'Power of Alchemy']",poison,poison,0,50,NA,NA,Sludge Pokémon,1000000,190,325,80,50,80,40,50,25,5120,70,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+Muk,Betbetonベトベトン,89,1,"['Stench', 'Sticky Hold', 'Poison Touch', 'Poison Touch', 'Gluttony', 'Power of Alchemy']",poison,poison,0,50,NA,NA,Sludge Pokémon,1000000,75,500,105,75,105,65,100,50,5120,70,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+Shellder,Shellderシェルダー,90,1,"['Shell Armor', 'Skill Link', 'Overcoat']",water,NA,0,50,0.3,4,Bivalve Pokémon,1250000,190,305,65,100,30,45,25,40,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Cloyster,Parshenパルシェン,91,1,"['Shell Armor', 'Skill Link', 'Overcoat']",water,ice,0,50,1.5,132.5,Bivalve Pokémon,1250000,60,525,95,180,50,85,45,70,5120,70,1,1,1,2,1,2,1,1,1,2,1,0.25,1,1,1,2,1,0.5
+Gastly,Ghosゴース,92,1,['Levitate'],ghost,poison,0,50,1.3,0.1,Gas Pokémon,1059860,190,310,35,30,30,100,35,80,5120,70,0.25,2,1,1,0.5,0,1,1,2,0.5,2,1,0,0.25,2,1,1,1
+Haunter,Ghostゴースト,93,1,['Levitate'],ghost,poison,0,50,1.6,0.1,Gas Pokémon,1059860,90,405,50,45,45,115,55,95,5120,70,0.25,2,1,1,0.5,0,1,1,2,0.5,2,1,0,0.25,2,1,1,1
+Gengar,Gangarゲンガー,94,1,['Cursed Body'],ghost,poison,0,50,1.5,40.5,Shadow Pokémon,1059860,45,600,65,80,60,170,95,130,5120,70,0.25,2,1,1,0.5,0,1,1,2,0.5,2,1,0,0.25,2,1,1,1
+Onix,Iwarkイワーク,95,1,"['Rock Head', 'Sturdy', 'Weak Armor']",rock,ground,0,50,8.8,210,Rock Snake Pokémon,1000000,45,385,45,160,35,30,45,70,6400,70,1,1,1,0,1,2,0.5,0.5,1,4,2,2,0.5,0.25,1,0.5,2,4
+Drowzee,Sleepeスリープ,96,1,"['Insomnia', 'Forewarn', 'Inner Focus']",psychic,NA,0,50,1,32.4,Hypnosis Pokémon,1000000,190,328,48,45,60,43,90,42,5120,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Hypno,Sleeperスリーパー,97,1,"['Insomnia', 'Forewarn', 'Inner Focus']",psychic,NA,0,50,1.6,75.6,Hypnosis Pokémon,1000000,75,483,73,70,85,73,115,67,5120,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Krabby,Crabクラブ,98,1,"['Hyper Cutter', 'Shell Armor', 'Sheer Force']",water,NA,0,50,0.4,6.5,River Crab Pokémon,1000000,225,325,105,90,30,25,25,50,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Kingler,Kinglerキングラー,99,1,"['Hyper Cutter', 'Shell Armor', 'Sheer Force']",water,NA,0,50,1.3,60,Pincer Pokémon,1000000,60,475,130,115,55,50,50,75,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Voltorb,Biriridamaビリリダマ,100,1,"['Soundproof', 'Static', 'Aftermath']",electric,NA,0,NA,0.5,10.4,Ball Pokémon,1000000,190,330,30,50,40,55,55,100,5120,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Electrode,Marumineマルマイン,101,1,"['Soundproof', 'Static', 'Aftermath']",electric,NA,0,NA,1.2,66.6,Ball Pokémon,1000000,60,490,50,70,60,80,80,150,5120,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Exeggcute,Tamatamaタマタマ,102,1,"['Chlorophyll', 'Harvest']",grass,psychic,0,50,0.4,2.5,Egg Pokémon,1250000,90,325,40,80,60,60,45,40,5120,70,4,2,1,0.5,1,0.5,2,2,2,0.5,0.5,2,1,2,0.5,1,1,0.5
+Exeggutor,Nassyナッシー,103,1,"['Chlorophyll', 'Harvest', 'Frisk', 'Harvest']",grass,psychic,0,50,NA,NA,Coconut Pokémon,1250000,45,530,105,85,95,125,75,45,5120,70,4,2,1,0.5,1,0.5,2,2,2,0.5,0.5,2,1,2,0.5,1,1,0.5
+Cubone,Karakaraカラカラ,104,1,"['Rock Head', 'Lightningrod', 'Battle Armor']",ground,NA,0,50,0.4,6.5,Lonely Pokémon,1000000,190,320,50,95,50,40,50,35,5120,70,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+Marowak,Garagaraガラガラ,105,1,"['Rock Head', 'Lightningrod', 'Battle Armor', 'Cursed Body', 'Lightningrod', 'Rock Head']",ground,fire,0,50,NA,NA,Bone Keeper Pokémon,1000000,75,425,80,110,60,50,80,45,5120,70,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+Hitmonlee,Sawamularサワムラー,106,1,"['Limber', 'Reckless', 'Unburden']",fighting,NA,0,100,1.5,49.8,Kicking Pokémon,1000000,45,455,120,53,50,35,110,87,6400,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Hitmonchan,Ebiwalarエビワラー,107,1,"['Keen Eye', 'Iron Fist', 'Inner Focus']",fighting,NA,0,100,1.4,50.2,Punching Pokémon,1000000,45,455,105,79,50,35,110,76,6400,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Lickitung,Beroringaベロリンガ,108,1,"['Own Tempo', 'Oblivious', 'Cloud Nine']",normal,NA,0,50,1.2,65.5,Licking Pokémon,1000000,45,385,55,75,90,60,75,30,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Koffing,Dogarsドガース,109,1,['Levitate'],poison,NA,0,50,0.6,1,Poison Gas Pokémon,1000000,190,340,65,95,40,60,45,35,5120,70,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+Weezing,Matadogasマタドガス,110,1,['Levitate'],poison,NA,0,50,1.2,9.5,Poison Gas Pokémon,1000000,60,490,90,120,65,85,70,60,5120,70,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+Rhyhorn,Sihornサイホーン,111,1,"['Lightningrod', 'Rock Head', 'Reckless']",ground,rock,0,50,1,115,Spikes Pokémon,1250000,120,345,85,95,80,30,30,25,5120,70,1,1,1,0,1,2,0.5,0.5,1,4,2,2,0.5,0.25,1,0.5,2,4
+Rhydon,Sidonサイドン,112,1,"['Lightningrod', 'Rock Head', 'Reckless']",ground,rock,0,50,1.9,120,Drill Pokémon,1250000,60,485,130,120,105,45,45,40,5120,70,1,1,1,0,1,2,0.5,0.5,1,4,2,2,0.5,0.25,1,0.5,2,4
+Chansey,Luckyラッキー,113,1,"['Natural Cure', 'Serene Grace', 'Healer']",normal,NA,0,0,1.1,34.6,Egg Pokémon,800000,30,450,5,5,250,35,105,50,10240,140,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Tangela,Monjaraモンジャラ,114,1,"['Chlorophyll', 'Leaf Guard', 'Regenerator']",grass,NA,0,50,1,35,Vine Pokémon,1000000,45,435,55,115,65,100,40,60,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Kangaskhan,Garuraガルーラ,115,1,"['Early Bird', 'Scrappy', 'Inner Focus']",normal,NA,0,0,2.2,80,Parent Pokémon,1000000,45,590,125,100,105,60,100,100,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Horsea,Tattuタッツー,116,1,"['Swift Swim', 'Sniper', 'Damp']",water,NA,0,50,0.4,8,Dragon Pokémon,1000000,225,295,40,70,30,70,25,60,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Seadra,Seadraシードラ,117,1,"['Poison Point', 'Sniper', 'Damp']",water,NA,0,50,1.2,25,Dragon Pokémon,1000000,75,440,65,95,55,95,45,85,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Goldeen,Tosakintoトサキント,118,1,"['Swift Swim', 'Water Veil', 'Lightningrod']",water,NA,0,50,0.6,15,Goldfish Pokémon,1000000,225,320,67,60,45,35,50,63,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Seaking,Azumaoアズマオウ,119,1,"['Swift Swim', 'Water Veil', 'Lightningrod']",water,NA,0,50,1.3,39,Goldfish Pokémon,1000000,60,450,92,65,80,65,80,68,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Staryu,Hitodemanヒトデマン,120,1,"['Illuminate', 'Natural Cure', 'Analytic']",water,NA,0,NA,0.8,34.5,Starshape Pokémon,1250000,225,340,45,55,30,70,55,85,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Starmie,Starmieスターミー,121,1,"['Illuminate', 'Natural Cure', 'Analytic']",water,psychic,0,NA,1.1,80,Mysterious Pokémon,1250000,60,520,75,85,60,100,85,115,5120,70,2,2,1,2,1,0.5,0.5,1,2,2,1,0.5,1,1,0.5,1,0.5,0.5
+Mr. Mime,Barrierdバリヤード,122,1,"['Soundproof', 'Filter', 'Technician']",psychic,fairy,0,50,1.3,54.5,Barrier Pokémon,1000000,45,460,45,65,40,100,120,90,6400,70,1,1,0,1,1,0.25,1,1,2,1,1,1,1,2,0.5,1,2,1
+Scyther,Strikeストライク,123,1,"['Swarm', 'Technician', 'Steadfast']",bug,flying,0,50,1.5,56,Mantis Pokémon,1000000,45,500,110,80,70,55,80,105,6400,70,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+Jynx,Rougelaルージュラ,124,1,"['Oblivious', 'Forewarn', 'Dry Skin']",ice,psychic,0,0,1.4,40.6,Humanshape Pokémon,1000000,45,455,50,35,65,115,95,95,6400,70,2,2,1,1,1,1,2,1,2,1,1,0.5,1,1,0.5,2,2,1
+Electabuzz,Elebooエレブー,125,1,"['Static', 'Vital Spirit']",electric,NA,0,75.4,1.1,30,Electric Pokémon,1000000,45,490,83,57,65,95,85,105,6400,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Magmar,Booberブーバー,126,1,"['Flame Body', 'Vital Spirit']",fire,NA,0,75.4,1.3,44.5,Spitfire Pokémon,1000000,45,495,95,57,65,100,85,93,6400,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Pinsir,Kailiosカイロス,127,1,"['Hyper Cutter', 'Mold Breaker', 'Moxie']",bug,NA,0,50,1.5,55,Stagbeetle Pokémon,1250000,45,600,155,120,65,65,90,105,6400,70,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+Tauros,Kentaurosケンタロス,128,1,"['Intimidate', 'Anger Point', 'Sheer Force']",normal,NA,0,100,1.4,88.4,Wild Bull Pokémon,1250000,45,490,100,95,75,40,70,110,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Magikarp,Koikingコイキング,129,1,"['Swift Swim', 'Rattled']",water,NA,0,50,0.9,10,Fish Pokémon,1250000,255,200,10,55,20,15,20,80,1280,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Gyarados,Gyaradosギャラドス,130,1,"['Intimidate', 'Moxie']",water,flying,0,50,6.5,235,Atrocious Pokémon,1250000,45,640,155,109,95,70,130,81,1280,70,0.5,1,1,4,1,0.5,0.5,1,1,1,0,1,1,1,1,2,0.5,0.5
+Lapras,Laplaceラプラス,131,1,"['Water Absorb', 'Shell Armor', 'Hydration']",water,ice,0,50,2.5,220,Transport Pokémon,1250000,45,535,85,80,130,85,95,60,10240,70,1,1,1,2,1,2,1,1,1,2,1,0.25,1,1,1,2,1,0.5
+Ditto,Metamonメタモン,132,1,"['Limber', 'Imposter']",normal,NA,0,NA,0.3,4,Transform Pokémon,1000000,35,288,48,48,48,48,48,48,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Eevee,Eievuiイーブイ,133,1,"['Run Away', 'Adaptability', 'Anticipation']",normal,NA,0,88.1,0.3,6.5,Evolution Pokémon,1000000,45,325,55,50,55,45,65,55,8960,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Vaporeon,Showersシャワーズ,134,1,"['Water Absorb', 'Hydration']",water,NA,0,88.1,1,29,Bubble Jet Pokémon,1000000,45,525,65,60,130,110,95,65,8960,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Jolteon,Thundersサンダース,135,1,"['Volt Absorb', 'Quick Feet']",electric,NA,0,88.1,0.8,24.5,Lightning Pokémon,1000000,45,525,65,60,65,110,95,130,8960,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Flareon,Boosterブースター,136,1,"['Flash Fire', 'Guts']",fire,NA,0,88.1,0.9,25,Flame Pokémon,1000000,45,525,130,60,65,95,110,65,8960,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Porygon,Porygonポリゴン,137,1,"['Trace', 'Download', 'Analytic']",normal,NA,0,NA,0.8,36.5,Virtual Pokémon,1000000,45,395,60,70,65,85,75,40,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Omanyte,Omniteオムナイト,138,1,"['Swift Swim', 'Shell Armor', 'Weak Armor']",rock,water,0,88.1,0.4,7.5,Spiral Pokémon,1000000,45,355,40,100,35,90,55,35,7680,70,1,1,1,2,1,2,0.25,0.5,1,4,2,0.5,0.5,0.5,1,1,1,1
+Omastar,Omstarオムスター,139,1,"['Swift Swim', 'Shell Armor', 'Weak Armor']",rock,water,0,88.1,1,35,Spiral Pokémon,1000000,45,495,60,125,70,115,70,55,7680,70,1,1,1,2,1,2,0.25,0.5,1,4,2,0.5,0.5,0.5,1,1,1,1
+Kabuto,Kabutoカブト,140,1,"['Swift Swim', 'Battle Armor', 'Weak Armor']",rock,water,0,88.1,0.5,11.5,Shellfish Pokémon,1000000,45,355,80,90,30,55,45,55,7680,70,1,1,1,2,1,2,0.25,0.5,1,4,2,0.5,0.5,0.5,1,1,1,1
+Kabutops,Kabutopsカブトプス,141,1,"['Swift Swim', 'Battle Armor', 'Weak Armor']",rock,water,0,88.1,1.3,40.5,Shellfish Pokémon,1000000,45,495,115,105,60,65,70,80,7680,70,1,1,1,2,1,2,0.25,0.5,1,4,2,0.5,0.5,0.5,1,1,1,1
+Aerodactyl,Pteraプテラ,142,1,"['Rock Head', 'Pressure', 'Unnerve']",rock,flying,0,88.1,1.8,59,Fossil Pokémon,1250000,45,615,135,85,80,70,95,150,8960,70,0.5,1,1,2,1,1,0.5,0.5,1,1,0,2,0.5,0.5,1,2,2,2
+Snorlax,Kabigonカビゴン,143,1,"['Immunity', 'Thick Fat', 'Gluttony']",normal,NA,0,88.1,2.1,460,Sleeping Pokémon,1250000,25,540,110,65,160,65,110,30,10240,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Articuno,Freezerフリーザー,144,1,"['Pressure', 'Snow Cloak']",ice,flying,1,NA,1.7,55.4,Freeze Pokémon,1250000,3,580,85,100,90,95,125,85,20480,35,0.5,1,1,2,1,1,2,1,1,0.5,0,1,1,1,1,4,2,1
+Zapdos,Thunderサンダー,145,1,"['Pressure', 'Static']",electric,flying,1,NA,1.6,52.6,Electric Pokémon,1250000,3,580,90,85,90,125,90,100,20480,35,0.5,1,1,1,1,0.5,1,0.5,1,0.5,0,2,1,1,1,2,0.5,1
+Moltres,Fireファイヤー,146,1,"['Pressure', 'Flame Body']",fire,flying,1,NA,2,60,Flame Pokémon,1250000,3,580,100,90,90,125,85,90,20480,35,0.25,1,1,2,0.5,0.5,0.5,1,1,0.25,0,1,1,1,1,4,0.5,2
+Dratini,Miniryuミニリュウ,147,1,"['Shed Skin', 'Marvel Scale']",dragon,NA,0,50,1.8,3.3,Dragon Pokémon,1250000,45,300,64,45,41,50,50,50,10240,35,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+Dragonair,Hakuryuハクリュー,148,1,"['Shed Skin', 'Marvel Scale']",dragon,NA,0,50,4,16.5,Dragon Pokémon,1250000,45,420,84,65,61,70,70,70,10240,35,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+Dragonite,Kairyuカイリュー,149,1,"['Inner Focus', 'Multiscale']",dragon,flying,0,50,2.2,210,Dragon Pokémon,1250000,45,600,134,95,91,100,100,80,10240,35,0.5,1,2,1,2,0.5,0.5,1,1,0.25,0,4,1,1,1,2,1,0.5
+Mewtwo,Mewtwoミュウツー,150,1,"['Pressure', 'Unnerve']",psychic,NA,1,NA,2,122,Genetic Pokémon,1250000,3,780,150,70,106,194,120,140,30720,0,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Mew,Mewミュウ,151,1,['Synchronize'],psychic,NA,1,NA,0.4,4,New Species Pokémon,1059860,45,600,100,100,100,100,100,100,30720,100,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Chikorita,Chicoritaチコリータ,152,2,"['Overgrow', 'Leaf Guard']",grass,NA,0,88.1,0.9,6.4,Leaf Pokémon,1059860,45,318,49,65,45,49,65,45,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Bayleef,Bayleafベイリーフ,153,2,"['Overgrow', 'Leaf Guard']",grass,NA,0,88.1,1.2,15.8,Leaf Pokémon,1059860,45,405,62,80,60,63,80,60,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Meganium,Meganiumメガニウム,154,2,"['Overgrow', 'Leaf Guard']",grass,NA,0,88.1,1.8,100.5,Herb Pokémon,1059860,45,525,82,100,80,83,100,80,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Cyndaquil,Hinoarashiヒノアラシ,155,2,"['Blaze', 'Flash Fire']",fire,NA,0,88.1,0.5,7.9,Fire Mouse Pokémon,1059860,45,309,52,43,39,60,50,65,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Quilava,Magmarashiマグマラシ,156,2,"['Blaze', 'Flash Fire']",fire,NA,0,88.1,0.9,19,Volcano Pokémon,1059860,45,405,64,58,58,80,65,80,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Typhlosion,Bakphoonバクフーン,157,2,"['Blaze', 'Flash Fire']",fire,NA,0,88.1,1.7,79.5,Volcano Pokémon,1059860,45,534,84,78,78,109,85,100,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Totodile,Waninokoワニノコ,158,2,"['Torrent', 'Sheer Force']",water,NA,0,88.1,0.6,9.5,Big Jaw Pokémon,1059860,45,314,65,64,50,44,48,43,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Croconaw,Alligatesアリゲイツ,159,2,"['Torrent', 'Sheer Force']",water,NA,0,88.1,1.1,25,Big Jaw Pokémon,1059860,45,405,80,80,65,59,63,58,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Feraligatr,Ordileオーダイル,160,2,"['Torrent', 'Sheer Force']",water,NA,0,88.1,2.3,88.8,Big Jaw Pokémon,1059860,45,530,105,100,85,79,83,78,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Sentret,Otachiオタチ,161,2,"['Run Away', 'Keen Eye', 'Frisk']",normal,NA,0,50,0.8,6,Scout Pokémon,1000000,255,215,46,34,35,35,45,20,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Furret,Ootachiオオタチ,162,2,"['Run Away', 'Keen Eye', 'Frisk']",normal,NA,0,50,1.8,32.5,Long Body Pokémon,1000000,90,415,76,64,85,45,55,90,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Hoothoot,Hohoホーホー,163,2,"['Insomnia', 'Keen Eye', 'Tinted Lens']",normal,flying,0,50,0.7,21.2,Owl Pokémon,1000000,255,262,30,30,60,36,56,50,3840,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Noctowl,Yorunozukuヨルノズク,164,2,"['Insomnia', 'Keen Eye', 'Tinted Lens']",normal,flying,0,50,1.6,40.8,Owl Pokémon,1000000,90,452,50,50,100,86,96,70,3840,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Ledyba,Redibaレディバ,165,2,"['Swarm', 'Early Bird', 'Rattled']",bug,flying,0,50,1,10.8,Five Star Pokémon,800000,255,265,20,30,40,40,80,55,3840,70,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+Ledian,Redianレディアン,166,2,"['Swarm', 'Early Bird', 'Iron Fist']",bug,flying,0,50,1.4,35.6,Five Star Pokémon,800000,90,390,35,50,55,55,110,85,3840,70,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+Spinarak,Itomaruイトマル,167,2,"['Swarm', 'Insomnia', 'Sniper']",bug,poison,0,50,0.5,8.5,String Spit Pokémon,800000,255,250,60,40,40,40,40,30,3840,70,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+Ariados,Ariadosアリアドス,168,2,"['Swarm', 'Insomnia', 'Sniper']",bug,poison,0,50,1.1,33.5,Long Leg Pokémon,800000,90,400,90,70,70,60,70,40,3840,70,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+Crobat,Crobatクロバット,169,2,"['Inner Focus', 'Infiltrator']",poison,flying,0,50,1.8,75,Bat Pokémon,1000000,90,535,90,80,85,70,80,130,3840,70,0.25,1,1,2,0.5,0.25,1,1,1,0.25,0,2,1,0.5,2,2,1,1
+Chinchou,Chonchieチョンチー,170,2,"['Volt Absorb', 'Illuminate', 'Water Absorb']",water,electric,0,50,0.5,12,Angler Pokémon,1250000,190,330,38,38,75,56,56,67,5120,70,1,1,1,1,1,1,0.5,0.5,1,2,2,0.5,1,1,1,1,0.25,0.5
+Lanturn,Lanternランターン,171,2,"['Volt Absorb', 'Illuminate', 'Water Absorb']",water,electric,0,50,1.2,22.5,Light Pokémon,1250000,75,460,58,58,125,76,76,67,5120,70,1,1,1,1,1,1,0.5,0.5,1,2,2,0.5,1,1,1,1,0.25,0.5
+Pichu,Pichuピチュー,172,2,"['Static', 'Lightningrod']",electric,NA,0,50,0.3,2,Tiny Mouse Pokémon,1000000,190,205,40,15,20,35,35,60,2560,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Cleffa,Pyピィ,173,2,"['Cute Charm', 'Magic Guard', 'Friend Guard']",fairy,NA,0,24.6,0.3,3,Star Shape Pokémon,800000,150,218,25,28,50,45,55,15,2560,140,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+Igglybuff,Pupurinププリン,174,2,"['Cute Charm', 'Competitive', 'Friend Guard']",normal,fairy,0,24.6,0.3,1,Balloon Pokémon,800000,170,210,30,15,90,40,20,15,2560,70,0.5,0.5,0,1,1,1,1,1,0,1,1,1,1,2,1,1,2,1
+Togepi,Togepyトゲピー,175,2,"['Hustle', 'Serene Grace', 'Super Luck']",fairy,NA,0,88.1,0.3,1.5,Spike Ball Pokémon,800000,190,245,20,65,35,40,65,20,2560,70,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+Togetic,Togechickトゲチック,176,2,"['Hustle', 'Serene Grace', 'Super Luck']",fairy,flying,0,88.1,0.6,3.2,Happiness Pokémon,800000,75,405,40,85,55,80,105,40,2560,70,0.25,0.5,0,2,1,0.25,1,1,1,0.5,0,2,1,2,1,2,2,1
+Natu,Natyネイティ,177,2,"['Synchronize', 'Early Bird', 'Magic Bounce']",psychic,flying,0,50,0.2,2,Little Bird Pokémon,1000000,190,320,50,45,40,70,45,70,5120,70,1,2,1,2,1,0.25,1,1,2,0.5,0,2,1,1,0.5,2,1,1
+Xatu,Natioネイティオ,178,2,"['Synchronize', 'Early Bird', 'Magic Bounce']",psychic,flying,0,50,1.5,15,Mystic Pokémon,1000000,75,470,75,70,65,95,70,95,5120,70,1,2,1,2,1,0.25,1,1,2,0.5,0,2,1,1,0.5,2,1,1
+Mareep,Merriepメリープ,179,2,"['Static', 'Plus']",electric,NA,0,50,0.6,7.8,Wool Pokémon,1059860,235,280,40,40,55,65,45,35,5120,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Flaaffy,Mokokoモココ,180,2,"['Static', 'Plus']",electric,NA,0,50,0.8,13.3,Wool Pokémon,1059860,120,365,55,55,70,80,60,45,5120,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Ampharos,Denryuデンリュウ,181,2,"['Static', 'Plus']",electric,NA,0,50,1.4,61.5,Light Pokémon,1059860,45,610,95,105,90,165,110,45,5120,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Bellossom,Kireihanaキレイハナ,182,2,"['Chlorophyll', 'Healer']",grass,NA,0,50,0.4,5.8,Flower Pokémon,1059860,45,490,80,95,75,90,100,50,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Marill,Marilマリル,183,2,"['Thick Fat', 'Huge Power', 'Sap Sipper']",water,fairy,0,50,0.4,8.5,Aquamouse Pokémon,800000,190,250,20,50,70,20,50,40,2560,70,0.5,0.5,0,2,1,0.5,0.5,1,1,2,1,0.5,1,2,1,1,1,0.5
+Azumarill,Marilliマリルリ,184,2,"['Thick Fat', 'Huge Power', 'Sap Sipper']",water,fairy,0,50,0.8,28.5,Aquarabbit Pokémon,800000,75,420,50,80,100,60,80,50,2560,70,0.5,0.5,0,2,1,0.5,0.5,1,1,2,1,0.5,1,2,1,1,1,0.5
+Sudowoodo,Usokkieウソッキー,185,2,"['Sturdy', 'Rock Head', 'Rattled']",rock,NA,0,50,1.2,38,Imitation Pokémon,1000000,65,410,100,115,70,30,65,30,5120,70,1,1,1,1,1,2,0.5,0.5,1,2,2,1,0.5,0.5,1,1,2,2
+Politoed,Nyorotonoニョロトノ,186,2,"['Water Absorb', 'Damp', 'Drizzle']",water,NA,0,50,1.1,33.9,Frog Pokémon,1059860,45,500,75,75,90,90,100,70,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Hoppip,Haneccoハネッコ,187,2,"['Chlorophyll', 'Leaf Guard', 'Infiltrator']",grass,flying,0,50,0.4,0.5,Cottonweed Pokémon,1059860,255,250,35,40,35,35,55,50,5120,70,1,1,1,1,1,0.5,2,2,1,0.25,0,4,1,2,1,2,1,0.5
+Skiploom,Popoccoポポッコ,188,2,"['Chlorophyll', 'Leaf Guard', 'Infiltrator']",grass,flying,0,50,0.6,1,Cottonweed Pokémon,1059860,120,340,45,50,55,45,65,80,5120,70,1,1,1,1,1,0.5,2,2,1,0.25,0,4,1,2,1,2,1,0.5
+Jumpluff,Wataccoワタッコ,189,2,"['Chlorophyll', 'Leaf Guard', 'Infiltrator']",grass,flying,0,50,0.8,3,Cottonweed Pokémon,1059860,45,460,55,70,75,55,95,110,5120,70,1,1,1,1,1,0.5,2,2,1,0.25,0,4,1,2,1,2,1,0.5
+Aipom,Eipamエイパム,190,2,"['Run Away', 'Pickup', 'Skill Link']",normal,NA,0,50,0.8,11.5,Long Tail Pokémon,800000,45,360,70,55,55,40,55,85,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Sunkern,Himanutsヒマナッツ,191,2,"['Chlorophyll', 'Solar Power', 'Early Bird']",grass,NA,0,50,0.3,1.8,Seed Pokémon,1059860,235,180,30,30,30,30,30,30,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Sunflora,Kimawariキマワリ,192,2,"['Chlorophyll', 'Solar Power', 'Early Bird']",grass,NA,0,50,0.8,8.5,Sun Pokémon,1059860,120,425,75,55,75,105,85,30,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Yanma,Yanyanmaヤンヤンマ,193,2,"['Speed Boost', 'Compoundeyes', 'Frisk']",bug,flying,0,50,1.2,38,Clear Wing Pokémon,1000000,75,390,65,45,65,75,45,95,5120,70,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+Wooper,Upahウパー,194,2,"['Damp', 'Water Absorb', 'Unaware']",water,ground,0,50,0.4,8.5,Water Fish Pokémon,1000000,255,210,45,45,55,25,25,15,5120,70,1,1,1,0,1,1,0.5,1,1,4,1,1,1,0.5,1,0.5,0.5,1
+Quagsire,Nuohヌオー,195,2,"['Damp', 'Water Absorb', 'Unaware']",water,ground,0,50,1.4,75,Water Fish Pokémon,1000000,90,430,85,85,95,65,65,35,5120,70,1,1,1,0,1,1,0.5,1,1,4,1,1,1,0.5,1,0.5,0.5,1
+Espeon,Eifieエーフィ,196,2,"['Synchronize', 'Magic Bounce']",psychic,NA,0,88.1,0.9,26.5,Sun Pokémon,1000000,45,525,65,60,65,130,95,110,8960,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Umbreon,Blackyブラッキー,197,2,"['Synchronize', 'Inner Focus']",dark,NA,0,88.1,1,27,Moonlight Pokémon,1000000,45,525,65,110,95,60,130,65,8960,35,2,0.5,1,1,2,2,1,1,0.5,1,1,1,1,1,0,1,1,1
+Murkrow,Yamikarasuヤミカラス,198,2,"['Insomnia', 'Super Luck', 'Prankster']",dark,flying,0,50,0.5,2.1,Darkness Pokémon,1059860,30,405,85,42,60,85,42,91,5120,35,1,0.5,1,2,2,1,1,1,0.5,0.5,0,2,1,1,0,2,1,1
+Slowking,Yadokingヤドキング,199,2,"['Oblivious', 'Own Tempo', 'Regenerator']",water,psychic,0,50,2,79.5,Royal Pokémon,1000000,70,490,75,80,95,100,110,30,5120,70,2,2,1,2,1,0.5,0.5,1,2,2,1,0.5,1,1,0.5,1,0.5,0.5
+Misdreavus,Mumaムウマ,200,2,['Levitate'],ghost,NA,0,50,0.7,1,Screech Pokémon,800000,45,435,60,60,60,85,85,85,6400,35,0.5,2,1,1,1,0,1,1,2,1,1,1,0,0.5,1,1,1,1
+Unown,Unknownアンノーン,201,2,['Levitate'],psychic,NA,0,NA,0.5,5,Symbol Pokémon,1000000,225,336,72,48,48,72,48,48,10240,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Wobbuffet,Sonansソーナンス,202,2,"['Shadow Tag', 'Telepathy']",psychic,NA,0,50,1.3,28.5,Patient Pokémon,1000000,45,405,33,58,190,33,58,33,5120,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Girafarig,Kirinrikiキリンリキ,203,2,"['Inner Focus', 'Early Bird', 'Sap Sipper']",normal,psychic,0,50,1.5,41.5,Long Neck Pokémon,1000000,60,455,80,65,70,90,65,85,5120,70,2,2,1,1,1,1,1,1,0,1,1,1,1,1,0.5,1,1,1
+Pineco,Kunugidamaクヌギダマ,204,2,"['Sturdy', 'Overcoat']",bug,NA,0,50,0.6,7.2,Bagworm Pokémon,1000000,190,290,65,90,50,35,35,15,5120,70,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+Forretress,Foretosフォレトス,205,2,"['Sturdy', 'Overcoat']",bug,steel,0,50,1.2,125.8,Bagworm Pokémon,1000000,75,465,90,140,75,60,60,40,5120,70,0.5,1,0.5,1,0.5,1,4,1,1,0.25,1,0.5,0.5,0,0.5,1,0.5,1
+Dunsparce,Nokocchiノコッチ,206,2,"['Serene Grace', 'Run Away', 'Rattled']",normal,NA,0,50,1.5,14,Land Snake Pokémon,1000000,190,415,70,70,100,65,65,45,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Gligar,Gligerグライガー,207,2,"['Hyper Cutter', 'Sand Veil', 'Immunity']",ground,flying,0,50,1.1,64.8,Flyscorpion Pokémon,1059860,60,430,75,105,65,35,65,85,5120,70,0.5,1,1,0,1,0.5,1,1,1,1,0,4,1,0.5,1,1,1,2
+Steelix,Haganeilハガネール,208,2,"['Rock Head', 'Sturdy', 'Sheer Force']",steel,ground,0,50,9.2,400,Iron Snake Pokémon,1000000,25,610,125,230,75,55,95,30,6400,70,0.5,1,0.5,0,0.5,2,2,0.5,1,1,2,1,0.5,0,0.5,0.25,0.5,2
+Snubbull,Buluブルー,209,2,"['Intimidate', 'Run Away', 'Rattled']",fairy,NA,0,24.6,0.6,7.8,Fairy Pokémon,800000,190,300,80,50,60,40,40,30,5120,70,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+Granbull,Granbuluグランブル,210,2,"['Intimidate', 'Quick Feet', 'Rattled']",fairy,NA,0,24.6,1.4,48.7,Fairy Pokémon,800000,75,450,120,75,90,60,60,45,5120,70,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+Qwilfish,Harysenハリーセン,211,2,"['Poison Point', 'Swift Swim', 'Intimidate']",water,poison,0,50,0.5,3.9,Balloon Pokémon,1000000,45,440,95,85,65,55,55,85,5120,70,0.5,1,1,2,0.5,0.5,0.5,1,1,1,2,0.5,1,0.5,2,1,0.5,0.5
+Scizor,Hassamハッサム,212,2,"['Swarm', 'Technician', 'Light Metal']",bug,steel,0,50,1.8,118,Pincer Pokémon,1000000,25,600,150,140,70,65,100,75,6400,70,0.5,1,0.5,1,0.5,1,4,1,1,0.25,1,0.5,0.5,0,0.5,1,0.5,1
+Shuckle,Tsubotsuboツボツボ,213,2,"['Sturdy', 'Gluttony', 'Contrary']",bug,rock,0,50,0.6,20.5,Mold Pokémon,1059860,190,505,10,230,20,10,230,5,5120,70,1,1,1,1,1,1,1,1,1,1,1,1,0.5,0.5,1,2,2,2
+Heracross,Heracrosヘラクロス,214,2,"['Swarm', 'Guts', 'Moxie']",bug,fighting,0,50,1.5,54,Singlehorn Pokémon,1250000,45,600,185,115,80,40,105,75,6400,70,0.5,0.5,1,1,2,0.5,2,4,1,0.5,0.5,1,1,1,2,1,1,1
+Sneasel,Nyulaニューラ,215,2,"['Inner Focus', 'Keen Eye', 'Pickpocket']",dark,ice,0,50,0.9,28,Sharp Claw Pokémon,1059860,60,430,95,55,55,35,75,115,5120,35,2,0.5,1,1,2,4,2,1,0.5,1,1,0.5,1,1,0,2,2,1
+Teddiursa,Himegumaヒメグマ,216,2,"['Pickup', 'Quick Feet', 'Honey Gather']",normal,NA,0,50,0.6,8.8,Little Bear Pokémon,1000000,120,330,80,50,60,50,50,40,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Ursaring,Ringumaリングマ,217,2,"['Guts', 'Quick Feet', 'Unnerve']",normal,NA,0,50,1.8,125.8,Hibernator Pokémon,1000000,60,500,130,75,90,75,75,55,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Slugma,Magmagマグマッグ,218,2,"['Magma Armor', 'Flame Body', 'Weak Armor']",fire,NA,0,50,0.7,35,Lava Pokémon,1000000,190,250,40,40,40,70,40,20,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Magcargo,Magcargotマグカルゴ,219,2,"['Magma Armor', 'Flame Body', 'Weak Armor']",fire,rock,0,50,0.8,55,Lava Pokémon,1000000,75,430,50,120,60,90,80,30,5120,70,0.5,1,1,1,0.5,2,0.25,0.5,1,1,4,0.5,0.5,0.5,1,2,1,4
+Swinub,Urimooウリムー,220,2,"['Oblivious', 'Snow Cloak', 'Thick Fat']",ice,ground,0,50,0.4,6.5,Pig Pokémon,1250000,225,250,50,40,50,30,30,50,5120,70,1,1,1,0,1,2,2,1,1,2,1,1,1,0.5,1,1,2,2
+Piloswine,Inomooイノムー,221,2,"['Oblivious', 'Snow Cloak', 'Thick Fat']",ice,ground,0,50,1.1,55.8,Swine Pokémon,1250000,75,450,100,80,100,60,60,50,5120,70,1,1,1,0,1,2,2,1,1,2,1,1,1,0.5,1,1,2,2
+Corsola,Sunnygoサニーゴ,222,2,"['Hustle', 'Natural Cure', 'Regenerator']",water,rock,0,24.6,0.6,5,Coral Pokémon,800000,60,410,55,95,65,65,95,35,5120,70,1,1,1,2,1,2,0.25,0.5,1,4,2,0.5,0.5,0.5,1,1,1,1
+Remoraid,Teppouoテッポウオ,223,2,"['Hustle', 'Sniper', 'Moody']",water,NA,0,50,0.6,12,Jet Pokémon,1000000,190,300,65,35,35,65,35,65,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Octillery,Okutankオクタン,224,2,"['Suction Cups', 'Sniper', 'Moody']",water,NA,0,50,0.9,28.5,Jet Pokémon,1000000,75,480,105,75,75,105,75,45,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Delibird,Delibirdデリバード,225,2,"['Vital Spirit', 'Hustle', 'Insomnia']",ice,flying,0,50,0.9,16,Delivery Pokémon,800000,45,330,55,45,45,65,45,75,5120,70,0.5,1,1,2,1,1,2,1,1,0.5,0,1,1,1,1,4,2,1
+Mantine,Mantainマンタイン,226,2,"['Swift Swim', 'Water Absorb', 'Water Veil']",water,flying,0,50,2.1,220,Kite Pokémon,1250000,25,485,40,70,85,80,140,70,6400,70,0.5,1,1,4,1,0.5,0.5,1,1,1,0,1,1,1,1,2,0.5,0.5
+Skarmory,Airmdエアームド,227,2,"['Keen Eye', 'Sturdy', 'Weak Armor']",steel,flying,0,50,1.7,50.5,Armor Bird Pokémon,1250000,25,465,80,140,65,40,70,70,6400,70,0.25,1,0.5,2,0.5,1,2,0.5,1,0.25,0,1,0.5,0,0.5,1,0.5,1
+Houndour,Delvilデルビル,228,2,"['Early Bird', 'Flash Fire', 'Unnerve']",dark,fire,0,50,0.6,10.8,Dark Pokémon,1250000,120,330,60,30,45,80,50,65,5120,35,1,0.5,1,1,1,2,0.5,1,0.5,0.5,2,0.5,1,1,0,2,0.5,2
+Houndoom,Hellgarヘルガー,229,2,"['Early Bird', 'Flash Fire', 'Unnerve']",dark,fire,0,50,1.4,35,Dark Pokémon,1250000,45,600,90,90,75,140,90,115,5120,35,1,0.5,1,1,1,2,0.5,1,0.5,0.5,2,0.5,1,1,0,2,0.5,2
+Kingdra,Kingdraキングドラ,230,2,"['Swift Swim', 'Sniper', 'Damp']",water,dragon,0,50,1.8,152,Dragon Pokémon,1000000,45,540,95,95,75,95,95,85,5120,70,1,1,2,1,2,1,0.25,1,1,1,1,1,1,1,1,1,0.5,0.25
+Phanpy,Gomazouゴマゾウ,231,2,"['Pickup', 'Sand Veil']",ground,NA,0,50,0.5,33.5,Long Nose Pokémon,1000000,120,330,60,60,90,40,40,40,5120,70,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+Donphan,Donfanドンファン,232,2,"['Sturdy', 'Sand Veil']",ground,NA,0,50,1.1,120,Armor Pokémon,1000000,60,500,120,120,90,60,60,50,5120,70,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+Porygon2,Porygon2ポリゴン２,233,2,"['Trace', 'Download', 'Analytic']",normal,NA,0,NA,0.6,32.5,Virtual Pokémon,1000000,45,515,80,90,85,105,95,60,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Stantler,Odoshishiオドシシ,234,2,"['Intimidate', 'Frisk', 'Sap Sipper']",normal,NA,0,50,1.4,71.2,Big Horn Pokémon,1250000,45,465,95,62,73,85,65,85,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Smeargle,Dobleドーブル,235,2,"['Own Tempo', 'Technician', 'Moody']",normal,NA,0,50,1.2,58,Painter Pokémon,800000,45,250,20,35,55,20,45,75,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Tyrogue,Balkieバルキー,236,2,"['Guts', 'Steadfast', 'Vital Spirit']",fighting,NA,0,100,0.7,21,Scuffle Pokémon,1000000,75,210,35,35,35,35,35,35,6400,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Hitmontop,Kapoererカポエラー,237,2,"['Intimidate', 'Technician', 'Steadfast']",fighting,NA,0,100,1.4,48,Handstand Pokémon,1000000,45,455,95,95,50,35,110,70,6400,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Smoochum,Muchulムチュール,238,2,"['Oblivious', 'Forewarn', 'Hydration']",ice,psychic,0,0,0.4,6,Kiss Pokémon,1000000,45,305,30,15,45,85,65,65,6400,70,2,2,1,1,1,1,2,1,2,1,1,0.5,1,1,0.5,2,2,1
+Elekid,Elekidエレキッド,239,2,"['Static', 'Vital Spirit']",electric,NA,0,75.4,0.6,23.5,Electric Pokémon,1000000,45,360,63,37,45,65,55,95,6400,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Magby,Bubyブビィ,240,2,"['Flame Body', 'Vital Spirit']",fire,NA,0,75.4,0.7,21.4,Live Coal Pokémon,1000000,45,365,75,37,45,70,55,83,6400,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Miltank,Miltankミルタンク,241,2,"['Thick Fat', 'Scrappy', 'Sap Sipper']",normal,NA,0,0,1.2,75.5,Milk Cow Pokémon,1250000,45,490,80,105,95,40,70,100,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Blissey,Happinasハピナス,242,2,"['Natural Cure', 'Serene Grace', 'Healer']",normal,NA,0,0,1.5,46.8,Happiness Pokémon,800000,30,540,10,10,255,75,135,55,10240,140,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Raikou,Raikouライコウ,243,2,"['Pressure', 'Inner Focus']",electric,NA,1,NA,1.9,178,Thunder Pokémon,1250000,3,580,85,75,90,115,100,115,20480,35,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Entei,Enteiエンテイ,244,2,"['Pressure', 'Inner Focus']",fire,NA,1,NA,2.1,198,Volcano Pokémon,1250000,3,580,115,85,115,90,75,100,20480,35,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Suicune,Suicuneスイクン,245,2,"['Pressure', 'Inner Focus']",water,NA,1,NA,2,187,Aurora Pokémon,1250000,3,580,75,115,100,90,115,85,20480,35,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Larvitar,Yogirasヨーギラス,246,2,"['Guts', 'Sand Veil']",rock,ground,0,50,0.6,72,Rock Skin Pokémon,1250000,45,300,64,50,50,45,50,41,10240,35,1,1,1,0,1,2,0.5,0.5,1,4,2,2,0.5,0.25,1,0.5,2,4
+Pupitar,Sanagirasサナギラス,247,2,['Shed Skin'],rock,ground,0,50,1.2,152,Hard Shell Pokémon,1250000,45,410,84,70,70,65,70,51,10240,35,1,1,1,0,1,2,0.5,0.5,1,4,2,2,0.5,0.25,1,0.5,2,4
+Tyranitar,Bangirasバンギラス,248,2,"['Sand Stream', 'Unnerve']",rock,dark,0,50,2,202,Armor Pokémon,1250000,45,700,164,150,100,95,120,71,10240,35,2,0.5,1,1,2,4,0.5,0.5,0.5,2,2,1,0.5,0.5,0,1,2,2
+Lugia,Lugiaルギア,249,2,"['Pressure', 'Multiscale']",psychic,flying,1,NA,5.2,216,Diving Pokémon,1250000,3,680,90,130,106,90,154,110,30720,0,1,2,1,2,1,0.25,1,1,2,0.5,0,2,1,1,0.5,2,1,1
+Ho-Oh,Hououホウオウ,250,2,"['Pressure', 'Regenerator']",fire,flying,1,NA,3.8,199,Rainbow Pokémon,1250000,3,680,130,90,106,110,154,90,30720,0,0.25,1,1,2,0.5,0.5,0.5,1,1,0.25,0,1,1,1,1,4,0.5,2
+Celebi,Celebiセレビィ,251,2,['Natural Cure'],psychic,grass,1,NA,0.6,5,Time Travel Pokémon,1059860,45,600,100,100,100,100,100,100,30720,100,4,2,1,0.5,1,0.5,2,2,2,0.5,0.5,2,1,2,0.5,1,1,0.5
+Treecko,Kimoriキモリ,252,3,"['Overgrow', 'Unburden']",grass,NA,0,88.1,0.5,5,Wood Gecko Pokémon,1059860,45,310,45,35,40,65,55,70,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Grovyle,Juptileジュプトル,253,3,"['Overgrow', 'Unburden']",grass,NA,0,88.1,0.9,21.6,Wood Gecko Pokémon,1059860,45,405,65,45,50,85,65,95,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Sceptile,Jukainジュカイン,254,3,"['Overgrow', 'Unburden']",grass,NA,0,88.1,1.7,52.2,Forest Pokémon,1059860,45,630,110,75,70,145,85,145,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Torchic,Achamoアチャモ,255,3,"['Blaze', 'Speed Boost']",fire,NA,0,88.1,0.4,2.5,Chick Pokémon,1059860,45,310,60,40,45,70,50,45,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Combusken,Wakasyamoワカシャモ,256,3,"['Blaze', 'Speed Boost']",fire,fighting,0,88.1,0.9,19.5,Young Fowl Pokémon,1059860,45,405,85,60,60,85,60,55,5120,70,0.25,0.5,1,1,1,1,0.5,2,1,0.5,2,0.5,1,1,2,1,0.5,2
+Blaziken,Bursyamoバシャーモ,257,3,"['Blaze', 'Speed Boost']",fire,fighting,0,88.1,1.9,52,Blaze Pokémon,1059860,45,630,160,80,80,130,80,100,5120,70,0.25,0.5,1,1,1,1,0.5,2,1,0.5,2,0.5,1,1,2,1,0.5,2
+Mudkip,Mizugorouミズゴロウ,258,3,"['Torrent', 'Damp']",water,NA,0,88.1,0.4,7.6,Mud Fish Pokémon,1059860,45,310,70,50,50,50,50,40,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Marshtomp,Numacrawヌマクロー,259,3,"['Torrent', 'Damp']",water,ground,0,88.1,0.7,28,Mud Fish Pokémon,1059860,45,405,85,70,70,60,70,50,5120,70,1,1,1,0,1,1,0.5,1,1,4,1,1,1,0.5,1,0.5,0.5,1
+Swampert,Laglargeラグラージ,260,3,"['Torrent', 'Damp']",water,ground,0,88.1,1.5,81.9,Mud Fish Pokémon,1059860,45,635,150,110,100,95,110,70,5120,70,1,1,1,0,1,1,0.5,1,1,4,1,1,1,0.5,1,0.5,0.5,1
+Poochyena,Pochienaポチエナ,261,3,"['Run Away', 'Quick Feet', 'Rattled']",dark,NA,0,50,0.5,13.6,Bite Pokémon,1000000,255,220,55,35,35,30,30,35,3840,70,2,0.5,1,1,2,2,1,1,0.5,1,1,1,1,1,0,1,1,1
+Mightyena,Graenaグラエナ,262,3,"['Intimidate', 'Quick Feet', 'Moxie']",dark,NA,0,50,1,37,Bite Pokémon,1000000,127,420,90,70,70,60,60,70,3840,70,2,0.5,1,1,2,2,1,1,0.5,1,1,1,1,1,0,1,1,1
+Zigzagoon,Jiguzagumaジグザグマ,263,3,"['Pickup', 'Gluttony', 'Quick Feet']",normal,NA,0,50,0.4,17.5,Tiny Racoon Pokémon,1000000,255,240,30,41,38,30,41,60,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Linoone,Massugumaマッスグマ,264,3,"['Pickup', 'Gluttony', 'Quick Feet']",normal,NA,0,50,0.5,32.5,Rush Pokémon,1000000,90,420,70,61,78,50,61,100,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Wurmple,Kemussoケムッソ,265,3,"['Shield Dust', 'Run Away']",bug,NA,0,50,0.3,3.6,Worm Pokémon,1000000,255,195,45,35,45,20,30,20,3840,70,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+Silcoon,Karasalisカラサリス,266,3,['Shed Skin'],bug,NA,0,50,0.6,10,Cocoon Pokémon,1000000,120,205,35,55,50,25,25,15,3840,70,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+Beautifly,Agehuntアゲハント,267,3,"['Swarm', 'Rivalry']",bug,flying,0,50,1,28.4,Butterfly Pokémon,1000000,45,395,70,50,60,100,50,65,3840,70,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+Cascoon,Mayuldマユルド,268,3,['Shed Skin'],bug,NA,0,50,0.7,11.5,Cocoon Pokémon,1000000,120,205,35,55,50,25,25,15,3840,70,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+Dustox,Dokucaleドクケイル,269,3,"['Shield Dust', 'Compoundeyes']",bug,poison,0,50,1.2,31.6,Poison Moth Pokémon,1000000,45,385,50,70,60,50,90,65,3840,70,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+Lotad,Hassbohハスボー,270,3,"['Swift Swim', 'Rain Dish', 'Own Tempo']",water,grass,0,50,0.5,2.6,Water Weed Pokémon,1059860,255,220,30,30,40,40,50,30,3840,70,2,1,1,1,1,1,1,2,1,1,0.5,1,1,2,1,1,0.5,0.25
+Lombre,Hasubreroハスブレロ,271,3,"['Swift Swim', 'Rain Dish', 'Own Tempo']",water,grass,0,50,1.2,32.5,Jolly Pokémon,1059860,120,340,50,50,60,60,70,50,3840,70,2,1,1,1,1,1,1,2,1,1,0.5,1,1,2,1,1,0.5,0.25
+Ludicolo,Runpappaルンパッパ,272,3,"['Swift Swim', 'Rain Dish', 'Own Tempo']",water,grass,0,50,1.5,55,Carefree Pokémon,1059860,45,480,70,70,80,90,100,70,3840,70,2,1,1,1,1,1,1,2,1,1,0.5,1,1,2,1,1,0.5,0.25
+Seedot,Tanebohタネボー,273,3,"['Chlorophyll', 'Early Bird', 'Pickpocket']",grass,NA,0,50,0.5,4,Acorn Pokémon,1059860,255,220,40,50,40,30,30,30,3840,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Nuzleaf,Konohanaコノハナ,274,3,"['Chlorophyll', 'Early Bird', 'Pickpocket']",grass,dark,0,50,1,28,Wily Pokémon,1059860,120,340,70,40,70,60,40,60,3840,70,4,0.5,1,0.5,2,2,2,2,0.5,0.5,0.5,2,1,2,0,1,1,0.5
+Shiftry,Dirtengダーテング,275,3,"['Chlorophyll', 'Early Bird', 'Pickpocket']",grass,dark,0,50,1.3,59.6,Wickid Pokémon,1059860,45,480,100,60,90,90,60,80,3840,70,4,0.5,1,0.5,2,2,2,2,0.5,0.5,0.5,2,1,2,0,1,1,0.5
+Taillow,Subameスバメ,276,3,"['Guts', 'Scrappy']",normal,flying,0,50,0.3,2.3,TinySwallow Pokémon,1059860,200,270,55,30,40,30,30,85,3840,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Swellow,Ohsubameオオスバメ,277,3,"['Guts', 'Scrappy']",normal,flying,0,50,0.7,19.8,Swallow Pokémon,1059860,45,455,85,60,60,75,50,125,3840,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Wingull,Camomeキャモメ,278,3,"['Keen Eye', 'Hydration', 'Rain Dish']",water,flying,0,50,0.6,9.5,Seagull Pokémon,1000000,190,270,30,30,40,55,30,85,5120,70,0.5,1,1,4,1,0.5,0.5,1,1,1,0,1,1,1,1,2,0.5,0.5
+Pelipper,Pelipperペリッパー,279,3,"['Keen Eye', 'Drizzle', 'Rain Dish']",water,flying,0,50,1.2,28,Water Bird Pokémon,1000000,45,440,50,100,60,95,70,65,5120,70,0.5,1,1,4,1,0.5,0.5,1,1,1,0,1,1,1,1,2,0.5,0.5
+Ralts,Raltsラルトス,280,3,"['Synchronize', 'Trace', 'Telepathy']",psychic,fairy,0,50,0.4,6.6,Feeling Pokémon,1250000,235,198,25,25,28,45,35,40,5120,35,1,1,0,1,1,0.25,1,1,2,1,1,1,1,2,0.5,1,2,1
+Kirlia,Kirliaキルリア,281,3,"['Synchronize', 'Trace', 'Telepathy']",psychic,fairy,0,50,0.8,20.2,Emotion Pokémon,1250000,120,278,35,35,38,65,55,50,5120,35,1,1,0,1,1,0.25,1,1,2,1,1,1,1,2,0.5,1,2,1
+Gardevoir,Sirnightサーナイト,282,3,"['Synchronize', 'Trace', 'Telepathy']",psychic,fairy,0,50,1.6,48.4,Embrace Pokémon,1250000,45,618,85,65,68,165,135,100,5120,35,1,1,0,1,1,0.25,1,1,2,1,1,1,1,2,0.5,1,2,1
+Surskit,Ametamaアメタマ,283,3,"['Swift Swim', 'Rain Dish']",bug,water,0,50,0.5,1.7,Pond Skater Pokémon,1000000,200,269,30,32,40,50,52,65,3840,70,1,1,1,2,1,0.5,1,2,1,1,0.5,0.5,1,1,1,2,0.5,0.5
+Masquerain,Amemothアメモース,284,3,"['Intimidate', 'Unnerve']",bug,flying,0,50,0.8,3.6,Eyeball Pokémon,1000000,75,454,60,62,70,100,82,80,3840,70,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+Shroomish,Kinococoキノココ,285,3,"['Effect Spore', 'Poison Heal', 'Quick Feet']",grass,NA,0,50,0.4,4.5,Mushroom Pokémon,1640000,255,295,40,60,60,40,60,35,3840,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Breloom,Kinogassaキノガッサ,286,3,"['Effect Spore', 'Poison Heal', 'Technician']",grass,fighting,0,50,1.2,39.2,Mushroom Pokémon,1640000,90,460,130,80,60,60,60,70,3840,70,1,0.5,1,0.5,2,1,2,4,1,0.5,0.5,2,1,2,2,0.5,1,0.5
+Slakoth,Namakeroナマケロ,287,3,['Truant'],normal,NA,0,50,0.8,24,Slacker Pokémon,1250000,255,280,60,60,60,35,35,30,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Vigoroth,Yarukimonoヤルキモノ,288,3,['Vital Spirit'],normal,NA,0,50,1.4,46.5,Wild Monkey Pokémon,1250000,120,440,80,80,80,55,55,90,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Slaking,Kekkingケッキング,289,3,['Truant'],normal,NA,0,50,2,130.5,Lazy Pokémon,1250000,45,670,160,100,150,95,65,100,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Nincada,Tutininツチニン,290,3,"['Compoundeyes', 'Run Away']",bug,ground,0,50,0.5,5.5,Trainee Pokémon,600000,255,266,45,90,31,30,30,40,3840,70,1,1,1,0,1,0.5,2,2,1,1,0.5,2,1,0.5,1,1,1,2
+Ninjask,Tekkaninテッカニン,291,3,"['Speed Boost', 'Infiltrator']",bug,flying,0,50,0.8,12,Ninja Pokémon,600000,120,456,90,45,61,50,50,160,3840,70,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+Shedinja,Nukeninヌケニン,292,3,['Wonder Guard'],bug,ghost,0,NA,0.8,1.2,Shed Pokémon,600000,45,236,90,45,1,30,30,40,3840,70,0.5,2,1,1,1,0,2,2,2,0.5,0.5,1,0,0.5,1,2,1,1
+Whismur,Gonyonyoゴニョニョ,293,3,"['Soundproof', 'Rattled']",normal,NA,0,50,0.6,16.3,Whisper Pokémon,1059860,190,240,51,23,64,51,23,28,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Loudred,Dogohmbドゴーム,294,3,"['Soundproof', 'Scrappy']",normal,NA,0,50,1,40.5,Big Voice Pokémon,1059860,120,360,71,43,84,71,43,48,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Exploud,Bakuongバクオング,295,3,"['Soundproof', 'Scrappy']",normal,NA,0,50,1.5,84,Loud Noise Pokémon,1059860,45,490,91,63,104,91,73,68,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Makuhita,Makunoshitaマクノシタ,296,3,"['Thick Fat', 'Guts', 'Sheer Force']",fighting,NA,0,75.4,1,86.4,Guts Pokémon,1640000,180,237,60,30,72,20,30,25,5120,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Hariyama,Hariteyamaハリテヤマ,297,3,"['Thick Fat', 'Guts', 'Sheer Force']",fighting,NA,0,75.4,2.3,253.8,Arm Thrust Pokémon,1640000,200,474,120,60,144,40,60,50,5120,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Azurill,Ruririルリリ,298,3,"['Thick Fat', 'Huge Power', 'Sap Sipper']",normal,fairy,0,24.6,0.2,2,Polka Dot Pokémon,800000,150,190,20,40,50,20,40,20,2560,70,0.5,0.5,0,1,1,1,1,1,0,1,1,1,1,2,1,1,2,1
+Nosepass,Nosepassノズパス,299,3,"['Sturdy', 'Magnet Pull', 'Sand Force']",rock,NA,0,50,1,97,Compass Pokémon,1000000,255,375,45,135,30,45,90,30,5120,70,1,1,1,1,1,2,0.5,0.5,1,2,2,1,0.5,0.5,1,1,2,2
+Skitty,Enecoエネコ,300,3,"['Cute Charm', 'Normalize', 'Wonder Skin ']",normal,NA,0,24.6,0.6,11,Kitten Pokémon,800000,255,260,45,45,50,35,35,50,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Delcatty,Enekororoエネコロロ,301,3,"['Cute Charm', 'Normalize', 'Wonder Skin ']",normal,NA,0,24.6,1.1,32.6,Prim Pokémon,800000,60,400,65,65,70,55,55,90,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Sableye,Yamiramiヤミラミ,302,3,"['Keen Eye', 'Stall', 'Prankster']",dark,ghost,0,50,0.5,11,Darkness Pokémon,1059860,45,480,85,125,50,85,115,20,6400,35,1,1,1,1,2,0,1,1,1,1,1,1,0,0.5,0,1,1,1
+Mawile,Kucheatクチート,303,3,"['Hyper Cutter', 'Intimidate', 'Sheer Force']",steel,fairy,0,50,0.6,11.5,Deceiver Pokémon,800000,45,480,105,125,50,55,95,50,5120,70,0.25,0.5,0,1,0.5,1,2,0.5,1,0.5,2,0.5,0.5,0,0.5,0.5,1,1
+Aron,Cokodoraココドラ,304,3,"['Sturdy', 'Rock Head', 'Heavy Metal']",steel,rock,0,50,0.4,60,Iron Armor Pokémon,1250000,180,330,70,100,50,40,40,30,8960,35,0.5,1,0.5,1,0.5,4,1,0.25,1,1,4,0.5,0.25,0,0.5,0.5,1,2
+Lairon,Kodoraコドラ,305,3,"['Sturdy', 'Rock Head', 'Heavy Metal']",steel,rock,0,50,0.9,120,Iron Armor Pokémon,1250000,90,430,90,140,60,50,50,40,8960,35,0.5,1,0.5,1,0.5,4,1,0.25,1,1,4,0.5,0.25,0,0.5,0.5,1,2
+Aggron,Bossgodoraボスゴドラ,306,3,"['Sturdy', 'Rock Head', 'Heavy Metal']",steel,rock,0,50,2.1,360,Iron Armor Pokémon,1250000,45,630,140,230,70,60,80,50,8960,35,0.5,1,0.5,1,0.5,4,1,0.25,1,1,4,0.5,0.25,0,0.5,0.5,1,2
+Meditite,Asananアサナン,307,3,"['Pure Power', 'Telepathy']",fighting,psychic,0,50,0.6,11.2,Meditate Pokémon,1000000,180,280,40,55,30,40,55,60,5120,70,1,1,1,1,2,0.5,1,2,2,1,1,1,1,1,1,0.5,1,1
+Medicham,Charemチャーレム,308,3,"['Pure Power', 'Telepathy']",fighting,psychic,0,50,1.3,31.5,Meditate Pokémon,1000000,90,510,100,85,60,80,85,100,5120,70,1,1,1,1,2,0.5,1,2,2,1,1,1,1,1,1,0.5,1,1
+Electrike,Rakuraiラクライ,309,3,"['Static', 'Lightningrod', 'Minus']",electric,NA,0,50,0.6,15.2,Lightning Pokémon,1250000,120,295,45,40,40,65,40,65,5120,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Manectric,Livoltライボルト,310,3,"['Static', 'Lightningrod', 'Minus']",electric,NA,0,50,1.5,40.2,Discharge Pokémon,1250000,45,575,75,80,70,135,80,135,5120,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Plusle,Prasleプラスル,311,3,"['Plus', 'Lightningrod']",electric,NA,0,50,0.4,4.2,Cheering Pokémon,1000000,200,405,50,40,60,85,75,95,5120,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Minun,Minunマイナン,312,3,"['Minus', 'Volt Absorb']",electric,NA,0,50,0.4,4.2,Cheering Pokémon,1000000,200,405,40,50,60,75,85,95,5120,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Volbeat,Barubeatバルビート,313,3,"['Illuminate', 'Swarm', 'Prankster']",bug,NA,0,100,0.7,17.7,Firefly Pokémon,600000,150,430,73,75,65,47,85,85,3840,70,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+Illumise,Illumiseイルミーゼ,314,3,"['Oblivious', 'Tinted Lens', 'Prankster']",bug,NA,0,0,0.6,17.7,Firefly Pokémon,1640000,150,430,47,75,65,73,85,85,3840,70,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+Roselia,Roseliaロゼリア,315,3,"['Natural Cure', 'Poison Point', 'Leaf Guard']",grass,poison,0,50,0.3,2,Thorn Pokémon,1059860,150,400,60,45,50,100,80,65,5120,70,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+Gulpin,Gokulinゴクリン,316,3,"['Liquid Ooze', 'Sticky Hold', 'Gluttony']",poison,NA,0,50,0.4,10.3,Stomach Pokémon,1640000,225,302,43,53,70,43,53,40,5120,70,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+Swalot,Marunoomマルノーム,317,3,"['Liquid Ooze', 'Sticky Hold', 'Gluttony']",poison,NA,0,50,1.7,80,Poison Bag Pokémon,1640000,75,467,73,83,100,73,83,55,5120,70,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+Carvanha,Kibanhaキバニア,318,3,"['Rough Skin', 'Speed Boost']",water,dark,0,50,0.8,20.8,Savage Pokémon,1250000,225,305,90,20,45,65,20,65,5120,35,2,0.5,1,2,2,2,0.5,1,0.5,2,1,0.5,1,1,0,1,0.5,0.5
+Sharpedo,Samehaderサメハダー,319,3,"['Rough Skin', 'Speed Boost']",water,dark,0,50,1.8,88.8,Brutal Pokémon,1250000,60,560,140,70,70,110,65,105,5120,35,2,0.5,1,2,2,2,0.5,1,0.5,2,1,0.5,1,1,0,1,0.5,0.5
+Wailmer,Hoerukoホエルコ,320,3,"['Water Veil', 'Oblivious', 'Pressure']",water,NA,0,50,2,130,Ball Whale Pokémon,1640000,125,400,70,35,130,70,35,60,10240,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Wailord,Whalohホエルオー,321,3,"['Water Veil', 'Oblivious', 'Pressure']",water,NA,0,50,14.5,398,Float Whale Pokémon,1640000,60,500,90,45,170,90,45,60,10240,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Numel,Donmelドンメル,322,3,"['Oblivious', 'Simple', 'Own Tempo']",fire,ground,0,50,0.7,24,Numb Pokémon,1000000,255,305,60,40,60,65,45,35,5120,70,0.5,1,1,0,0.5,1,0.5,1,1,1,2,1,1,0.5,1,1,0.5,4
+Camerupt,Bakuudaバクーダ,323,3,"['Magma Armor', 'Solid Rock', 'Anger Point']",fire,ground,0,50,1.9,220,Eruption Pokémon,1000000,150,560,120,100,70,145,105,20,5120,70,0.5,1,1,0,0.5,1,0.5,1,1,1,2,1,1,0.5,1,1,0.5,4
+Torkoal,Cotoiseコータス,324,3,"['White Smoke', 'Drought', 'Shell Armor']",fire,NA,0,50,0.5,80.4,Coal Pokémon,1000000,90,470,85,140,70,85,70,20,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Spoink,Banebooバネブー,325,3,"['Thick Fat', 'Own Tempo', 'Gluttony']",psychic,NA,0,50,0.7,30.6,Bounce Pokémon,800000,255,330,25,35,60,70,80,60,5120,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Grumpig,Boopigブーピッグ,326,3,"['Thick Fat', 'Own Tempo', 'Gluttony']",psychic,NA,0,50,0.9,71.5,Manipulate Pokémon,800000,60,470,45,65,80,90,110,80,5120,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Spinda,Patcheelパッチール,327,3,"['Own Tempo', 'Tangled Feet', 'Contrary']",normal,NA,0,50,1.1,5,Spot Panda Pokémon,800000,255,360,60,60,60,60,60,60,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Trapinch,Nuckrarナックラー,328,3,"['Hyper Cutter', 'Arena Trap', 'Sheer Force']",ground,NA,0,50,0.7,15,Ant Pit Pokémon,1059860,255,290,100,45,45,45,45,10,5120,70,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+Vibrava,Vibravaビブラーバ,329,3,['Levitate'],ground,dragon,0,50,1.1,15.3,Vibration Pokémon,1059860,120,340,70,50,50,50,50,70,5120,70,1,1,2,0,2,1,0.5,1,1,1,1,4,1,0.5,1,0.5,1,1
+Flygon,Flygonフライゴン,330,3,['Levitate'],ground,dragon,0,50,2,82,Mystic Pokémon,1059860,45,520,100,80,80,80,80,100,5120,70,1,1,2,0,2,1,0.5,1,1,1,1,4,1,0.5,1,0.5,1,1
+Cacnea,Saboneaサボネア,331,3,"['Sand Veil', 'Water Absorb']",grass,NA,0,50,0.4,51.3,Cactus Pokémon,1059860,190,335,85,40,50,85,40,35,5120,35,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Cacturne,Noctusノクタス,332,3,"['Sand Veil', 'Water Absorb']",grass,dark,0,50,1.3,77.4,Scarecrow Pokémon,1059860,60,475,115,60,70,115,60,55,5120,35,4,0.5,1,0.5,2,2,2,2,0.5,0.5,0.5,2,1,2,0,1,1,0.5
+Swablu,Tylttoチルット,333,3,"['Natural Cure', 'Cloud Nine']",normal,flying,0,50,0.4,1.2,Cotton Bird Pokémon,600000,255,310,40,60,45,40,75,50,5120,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Altaria,Tyltalisチルタリス,334,3,"['Natural Cure', 'Cloud Nine']",dragon,flying,0,50,1.1,20.6,Humming Pokémon,600000,45,590,110,110,75,110,105,80,5120,70,0.5,1,2,1,2,0.5,0.5,1,1,0.25,0,4,1,1,1,2,1,0.5
+Zangoose,Zangooseザングース,335,3,"['Immunity', 'Toxic Boost']",normal,NA,0,50,1.3,40.3,Cat Ferret Pokémon,600000,90,458,115,60,73,60,60,90,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Seviper,Habunakeハブネーク,336,3,"['Shed Skin', 'Infiltrator']",poison,NA,0,50,2.7,52.5,Fang Snake Pokémon,1640000,90,458,100,60,73,100,60,65,5120,70,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+Lunatone,Lunatoneルナトーン,337,3,['Levitate'],rock,psychic,0,NA,1,168,Meteorite Pokémon,800000,45,460,55,65,90,95,85,70,6400,70,2,2,1,1,1,1,0.5,0.5,2,2,2,1,0.5,0.5,0.5,1,2,2
+Solrock,Solrockソルロック,338,3,['Levitate'],rock,psychic,0,NA,1.2,154,Meteorite Pokémon,800000,45,460,95,85,90,55,65,70,6400,70,2,2,1,1,1,1,0.5,0.5,2,2,2,1,0.5,0.5,0.5,1,2,2
+Barboach,Dojoachドジョッチ,339,3,"['Oblivious', 'Anticipation', 'Hydration']",water,ground,0,50,0.4,1.9,Whiskers Pokémon,1000000,190,288,48,43,50,46,41,60,5120,70,1,1,1,0,1,1,0.5,1,1,4,1,1,1,0.5,1,0.5,0.5,1
+Whiscash,Namazunナマズン,340,3,"['Oblivious', 'Anticipation', 'Hydration']",water,ground,0,50,0.9,23.6,Whiskers Pokémon,1000000,75,468,78,73,110,76,71,60,5120,70,1,1,1,0,1,1,0.5,1,1,4,1,1,1,0.5,1,0.5,0.5,1
+Corphish,Heiganiヘイガニ,341,3,"['Hyper Cutter', 'Shell Armor', 'Adaptability']",water,NA,0,50,0.6,11.5,Ruffian Pokémon,1640000,205,308,80,65,43,50,35,35,3840,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Crawdaunt,Shizarigerシザリガー,342,3,"['Hyper Cutter', 'Shell Armor', 'Adaptability']",water,dark,0,50,1.1,32.8,Rogue Pokémon,1640000,155,468,120,85,63,90,55,55,3840,70,2,0.5,1,2,2,2,0.5,1,0.5,2,1,0.5,1,1,0,1,0.5,0.5
+Baltoy,Yajilonヤジロン,343,3,['Levitate'],ground,psychic,0,NA,0.5,21.5,Clay Doll Pokémon,1000000,255,300,40,55,40,40,70,55,5120,70,2,2,1,0,1,0.5,1,1,2,2,1,2,1,0.5,0.5,0.5,1,2
+Claydol,Nendollネンドール,344,3,['Levitate'],ground,psychic,0,NA,1.5,108,Clay Doll Pokémon,1000000,90,500,70,105,60,70,120,75,5120,70,2,2,1,0,1,0.5,1,1,2,2,1,2,1,0.5,0.5,0.5,1,2
+Lileep,Lilylaリリーラ,345,3,"['Suction Cups', 'Storm Drain']",rock,grass,0,88.1,1,23.8,Sea Lily Pokémon,600000,45,355,41,77,66,61,87,23,7680,70,2,1,1,0.5,1,2,1,1,1,1,1,2,0.5,1,1,1,2,1
+Cradily,Yuradleユレイドル,346,3,"['Suction Cups', 'Storm Drain']",rock,grass,0,88.1,1.5,60.4,Barnacle Pokémon,600000,45,495,81,97,86,81,107,43,7680,70,2,1,1,0.5,1,2,1,1,1,1,1,2,0.5,1,1,1,2,1
+Anorith,Anopthアノプス,347,3,"['Battle Armor', 'Swift Swim']",rock,bug,0,88.1,0.7,12.5,Old Shrimp Pokémon,600000,45,355,95,50,45,40,50,75,7680,70,1,1,1,1,1,1,1,1,1,1,1,1,0.5,0.5,1,2,2,2
+Armaldo,Armaldoアーマルド,348,3,"['Battle Armor', 'Swift Swim']",rock,bug,0,88.1,1.5,68.2,Plate Pokémon,600000,45,495,125,100,75,70,80,45,7680,70,1,1,1,1,1,1,1,1,1,1,1,1,0.5,0.5,1,2,2,2
+Feebas,Hinbassヒンバス,349,3,"['Swift Swim', 'Oblivious', 'Adaptability']",water,NA,0,50,0.6,7.4,Fish Pokémon,600000,255,200,15,20,20,10,55,80,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Milotic,Milokarossミロカロス,350,3,"['Marvel Scale', 'Competitive', 'Cute Charm']",water,NA,0,50,6.2,162,Tender Pokémon,600000,60,540,60,79,95,100,125,81,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Castform,Powalenポワルン,351,3,['Forecast'],normal,NA,0,50,0.3,0.8,Weather Pokémon,1000000,45,420,70,70,70,70,70,70,6400,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Kecleon,Kakureonカクレオン,352,3,"['Color Change', 'Protean']",normal,NA,0,50,1,22,Color Swap Pokémon,1059860,200,440,90,70,60,60,120,40,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Shuppet,Kagebouzuカゲボウズ,353,3,"['Insomnia', 'Frisk', 'Cursed Body']",ghost,NA,0,50,0.6,2.3,Puppet Pokémon,800000,225,295,75,35,44,63,33,45,6400,35,0.5,2,1,1,1,0,1,1,2,1,1,1,0,0.5,1,1,1,1
+Banette,Juppetaジュペッタ,354,3,"['Insomnia', 'Frisk', 'Cursed Body']",ghost,NA,0,50,1.1,12.5,Marionette Pokémon,800000,45,555,165,75,64,93,83,75,6400,35,0.5,2,1,1,1,0,1,1,2,1,1,1,0,0.5,1,1,1,1
+Duskull,Yomawaruヨマワル,355,3,"['Levitate', 'Frisk']",ghost,NA,0,50,0.8,15,Requiem Pokémon,800000,190,295,40,90,20,30,90,25,6400,35,0.5,2,1,1,1,0,1,1,2,1,1,1,0,0.5,1,1,1,1
+Dusclops,Samayouruサマヨール,356,3,"['Pressure', 'Frisk']",ghost,NA,0,50,1.6,30.6,Beckon Pokémon,800000,90,455,70,130,40,60,130,25,6400,35,0.5,2,1,1,1,0,1,1,2,1,1,1,0,0.5,1,1,1,1
+Tropius,Tropiusトロピウス,357,3,"['Chlorophyll', 'Solar Power', 'Harvest']",grass,flying,0,50,2,100,Fruit Pokémon,1250000,200,460,68,83,99,72,87,51,6400,70,1,1,1,1,1,0.5,2,2,1,0.25,0,4,1,2,1,2,1,0.5
+Chimecho,Chireanチリーン,358,3,['Levitate'],psychic,NA,0,50,0.6,1,Wind Chime Pokémon,800000,45,455,50,80,75,95,90,65,6400,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Absol,Absolアブソル,359,3,"['Pressure', 'Super Luck', 'Justified']",dark,NA,0,50,1.2,47,Disaster Pokémon,1059860,30,565,150,60,65,115,60,115,6400,35,2,0.5,1,1,2,2,1,1,0.5,1,1,1,1,1,0,1,1,1
+Wynaut,Sohnanoソーナノ,360,3,"['Shadow Tag', 'Telepathy']",psychic,NA,0,50,0.6,14,Bright Pokémon,1000000,125,260,23,48,95,23,48,23,5120,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Snorunt,Yukiwarashiユキワラシ,361,3,"['Inner Focus', 'Ice Body', 'Moody']",ice,NA,0,50,0.7,16.8,Snow Hat Pokémon,1000000,190,300,50,50,50,50,50,50,5120,70,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+Glalie,Onigohriオニゴーリ,362,3,"['Inner Focus', 'Ice Body', 'Moody']",ice,NA,0,50,1.5,256.5,Face Pokémon,1000000,75,580,120,80,80,120,80,100,5120,70,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+Spheal,Tamazarashiタマザラシ,363,3,"['Thick Fat', 'Ice Body', 'Oblivious']",ice,water,0,50,0.8,39.5,Clap Pokémon,1059860,255,290,40,50,70,55,50,25,5120,70,1,1,1,2,1,2,1,1,1,2,1,0.25,1,1,1,2,1,0.5
+Sealeo,Todogglerトドグラー,364,3,"['Thick Fat', 'Ice Body', 'Oblivious']",ice,water,0,50,1.1,87.6,Ball Roll Pokémon,1059860,120,410,60,70,90,75,70,45,5120,70,1,1,1,2,1,2,1,1,1,2,1,0.25,1,1,1,2,1,0.5
+Walrein,Todoserugaトドゼルガ,365,3,"['Thick Fat', 'Ice Body', 'Oblivious']",ice,water,0,50,1.4,150.6,Ice Break Pokémon,1059860,45,530,80,90,110,95,90,65,5120,70,1,1,1,2,1,2,1,1,1,2,1,0.25,1,1,1,2,1,0.5
+Clamperl,Pearluluパールル,366,3,"['Shell Armor', 'Rattled']",water,NA,0,50,0.4,52.5,Bivalve Pokémon,600000,255,345,64,85,35,74,55,32,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Huntail,Huntailハンテール,367,3,"['Swift Swim', 'Water Veil']",water,NA,0,50,1.7,27,Deep Sea Pokémon,600000,60,485,104,105,55,94,75,52,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Gorebyss,Sakurabyssサクラビス,368,3,"['Swift Swim', 'Hydration']",water,NA,0,50,1.8,22.6,South Sea Pokémon,600000,60,485,84,105,55,114,75,52,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Relicanth,Glanthジーランス,369,3,"['Swift Swim', 'Rock Head', 'Sturdy']",water,rock,0,88.1,1,23.4,Longevity Pokémon,1250000,25,485,90,130,100,45,65,55,10240,70,1,1,1,2,1,2,0.25,0.5,1,4,2,0.5,0.5,0.5,1,1,1,1
+Luvdisc,Lovecusラブカス,370,3,"['Swift Swim', 'Hydration']",water,NA,0,24.6,0.6,8.7,Rendezvous Pokémon,800000,225,330,30,55,43,40,65,97,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Bagon,Tatsubayタツベイ,371,3,"['Rock Head', 'Sheer Force']",dragon,NA,0,50,0.6,42.1,Rock Head Pokémon,1250000,45,300,75,60,45,40,30,50,10240,35,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+Shelgon,Komoruuコモルー,372,3,"['Rock Head', 'Overcoat']",dragon,NA,0,50,1.1,110.5,Endurance Pokémon,1250000,45,420,95,100,65,60,50,50,10240,35,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+Salamence,Bohmanderボーマンダ,373,3,"['Intimidate', 'Moxie']",dragon,flying,0,50,1.5,102.6,Dragon Pokémon,1250000,45,700,145,130,95,120,90,120,10240,35,0.5,1,2,1,2,0.5,0.5,1,1,0.25,0,4,1,1,1,2,1,0.5
+Beldum,Dumbberダンバル,374,3,"['Clear Body', 'Light Metal']",steel,psychic,0,NA,0.6,95.2,Iron Ball Pokémon,1250000,3,300,55,80,40,35,60,30,10240,35,1,2,0.5,1,0.5,1,2,0.5,2,0.5,2,0.5,0.5,0,0.25,0.5,0.5,1
+Metang,Metangメタング,375,3,"['Clear Body', 'Light Metal']",steel,psychic,0,NA,1.2,202.5,Iron Claw Pokémon,1250000,3,420,75,100,60,55,80,50,10240,35,1,2,0.5,1,0.5,1,2,0.5,2,0.5,2,0.5,0.5,0,0.25,0.5,0.5,1
+Metagross,Metagrossメタグロス,376,3,"['Clear Body', 'Light Metal']",steel,psychic,0,NA,1.6,550,Iron Leg Pokémon,1250000,3,700,145,150,80,105,110,110,10240,35,1,2,0.5,1,0.5,1,2,0.5,2,0.5,2,0.5,0.5,0,0.25,0.5,0.5,1
+Regirock,Regirockレジロック,377,3,"['Clear Body', 'Sturdy']",rock,NA,1,NA,1.7,230,Rock Peak Pokémon,1250000,3,580,100,200,80,50,100,50,20480,35,1,1,1,1,1,2,0.5,0.5,1,2,2,1,0.5,0.5,1,1,2,2
+Regice,Regiceレジアイス,378,3,"['Clear Body', 'Ice Body']",ice,NA,1,NA,1.8,175,Iceberg Pokémon,1250000,3,580,50,100,80,100,200,50,20480,35,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+Registeel,Registeelレジスチル,379,3,"['Clear Body', 'Light Metal']",steel,NA,1,NA,1.9,205,Iron Pokémon,1250000,3,580,75,150,80,75,150,50,20480,35,0.5,1,0.5,1,0.5,2,2,0.5,1,0.5,2,0.5,0.5,0,0.5,0.5,0.5,1
+Latias,Latiasラティアス,380,3,['Levitate'],dragon,psychic,1,0,1.4,40,Eon Pokémon,1250000,3,700,100,120,80,140,150,110,30720,90,2,2,2,0.5,2,0.5,0.5,1,2,0.5,1,2,1,1,0.5,1,1,0.5
+Latios,Latiosラティオス,381,3,['Levitate'],dragon,psychic,1,100,2,60,Eon Pokémon,1250000,3,700,130,100,80,160,120,110,30720,90,2,2,2,0.5,2,0.5,0.5,1,2,0.5,1,2,1,1,0.5,1,1,0.5
+Kyogre,Kyogreカイオーガ,382,3,['Drizzle'],water,NA,1,NA,4.5,352,Sea Basin Pokémon,1250000,3,770,150,90,100,180,160,90,30720,0,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Groudon,Groudonグラードン,383,3,['Drought'],ground,NA,1,NA,3.5,950,Continent Pokémon,1250000,3,770,180,160,100,150,90,90,30720,0,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+Rayquaza,Rayquazaレックウザ,384,3,['Air Lock'],dragon,flying,1,NA,7,206.5,Sky High Pokémon,1250000,45,780,180,100,105,180,100,115,30720,0,0.5,1,2,1,2,0.5,0.5,1,1,0.25,0,4,1,1,1,2,1,0.5
+Jirachi,Jirachiジラーチ,385,3,['Serene Grace'],steel,psychic,1,NA,0.3,1.1,Wish Pokémon,1250000,3,600,100,100,100,100,100,100,30720,100,1,2,0.5,1,0.5,1,2,0.5,2,0.5,2,0.5,0.5,0,0.25,0.5,0.5,1
+Deoxys,Deoxysデオキシス,386,3,['Pressure'],psychic,NA,1,NA,1.7,60.8,DNA Pokémon,1250000,3,600,95,90,50,95,90,180,30720,0,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Turtwig,Naetleナエトル,387,4,"['Overgrow', 'Shell Armor']",grass,NA,0,88.1,0.4,10.2,Tiny Leaf Pokémon,1059860,45,318,68,64,55,45,55,31,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Grotle,Hayashigameハヤシガメ,388,4,"['Overgrow', 'Shell Armor']",grass,NA,0,88.1,1.1,97,Grove Pokémon,1059860,45,405,89,85,75,55,65,36,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Torterra,Dodaitoseドダイトス,389,4,"['Overgrow', 'Shell Armor']",grass,ground,0,88.1,2.2,310,Continent Pokémon,1059860,45,525,109,105,95,75,85,56,5120,70,2,1,1,0,1,1,2,2,1,1,0.5,4,1,1,1,0.5,1,1
+Chimchar,Hikozaruヒコザル,390,4,"['Blaze', 'Iron Fist']",fire,NA,0,88.1,0.5,6.2,Chimp Pokémon,1059860,45,309,58,44,44,58,44,61,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Monferno,Moukazaruモウカザル,391,4,"['Blaze', 'Iron Fist']",fire,fighting,0,88.1,0.9,22,Playful Pokémon,1059860,45,405,78,52,64,78,52,81,5120,70,0.25,0.5,1,1,1,1,0.5,2,1,0.5,2,0.5,1,1,2,1,0.5,2
+Infernape,Goukazaruゴウカザル,392,4,"['Blaze', 'Iron Fist']",fire,fighting,0,88.1,1.2,55,Flame Pokémon,1059860,45,534,104,71,76,104,71,108,5120,70,0.25,0.5,1,1,1,1,0.5,2,1,0.5,2,0.5,1,1,2,1,0.5,2
+Piplup,Pochamaポッチャマ,393,4,"['Torrent', 'Defiant']",water,NA,0,88.1,0.4,5.2,Penguin Pokémon,1059860,45,314,51,53,53,61,56,40,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Prinplup,Pottaishiポッタイシ,394,4,"['Torrent', 'Defiant']",water,NA,0,88.1,0.8,23,Penguin Pokémon,1059860,45,405,66,68,64,81,76,50,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Empoleon,Emperteエンペルト,395,4,"['Torrent', 'Defiant']",water,steel,0,88.1,1.7,84.5,Emperor Pokémon,1059860,45,530,86,88,84,111,101,60,5120,70,0.5,1,0.5,2,0.5,2,1,0.5,1,1,2,0.25,0.5,0,0.5,0.5,0.25,0.5
+Starly,Mukkuruムックル,396,4,"['Keen Eye', 'Reckless']",normal,flying,0,50,0.3,2,Starling Pokémon,1059860,255,245,55,30,40,30,30,60,3840,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Staravia,Mukubirdムクバード,397,4,"['Intimidate', 'Reckless']",normal,flying,0,50,0.6,15.5,Starling Pokémon,1059860,120,340,75,50,55,40,40,80,3840,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Staraptor,Mukuhawkムクホーク,398,4,"['Intimidate', 'Reckless']",normal,flying,0,50,1.2,24.9,Predator Pokémon,1059860,45,485,120,70,85,50,60,100,3840,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Bidoof,Bippaビッパ,399,4,"['Simple', 'Unaware', 'Moody']",normal,NA,0,50,0.5,20,Plump Mouse Pokémon,1000000,255,250,45,40,59,35,40,31,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Bibarel,Beadaruビーダル,400,4,"['Simple', 'Unaware', 'Moody']",normal,water,0,50,1,31.5,Beaver Pokémon,1000000,127,410,85,60,79,55,60,71,3840,70,1,1,1,2,1,2,0.5,1,0,2,1,0.5,1,1,1,1,0.5,0.5
+Kricketot,Korobohshiコロボーシ,401,4,"['Shed Skin', 'Run Away']",bug,NA,0,50,0.3,2.2,Cricket Pokémon,1059860,255,194,25,41,37,25,41,25,3840,70,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+Kricketune,Korotockコロトック,402,4,"['Swarm', 'Technician']",bug,NA,0,50,1,25.5,Cricket Pokémon,1059860,45,384,85,51,77,55,51,65,3840,70,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+Shinx,Kolinkコリンク,403,4,"['Rivalry', 'Intimidate', 'Guts']",electric,NA,0,50,0.5,9.5,Flash Pokémon,1059860,235,263,65,34,45,40,34,45,5120,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Luxio,Luxioルクシオ,404,4,"['Rivalry', 'Intimidate', 'Guts']",electric,NA,0,50,0.9,30.5,Spark Pokémon,1059860,120,363,85,49,60,60,49,60,5120,100,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Luxray,Rentorarレントラー,405,4,"['Rivalry', 'Intimidate', 'Guts']",electric,NA,0,50,1.4,42,Gleam Eyes Pokémon,1059860,45,523,120,79,80,95,79,70,5120,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Budew,Subomieスボミー,406,4,"['Natural Cure', 'Poison Point', 'Leaf Guard']",grass,poison,0,50,0.2,1.2,Bud Pokémon,1059860,255,280,30,35,40,50,70,55,5120,70,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+Roserade,Roseradeロズレイド,407,4,"['Natural Cure', 'Poison Point', 'Technician']",grass,poison,0,50,0.9,14.5,Bouquet Pokémon,1059860,75,515,70,65,60,125,105,90,5120,70,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+Cranidos,Zugaidosズガイドス,408,4,"['Mold Breaker', 'Sheer Force']",rock,NA,0,88.1,0.9,31.5,Head Butt Pokémon,600000,45,350,125,40,67,30,30,58,7680,70,1,1,1,1,1,2,0.5,0.5,1,2,2,1,0.5,0.5,1,1,2,2
+Rampardos,Rampaldラムパルド,409,4,"['Mold Breaker', 'Sheer Force']",rock,NA,0,88.1,1.6,102.5,Head Butt Pokémon,600000,45,495,165,60,97,65,50,58,7680,70,1,1,1,1,1,2,0.5,0.5,1,2,2,1,0.5,0.5,1,1,2,2
+Shieldon,Tatetopsタテトプス,410,4,"['Sturdy', 'Soundproof']",rock,steel,0,88.1,0.5,57,Shield Pokémon,600000,45,350,42,118,30,42,88,30,7680,70,0.5,1,0.5,1,0.5,4,1,0.25,1,1,4,0.5,0.25,0,0.5,0.5,1,2
+Bastiodon,Toridepsトリデプス,411,4,"['Sturdy', 'Soundproof']",rock,steel,0,88.1,1.3,149.5,Shield Pokémon,600000,45,495,52,168,60,47,138,30,7680,70,0.5,1,0.5,1,0.5,4,1,0.25,1,1,4,0.5,0.25,0,0.5,0.5,1,2
+Burmy,Minomucchiミノムッチ,412,4,"['Shed Skin', 'Overcoat']",bug,NA,0,50,0.2,3.4,Bagworm Pokémon,1000000,120,224,29,45,40,29,45,36,3840,70,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+Wormadam,Minomadam (kusaki No Mino)ミノマダム,413,4,"['Anticipation', 'Overcoat']",bug,grass,0,0,0.5,6.5,Bagworm Pokémon,1000000,45,424,69,95,60,69,95,36,3840,70,2,1,1,0.5,1,0.5,4,4,1,0.25,0.25,2,1,2,1,2,1,0.5
+Mothim,Gamaleガーメイル,414,4,"['Swarm', 'Tinted Lens']",bug,flying,0,100,0.9,23.3,Moth Pokémon,1000000,45,424,94,50,70,94,50,66,3840,70,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+Combee,Mitsuhoneyミツハニー,415,4,"['Honey Gather', 'Hustle']",bug,flying,0,88.1,0.3,5.5,Tiny Bee Pokémon,1059860,120,244,30,42,30,30,42,70,3840,70,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+Vespiquen,Beequenビークイン,416,4,"['Pressure', 'Unnerve']",bug,flying,0,0,1.2,38.5,Beehive Pokémon,1059860,45,474,80,102,70,80,102,40,3840,70,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+Pachirisu,Pachirisuパチリス,417,4,"['Run Away', 'Pickup', 'Volt Absorb']",electric,NA,0,50,0.4,3.9,EleSquirrel Pokémon,1000000,200,405,45,70,60,45,90,95,2560,100,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Buizel,Buoyselブイゼル,418,4,"['Swift Swim', 'Water Veil']",water,NA,0,50,0.7,29.5,Sea Weasel Pokémon,1000000,190,330,65,35,55,60,30,85,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Floatzel,Floazelフローゼル,419,4,"['Swift Swim', 'Water Veil']",water,NA,0,50,1.1,33.5,Sea Weasel Pokémon,1000000,75,495,105,55,85,85,50,115,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Cherubi,Cherinboチェリンボ,420,4,['Chlorophyll'],grass,NA,0,50,0.4,3.3,Cherry Pokémon,1000000,190,275,35,45,45,62,53,35,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Cherrim,Cherrimチェリム,421,4,['Flower Gift'],grass,NA,0,50,0.5,9.3,Blossom Pokémon,1000000,75,450,60,70,70,87,78,85,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Shellos,Karanakushiカラナクシ,422,4,"['Sticky Hold', 'Storm Drain', 'Sand Force']",water,NA,0,50,0.3,6.3,Sea Slug Pokémon,1000000,190,325,48,48,76,57,62,34,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Gastrodon,Tritodonトリトドン,423,4,"['Sticky Hold', 'Storm Drain', 'Sand Force']",water,ground,0,50,0.9,29.9,Sea Slug Pokémon,1000000,75,475,83,68,111,92,82,39,5120,70,1,1,1,0,1,1,0.5,1,1,4,1,1,1,0.5,1,0.5,0.5,1
+Ambipom,Etebothエテボース,424,4,"['Technician', 'Pickup', 'Skill Link']",normal,NA,0,50,1.2,20.3,Long Tail Pokémon,800000,45,482,100,66,75,60,66,115,5120,100,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Drifloon,Fuwanteフワンテ,425,4,"['Aftermath', 'Unburden', 'Flare Boost']",ghost,flying,0,50,0.4,1.2,Balloon Pokémon,1640000,125,348,50,34,90,60,44,70,7680,70,0.25,2,1,2,1,0,1,1,2,0.5,0,2,0,0.5,1,2,1,1
+Drifblim,Fuwarideフワライド,426,4,"['Aftermath', 'Unburden', 'Flare Boost']",ghost,flying,0,50,1.2,15,Blimp Pokémon,1640000,60,498,80,44,150,90,54,80,7680,70,0.25,2,1,2,1,0,1,1,2,0.5,0,2,0,0.5,1,2,1,1
+Buneary,Mimirolミミロル,427,4,"['Run Away', 'Klutz', 'Limber']",normal,NA,0,50,0.4,5.5,Rabbit Pokémon,1000000,190,350,66,44,55,44,56,85,5120,0,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Lopunny,Mimilopミミロップ,428,4,"['Cute Charm', 'Klutz', 'Limber']",normal,NA,0,50,1.2,33.3,Rabbit Pokémon,1000000,60,580,136,94,65,54,96,135,5120,140,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Mismagius,Mumargiムウマージ,429,4,['Levitate'],ghost,NA,0,50,0.9,4.4,Magical Pokémon,800000,45,495,60,60,60,105,105,105,6400,35,0.5,2,1,1,1,0,1,1,2,1,1,1,0,0.5,1,1,1,1
+Honchkrow,Dongkarasuドンカラス,430,4,"['Insomnia', 'Super Luck', 'Moxie']",dark,flying,0,50,0.9,27.3,Big Boss Pokémon,1059860,30,505,125,52,100,105,52,71,5120,35,1,0.5,1,2,2,1,1,1,0.5,0.5,0,2,1,1,0,2,1,1
+Glameow,Nyarmarニャルマー,431,4,"['Limber', 'Own Tempo', 'Keen Eye']",normal,NA,0,24.6,0.5,3.9,Catty Pokémon,800000,190,310,55,42,49,42,37,85,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Purugly,Bunyattoブニャット,432,4,"['Thick Fat', 'Own Tempo', 'Defiant']",normal,NA,0,24.6,1,43.8,Tiger Cat Pokémon,800000,75,452,82,64,71,64,59,112,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Chingling,Lisyanリーシャン,433,4,['Levitate'],psychic,NA,0,50,0.2,0.6,Bell Pokémon,800000,120,285,30,50,45,65,50,45,6400,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Stunky,Skunpuuスカンプー,434,4,"['Stench', 'Aftermath', 'Keen Eye']",poison,dark,0,50,0.4,19.2,Skunk Pokémon,1000000,225,329,63,47,63,41,41,74,5120,70,1,0.5,1,1,1,1,1,1,0.5,0.5,2,1,1,0.5,0,1,1,1
+Skuntank,Skutankスカタンク,435,4,"['Stench', 'Aftermath', 'Keen Eye']",poison,dark,0,50,1,38,Skunk Pokémon,1000000,60,479,93,67,103,71,61,84,5120,70,1,0.5,1,1,1,1,1,1,0.5,0.5,2,1,1,0.5,0,1,1,1
+Bronzor,Dohmirrorドーミラー,436,4,"['Levitate', 'Heatproof', 'Heavy Metal']",steel,psychic,0,NA,0.5,60.5,Bronze Pokémon,1000000,255,300,24,86,57,24,86,23,5120,70,1,2,0.5,1,0.5,1,2,0.5,2,0.5,2,0.5,0.5,0,0.25,0.5,0.5,1
+Bronzong,Dohtakunドータクン,437,4,"['Levitate', 'Heatproof', 'Heavy Metal']",steel,psychic,0,NA,1.3,187,Bronze Bell Pokémon,1000000,90,500,89,116,67,79,116,33,5120,70,1,2,0.5,1,0.5,1,2,0.5,2,0.5,2,0.5,0.5,0,0.25,0.5,0.5,1
+Bonsly,Usohachiウソハチ,438,4,"['Sturdy', 'Rock Head', 'Rattled']",rock,NA,0,50,0.5,15,Bonsai Pokémon,1000000,255,290,80,95,50,10,45,10,5120,70,1,1,1,1,1,2,0.5,0.5,1,2,2,1,0.5,0.5,1,1,2,2
+Mime Jr.,Maneneマネネ,439,4,"['Soundproof', 'Filter', 'Technician']",psychic,fairy,0,50,0.6,13,Mime Pokémon,1000000,145,310,25,45,20,70,90,60,6400,70,1,1,0,1,1,0.25,1,1,2,1,1,1,1,2,0.5,1,2,1
+Happiny,Pinpukuピンプク,440,4,"['Natural Cure', 'Serene Grace', 'Friend Guard']",normal,NA,0,0,0.6,24.4,Playhouse Pokémon,800000,130,220,5,5,100,15,65,30,10240,140,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Chatot,Perapペラップ,441,4,"['Keen Eye', 'Tangled Feet', 'Big Pecks']",normal,flying,0,50,0.5,1.9,Music Note Pokémon,1059860,30,411,65,45,76,92,42,91,5120,35,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Spiritomb,Mikarugeミカルゲ,442,4,"['Pressure', 'Infiltrator']",ghost,dark,0,50,1,108,Forbidden Pokémon,1000000,100,485,92,108,50,92,108,35,7680,70,1,1,1,1,2,0,1,1,1,1,1,1,0,0.5,0,1,1,1
+Gible,Fukamaruフカマル,443,4,"['Sand Veil', 'Rough Skin']",dragon,ground,0,50,0.7,20.5,Land Shark Pokémon,1250000,45,300,70,45,58,40,45,42,10240,70,1,1,2,0,2,1,0.5,1,1,1,1,4,1,0.5,1,0.5,1,1
+Gabite,Gabiteガバイト,444,4,"['Sand Veil', 'Rough Skin']",dragon,ground,0,50,1.4,56,Cave Pokémon,1250000,45,410,90,65,68,50,55,82,10240,70,1,1,2,0,2,1,0.5,1,1,1,1,4,1,0.5,1,0.5,1,1
+Garchomp,Gaburiasガブリアス,445,4,"['Sand Veil', 'Rough Skin']",dragon,ground,0,50,1.9,95,Mach Pokémon,1250000,45,700,170,115,108,120,95,92,10240,70,1,1,2,0,2,1,0.5,1,1,1,1,4,1,0.5,1,0.5,1,1
+Munchlax,Gonbeゴンベ,446,4,"['Pickup', 'Thick Fat', 'Gluttony']",normal,NA,0,88.1,0.6,105,Big Eater Pokémon,1250000,50,390,85,40,135,40,85,5,10240,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Riolu,Rioluリオル,447,4,"['Steadfast', 'Inner Focus', 'Prankster']",fighting,NA,0,88.1,0.7,20.2,Emanation Pokémon,1059860,75,285,70,40,40,35,40,60,6400,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Lucario,Lucarioルカリオ,448,4,"['Steadfast', 'Inner Focus', 'Justified']",fighting,steel,0,88.1,1.2,54,Aura Pokémon,1059860,45,625,145,88,70,140,70,112,6400,70,0.25,0.5,0.5,1,1,2,2,1,1,0.5,2,0.5,0.5,0,1,0.25,0.5,1
+Hippopotas,Hippopotasヒポポタス,449,4,"['Sand Stream', 'Sand Force']",ground,NA,0,50,0.8,49.5,Hippo Pokémon,1250000,140,330,72,78,68,38,42,32,7680,70,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+Hippowdon,Kabaldonカバルドン,450,4,"['Sand Stream', 'Sand Force']",ground,NA,0,50,2,300,Heavyweight Pokémon,1250000,60,525,112,118,108,68,72,47,7680,70,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+Skorupi,Scorupiスコルピ,451,4,"['Battle Armor', 'Sniper', 'Keen Eye']",poison,bug,0,50,0.8,12,Scorpion Pokémon,1250000,120,330,50,90,40,30,55,65,5120,70,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+Drapion,Dorapionドラピオン,452,4,"['Battle Armor', 'Sniper', 'Keen Eye']",poison,dark,0,50,1.3,61.5,Ogre Scorp Pokémon,1250000,45,500,90,110,70,60,75,95,5120,70,1,0.5,1,1,1,1,1,1,0.5,0.5,2,1,1,0.5,0,1,1,1
+Croagunk,Gureggruグレッグル,453,4,"['Anticipation', 'Dry Skin', 'Poison Touch']",poison,fighting,0,50,0.7,23,Toxic Mouth Pokémon,1000000,140,300,61,40,48,61,40,50,2560,100,0.25,0.5,1,1,1,0.5,1,2,1,0.5,2,1,1,0.5,4,0.5,1,1
+Toxicroak,Dokurogドクロッグ,454,4,"['Anticipation', 'Dry Skin', 'Poison Touch']",poison,fighting,0,50,1.3,44.4,Toxic Mouth Pokémon,1000000,75,490,106,65,83,86,65,85,5120,70,0.25,0.5,1,1,1,0.5,1,2,1,0.5,2,1,1,0.5,4,0.5,1,1
+Carnivine,Muskippaマスキッパ,455,4,['Levitate'],grass,NA,0,50,1.4,27,Bug Catcher Pokémon,1250000,200,454,100,72,74,90,72,46,6400,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Finneon,Keikouoケイコウオ,456,4,"['Swift Swim', 'Storm Drain', 'Water Veil']",water,NA,0,50,0.4,7,Wing Fish Pokémon,600000,190,330,49,56,49,49,61,66,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Lumineon,Neolantネオラント,457,4,"['Swift Swim', 'Storm Drain', 'Water Veil']",water,NA,0,50,1.2,24,Neon Pokémon,600000,75,460,69,76,69,69,86,91,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Mantyke,Tamantaタマンタ,458,4,"['Swift Swim', 'Water Absorb', 'Water Veil']",water,flying,0,50,1,65,Kite Pokémon,1250000,25,345,20,50,45,60,120,50,6400,70,0.5,1,1,4,1,0.5,0.5,1,1,1,0,1,1,1,1,2,0.5,0.5
+Snover,Yukikaburiユキカブリ,459,4,"['Snow Warning', 'Soundproof']",grass,ice,0,50,1,50.5,Frosted Tree Pokémon,1250000,120,334,62,50,60,62,60,40,5120,70,2,1,1,0.5,1,2,4,2,1,0.5,0.5,1,1,2,1,2,2,0.5
+Abomasnow,Yukinoohユキノオー,460,4,"['Snow Warning', 'Soundproof']",grass,ice,0,50,2.2,135.5,Frosted Tree Pokémon,1250000,60,594,132,105,90,132,105,30,5120,70,2,1,1,0.5,1,2,4,2,1,0.5,0.5,1,1,2,1,2,2,0.5
+Weavile,Manyulaマニューラ,461,4,"['Pressure', 'Pickpocket']",dark,ice,0,50,1.1,34,Sharp Claw Pokémon,1059860,45,510,120,65,70,45,85,125,5120,35,2,0.5,1,1,2,4,2,1,0.5,1,1,0.5,1,1,0,2,2,1
+Magnezone,Jibacoilジバコイル,462,4,"['Magnet Pull', 'Sturdy', 'Analytic']",electric,steel,0,NA,1.2,180,Magnet Area Pokémon,1000000,30,535,70,115,70,130,90,60,5120,70,0.5,1,0.5,0.5,0.5,2,2,0.25,1,0.5,4,0.5,0.5,0,0.5,0.5,0.25,1
+Lickilicky,Berobeltベロベルト,463,4,"['Own Tempo', 'Oblivious', 'Cloud Nine']",normal,NA,0,50,1.7,140,Licking Pokémon,1000000,30,515,85,95,110,80,95,50,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Rhyperior,Dosidonドサイドン,464,4,"['Lightningrod', 'Solid Rock', 'Reckless']",ground,rock,0,50,2.4,282.8,Drill Pokémon,1250000,30,535,140,130,115,55,55,40,5120,70,1,1,1,0,1,2,0.5,0.5,1,4,2,2,0.5,0.25,1,0.5,2,4
+Tangrowth,Mojumboモジャンボ,465,4,"['Chlorophyll', 'Leaf Guard', 'Regenerator']",grass,NA,0,50,2,128.6,Vine Pokémon,1000000,30,535,100,125,100,110,50,50,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Electivire,Elekibleエレキブル,466,4,"['Motor Drive', 'Vital Spirit']",electric,NA,0,75.4,1.8,138.6,Thunderbolt Pokémon,1000000,30,540,123,67,75,95,85,95,6400,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Magmortar,Booburnブーバーン,467,4,"['Flame Body', 'Vital Spirit']",fire,NA,0,75.4,1.6,68,Blast Pokémon,1000000,30,540,95,67,75,125,95,83,6400,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Togekiss,Togekissトゲキッス,468,4,"['Hustle', 'Serene Grace', 'Super Luck']",fairy,flying,0,88.1,1.5,38,Jubilee Pokémon,800000,30,545,50,95,85,120,115,80,2560,70,0.25,0.5,0,2,1,0.25,1,1,1,0.5,0,2,1,2,1,2,2,1
+Yanmega,Megayanmaメガヤンマ,469,4,"['Speed Boost', 'Tinted Lens', 'Frisk']",bug,flying,0,50,1.9,51.5,Ogre Darner Pokémon,1000000,30,515,76,86,86,116,56,95,5120,70,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+Leafeon,Leafiaリーフィア,470,4,"['Leaf Guard', 'Chlorophyll']",grass,NA,0,88.1,1,25.5,Verdant Pokémon,1000000,45,525,110,130,65,60,65,95,8960,35,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Glaceon,Glaciaグレイシア,471,4,"['Snow Cloak', 'Ice Body']",ice,NA,0,88.1,0.8,25.9,Fresh Snow Pokémon,1000000,45,525,60,110,65,130,95,65,8960,35,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+Gliscor,Glionグライオン,472,4,"['Hyper Cutter', 'Sand Veil', 'Poison Heal']",ground,flying,0,50,2,42.5,Fang Scorp Pokémon,1059860,30,510,95,125,75,45,75,95,5120,70,0.5,1,1,0,1,0.5,1,1,1,1,0,4,1,0.5,1,1,1,2
+Mamoswine,Mammooマンムー,473,4,"['Oblivious', 'Snow Cloak', 'Thick Fat']",ice,ground,0,50,2.5,291,Twin Tusk Pokémon,1250000,50,530,130,80,110,70,60,80,5120,70,1,1,1,0,1,2,2,1,1,2,1,1,1,0.5,1,1,2,2
+Porygon-Z,Porygon-zポリゴンＺ,474,4,"['Adaptability', 'Download', 'Analytic']",normal,NA,0,NA,0.9,34,Virtual Pokémon,1000000,30,535,80,70,85,135,75,90,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Gallade,Erureidoエルレイド,475,4,"['Steadfast', 'Justified']",psychic,fighting,0,100,1.6,52,Blade Pokémon,1250000,45,618,165,95,68,65,115,110,5120,35,1,1,1,1,2,0.5,1,2,2,1,1,1,1,1,1,0.5,1,1
+Probopass,Dainoseダイノーズ,476,4,"['Sturdy', 'Magnet Pull', 'Sand Force']",rock,steel,0,50,1.4,340,Compass Pokémon,1000000,60,525,55,145,60,75,150,40,5120,70,0.5,1,0.5,1,0.5,4,1,0.25,1,1,4,0.5,0.25,0,0.5,0.5,1,2
+Dusknoir,Yonoirヨノワール,477,4,"['Pressure', 'Frisk']",ghost,NA,0,50,2.2,106.6,Gripper Pokémon,800000,45,525,100,135,45,65,135,45,6400,35,0.5,2,1,1,1,0,1,1,2,1,1,1,0,0.5,1,1,1,1
+Froslass,Yukimenokoユキメノコ,478,4,"['Snow Cloak', 'Cursed Body']",ice,ghost,0,0,1.3,26.6,Snow Land Pokémon,1000000,75,480,80,70,70,80,70,110,5120,70,0.5,2,1,1,1,0,2,1,2,1,1,0.5,0,0.5,1,2,2,1
+Rotom,Rotomロトム,479,4,['Levitate'],electric,ghost,0,NA,0.3,0.3,Plasma Pokémon,1000000,45,520,65,107,50,105,107,86,5120,70,0.5,2,1,0.5,1,0,1,0.5,2,1,2,1,0,0.5,1,1,0.5,1
+Uxie,Yuxieユクシー,480,4,['Levitate'],psychic,NA,1,NA,0.3,0.3,Knowledge Pokémon,1250000,3,580,75,130,75,75,130,95,20480,140,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Mesprit,Emritエムリット,481,4,['Levitate'],psychic,NA,1,NA,0.3,0.3,Emotion Pokémon,1250000,3,580,105,105,80,105,105,80,20480,140,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Azelf,Agnomeアグノム,482,4,['Levitate'],psychic,NA,1,NA,0.3,0.3,Willpower Pokémon,1250000,3,580,125,70,75,125,70,115,20480,140,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Dialga,Dialgaディアルガ,483,4,"['Pressure', 'Telepathy']",steel,dragon,1,NA,5.4,683,Temporal Pokémon,1250000,3,680,120,120,100,150,100,90,30720,0,0.5,1,1,0.5,1,2,1,0.5,1,0.25,2,1,0.5,0,0.5,0.5,0.5,0.5
+Palkia,Palkiaパルキア,484,4,"['Pressure', 'Telepathy']",water,dragon,1,NA,4.2,336,Spatial Pokémon,1250000,3,680,120,100,90,150,120,100,30720,0,1,1,2,1,2,1,0.25,1,1,1,1,1,1,1,1,1,0.5,0.25
+Heatran,Heatranヒードラン,485,4,"['Flash Fire', 'Flame Body']",fire,steel,1,50,1.7,430,Lava Dome Pokémon,1250000,3,600,90,106,91,130,106,77,2560,100,0.25,1,0.5,1,0.25,2,1,0.5,1,0.25,4,0.25,0.5,0,0.5,1,0.25,2
+Regigigas,Regigigasレジギガス,486,4,['Slow Start'],normal,NA,1,NA,3.7,420,Colossal Pokémon,1250000,3,670,160,110,110,80,110,100,30720,0,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Giratina,Giratina (another Forme)ギラティナ,487,4,"['Pressure', 'Telepathy', 'Levitate']",ghost,dragon,1,NA,4.5,750,Renegade Pokémon,1250000,3,680,120,100,150,120,100,90,30720,0,0.5,2,2,0.5,2,0,0.5,1,2,0.5,1,2,0,0.5,1,1,1,0.5
+Cresselia,Cresseliaクレセリア,488,4,['Levitate'],psychic,NA,1,0,1.5,85.6,Lunar Pokémon,1250000,3,600,70,120,120,75,130,85,30720,100,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Phione,Phioneフィオネ,489,4,['Hydration'],water,NA,0,NA,0.4,3.1,Sea Drifter Pokémon,1250000,30,480,80,80,80,80,80,80,10240,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Manaphy,Manaphyマナフィ,490,4,['Hydration'],water,NA,1,NA,0.3,1.4,Seafaring Pokémon,1250000,3,600,100,100,100,100,100,100,2560,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Darkrai,Darkraiダークライ,491,4,['Bad Dreams'],dark,NA,1,NA,1.5,50.5,Pitch-Black Pokémon,1250000,3,600,90,90,70,135,90,125,30720,0,2,0.5,1,1,2,2,1,1,0.5,1,1,1,1,1,0,1,1,1
+Shaymin,Shaymin (sky Forme)シェイミ,492,4,"['Natural Cure', 'Serene Grace']",grass,grass,1,NA,0.2,2.1,Gratitude Pokémon,1059860,45,600,103,75,100,120,75,127,30720,100,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Arceus,Arceusアルセウス,493,4,['Multitype'],normal,NA,1,NA,3.2,320,Alpha Pokémon,1250000,3,720,120,120,120,120,120,120,30720,0,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Victini,Victiniビクティニ,494,5,['Victory Star'],psychic,fire,1,NA,0.4,4,Victory Pokémon,1250000,3,600,100,100,100,100,100,100,30720,100,1,2,1,1,0.5,0.5,0.5,1,2,0.5,2,0.5,1,1,0.5,2,0.5,2
+Snivy,Tsutarjaツタージャ,495,5,"['Overgrow', 'Contrary']",grass,NA,0,88.1,0.6,8.1,Grass Snake Pokémon,1059860,45,308,45,55,45,45,55,63,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Servine,Janovyジャノビー,496,5,"['Overgrow', 'Contrary']",grass,NA,0,88.1,0.8,16,Grass Snake Pokémon,1059860,45,413,60,75,60,60,75,83,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Serperior,Jalordaジャローダ,497,5,"['Overgrow', 'Contrary']",grass,NA,0,88.1,3.3,63,Regal Pokémon,1059860,45,528,75,95,75,75,95,113,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Tepig,Pokabuポカブ,498,5,"['Blaze', 'Thick Fat']",fire,NA,0,88.1,0.5,9.9,Fire Pig Pokémon,1059860,45,308,63,45,65,45,45,45,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Pignite,Chaobooチャオブー,499,5,"['Blaze', 'Thick Fat']",fire,fighting,0,88.1,1,55.5,Fire Pig Pokémon,1059860,45,418,93,55,90,70,55,55,5120,70,0.25,0.5,1,1,1,1,0.5,2,1,0.5,2,0.5,1,1,2,1,0.5,2
+Emboar,Enbuohエンブオー,500,5,"['Blaze', 'Reckless']",fire,fighting,0,88.1,1.6,150,Mega Fire Pig Pokémon,1059860,45,528,123,65,110,100,65,65,5120,70,0.25,0.5,1,1,1,1,0.5,2,1,0.5,2,0.5,1,1,2,1,0.5,2
+Oshawott,Mijumaruミジュマル,501,5,"['Torrent', 'Shell Armor']",water,NA,0,88.1,0.5,5.9,Sea Otter Pokémon,1059860,45,308,55,45,55,63,45,45,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Dewott,Futachimaruフタチマル,502,5,"['Torrent', 'Shell Armor']",water,NA,0,88.1,0.8,24.5,Discipline Pokémon,1059860,45,413,75,60,75,83,60,60,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Samurott,Daikenkiダイケンキ,503,5,"['Torrent', 'Shell Armor']",water,NA,0,88.1,1.5,94.6,Formidable Pokémon,1059860,45,528,100,85,95,108,70,70,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Patrat,Minezumiミネズミ,504,5,"['Run Away', 'Keen Eye', 'Analytic']",normal,NA,0,50,0.5,11.6,Scout Pokémon,1000000,255,255,55,39,45,35,39,42,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Watchog,Miruhogミルホッグ,505,5,"['Illuminate', 'Keen Eye', 'Analytic']",normal,NA,0,50,1.1,27,Lookout Pokémon,1000000,255,420,85,69,60,60,69,77,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Lillipup,Yorterrieヨーテリー,506,5,"['Vital Spirit', 'Pickup', 'Run Away']",normal,NA,0,50,0.4,4.1,Puppy Pokémon,1059860,255,275,60,45,45,25,45,55,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Herdier,Herderrieハーデリア,507,5,"['Intimidate', 'Sand Rush', 'Scrappy']",normal,NA,0,50,0.9,14.7,Loyal Dog Pokémon,1059860,120,370,80,65,65,35,65,60,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Stoutland,Moolandムーランド,508,5,"['Intimidate', 'Sand Rush', 'Scrappy']",normal,NA,0,50,1.2,61,Big-Hearted Pokémon,1059860,45,500,110,90,85,45,90,80,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Purrloin,Choronekoチョロネコ,509,5,"['Limber', 'Unburden', 'Prankster']",dark,NA,0,50,0.4,10.1,Devious Pokémon,1000000,255,281,50,37,41,50,37,66,5120,70,2,0.5,1,1,2,2,1,1,0.5,1,1,1,1,1,0,1,1,1
+Liepard,Lepardasレパルダス,510,5,"['Limber', 'Unburden', 'Prankster']",dark,NA,0,50,1.1,37.5,Cruel Pokémon,1000000,90,446,88,50,64,88,50,106,5120,70,2,0.5,1,1,2,2,1,1,0.5,1,1,1,1,1,0,1,1,1
+Pansage,Yanappuヤナップ,511,5,"['Gluttony', 'Overgrow']",grass,NA,0,88.1,0.6,10.5,Grass Monkey Pokémon,1000000,190,316,53,48,50,53,48,64,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Simisage,Yanakkieヤナッキー,512,5,"['Gluttony', 'Overgrow']",grass,NA,0,88.1,1.1,30.5,Thorn Monkey Pokémon,1000000,75,498,98,63,75,98,63,101,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Pansear,Baoppuバオップ,513,5,"['Gluttony', 'Blaze']",fire,NA,0,88.1,0.6,11,High Temp Pokémon,1000000,190,316,53,48,50,53,48,64,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Simisear,Baokkieバオッキー,514,5,"['Gluttony', 'Blaze']",fire,NA,0,88.1,1,28,Ember Pokémon,1000000,75,498,98,63,75,98,63,101,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Panpour,Hiyappuヒヤップ,515,5,"['Gluttony', 'Torrent']",water,NA,0,88.1,0.6,13.5,Spray Pokémon,1000000,190,316,53,48,50,53,48,64,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Simipour,Hiyakkieヒヤッキー,516,5,"['Gluttony', 'Torrent']",water,NA,0,88.1,1,29,Geyser Pokémon,1000000,75,498,98,63,75,98,63,101,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Munna,Munnaムンナ,517,5,"['Forewarn', 'Synchronize', 'Telepathy']",psychic,NA,0,50,0.6,23.3,Dream Eater Pokémon,800000,190,292,25,45,76,67,55,24,2560,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Musharna,Musharnaムシャーナ,518,5,"['Forewarn', 'Synchronize', 'Telepathy']",psychic,NA,0,50,1.1,60.5,Drowsing Pokémon,800000,75,487,55,85,116,107,95,29,2560,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Pidove,Mamepatoマメパト,519,5,"['Big Pecks', 'Super Luck', 'Rivalry']",normal,flying,0,50,0.3,2.1,Tiny Pigeon Pokémon,1059860,255,264,55,50,50,36,30,43,3840,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Tranquill,Hatobohハトーボー,520,5,"['Big Pecks', 'Super Luck', 'Rivalry']",normal,flying,0,50,0.6,15,Wild Pigeon Pokémon,1059860,120,358,77,62,62,50,42,65,3840,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Unfezant,Kenhallowケンホロウ,521,5,"['Big Pecks', 'Super Luck', 'Rivalry']",normal,flying,0,50,1.2,29,Proud Pokémon,1059860,45,488,115,80,80,65,55,93,3840,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Blitzle,Shimamaシママ,522,5,"['Lightningrod', 'Motor Drive', 'Sap Sipper']",electric,NA,0,50,0.8,29.8,Electrified Pokémon,1000000,190,295,60,32,45,50,32,76,5120,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Zebstrika,Zebraikaゼブライカ,523,5,"['Lightningrod', 'Motor Drive', 'Sap Sipper']",electric,NA,0,50,1.6,79.5,Thunderbolt Pokémon,1000000,75,497,100,63,75,80,63,116,5120,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Roggenrola,Dangoroダンゴロ,524,5,"['Sturdy', 'Weak Armor', 'Sand Force']",rock,NA,0,50,0.4,18,Mantle Pokémon,1059860,255,280,75,85,55,25,25,15,3840,70,1,1,1,1,1,2,0.5,0.5,1,2,2,1,0.5,0.5,1,1,2,2
+Boldore,Gantleガントル,525,5,"['Sturdy', 'Weak Armor', 'Sand Force']",rock,NA,0,50,0.9,102,Ore Pokémon,1059860,120,390,105,105,70,50,40,20,3840,70,1,1,1,1,1,2,0.5,0.5,1,2,2,1,0.5,0.5,1,1,2,2
+Gigalith,Gigaiathギガイアス,526,5,"['Sturdy', 'Sand Stream', 'Sand Force']",rock,NA,0,50,1.7,260,Compressed Pokémon,1059860,45,515,135,130,85,60,80,25,3840,70,1,1,1,1,1,2,0.5,0.5,1,2,2,1,0.5,0.5,1,1,2,2
+Woobat,Koromoriコロモリ,527,5,"['Unaware', 'Klutz', 'Simple']",psychic,flying,0,50,0.4,2.1,Bat Pokémon,1000000,190,323,45,43,65,55,43,72,3840,70,1,2,1,2,1,0.25,1,1,2,0.5,0,2,1,1,0.5,2,1,1
+Swoobat,Kokoromoriココロモリ,528,5,"['Unaware', 'Klutz', 'Simple']",psychic,flying,0,50,0.9,10.5,Courting Pokémon,1000000,45,425,57,55,67,77,55,114,3840,70,1,2,1,2,1,0.25,1,1,2,0.5,0,2,1,1,0.5,2,1,1
+Drilbur,Mogurewモグリュー,529,5,"['Sand Rush', 'Sand Force', 'Mold Breaker']",ground,NA,0,50,0.3,8.5,Mole Pokémon,1000000,120,328,85,40,60,30,45,68,5120,70,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+Excadrill,Doryuzuドリュウズ,530,5,"['Sand Rush', 'Sand Force', 'Mold Breaker']",ground,steel,0,50,0.7,40.4,Subterrene Pokémon,1000000,60,508,135,60,110,50,65,88,5120,70,0.5,1,0.5,0,0.5,2,2,0.5,1,1,2,1,0.5,0,0.5,0.25,0.5,2
+Audino,Tabunneタブンネ,531,5,"['Healer', 'Regenerator', 'Klutz']",normal,NA,0,50,1.1,31,Hearing Pokémon,800000,255,545,60,126,103,80,126,50,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Timburr,Dokkorerドッコラー,532,5,"['Guts', 'Sheer Force', 'Iron Fist']",fighting,NA,0,75.4,0.6,12.5,Muscular Pokémon,1059860,180,305,80,55,75,25,35,35,5120,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Gurdurr,Dotekkotsuドテッコツ,533,5,"['Guts', 'Sheer Force', 'Iron Fist']",fighting,NA,0,75.4,1.2,40,Muscular Pokémon,1059860,90,405,105,85,85,40,50,40,5120,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Conkeldurr,Roubushinローブシン,534,5,"['Guts', 'Sheer Force', 'Iron Fist']",fighting,NA,0,75.4,1.4,87,Muscular Pokémon,1059860,45,505,140,95,105,55,65,45,5120,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Tympole,Otamaroオタマロ,535,5,"['Swift Swim', 'Hydration', 'Water Absorb']",water,NA,0,50,0.5,4.5,Tadpole Pokémon,1059860,255,294,50,40,50,50,40,64,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Palpitoad,Gamagaruガマガル,536,5,"['Swift Swim', 'Hydration', 'Water Absorb']",water,ground,0,50,0.8,17,Vibration Pokémon,1059860,120,384,65,55,75,65,55,69,5120,70,1,1,1,0,1,1,0.5,1,1,4,1,1,1,0.5,1,0.5,0.5,1
+Seismitoad,Gamagerogeガマゲロゲ,537,5,"['Swift Swim', 'Poison Touch', 'Water Absorb']",water,ground,0,50,1.5,62,Vibration Pokémon,1059860,45,509,95,75,105,85,75,74,5120,70,1,1,1,0,1,1,0.5,1,1,4,1,1,1,0.5,1,0.5,0.5,1
+Throh,Nagekiナゲキ,538,5,"['Guts', 'Inner Focus', 'Mold Breaker']",fighting,NA,0,100,1.3,55.5,Judo Pokémon,1000000,45,465,100,85,120,30,85,45,5120,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Sawk,Dagekiダゲキ,539,5,"['Sturdy', 'Inner Focus', 'Mold Breaker']",fighting,NA,0,100,1.4,51,Karate Pokémon,1000000,45,465,125,75,75,30,75,85,5120,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Sewaddle,Kurumiruクルミル,540,5,"['Swarm', 'Chlorophyll', 'Overcoat']",bug,grass,0,50,0.3,2.5,Sewing Pokémon,1059860,255,310,53,70,45,40,60,42,3840,70,2,1,1,0.5,1,0.5,4,4,1,0.25,0.25,2,1,2,1,2,1,0.5
+Swadloon,Kurumayuクルマユ,541,5,"['Leaf Guard', 'Chlorophyll', 'Overcoat']",bug,grass,0,50,0.5,7.3,Leaf-Wrapped Pokémon,1059860,120,380,63,90,55,50,80,42,3840,70,2,1,1,0.5,1,0.5,4,4,1,0.25,0.25,2,1,2,1,2,1,0.5
+Leavanny,Hahakomoriハハコモリ,542,5,"['Swarm', 'Chlorophyll', 'Overcoat']",bug,grass,0,50,1.2,20.5,Nurturing Pokémon,1059860,45,500,103,80,75,70,80,92,3840,70,2,1,1,0.5,1,0.5,4,4,1,0.25,0.25,2,1,2,1,2,1,0.5
+Venipede,Fushideフシデ,543,5,"['Poison Point', 'Swarm', 'Speed Boost']",bug,poison,0,50,0.4,5.3,Centipede Pokémon,1059860,255,260,45,59,30,30,39,57,3840,70,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+Whirlipede,Wheegaホイーガ,544,5,"['Poison Point', 'Swarm', 'Speed Boost']",bug,poison,0,50,1.2,58.5,Curlipede Pokémon,1059860,120,360,55,99,40,40,79,47,3840,70,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+Scolipede,Pendrorペンドラー,545,5,"['Poison Point', 'Swarm', 'Speed Boost']",bug,poison,0,50,2.5,200.5,Megapede Pokémon,1059860,45,485,100,89,60,55,69,112,5120,70,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+Cottonee,Monmenモンメン,546,5,"['Prankster', 'Infiltrator', 'Chlorophyll']",grass,fairy,0,50,0.3,0.6,Cotton Puff Pokémon,1000000,190,280,27,60,40,37,50,66,5120,70,1,0.5,0,0.5,1,0.5,2,2,1,0.5,0.5,2,1,4,1,1,2,0.5
+Whimsicott,Elfuunエルフーン,547,5,"['Prankster', 'Infiltrator', 'Chlorophyll']",grass,fairy,0,50,0.7,6.6,Windveiled Pokémon,1000000,75,480,67,85,60,77,75,116,5120,70,1,0.5,0,0.5,1,0.5,2,2,1,0.5,0.5,2,1,4,1,1,2,0.5
+Petilil,Churineチュリネ,548,5,"['Chlorophyll', 'Own Tempo', 'Leaf Guard']",grass,NA,0,0,0.5,6.6,Bulb Pokémon,1000000,190,280,35,50,45,70,50,30,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Lilligant,Dredearドレディア,549,5,"['Chlorophyll', 'Own Tempo', 'Leaf Guard']",grass,NA,0,0,1.1,16.3,Flowering Pokémon,1000000,75,480,60,75,70,110,75,90,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Basculin,Bassraoバスラオ,550,5,"['Reckless', 'Rock Head', 'Adaptability', 'Mold Breaker']",water,NA,0,50,1,18,Hostile Pokémon,1000000,25,460,92,65,70,80,55,98,10240,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Sandile,Megurocoメグロコ,551,5,"['Intimidate', 'Moxie', 'Anger Point']",ground,dark,0,50,0.7,15.2,Desert Croc Pokémon,1059860,180,292,72,35,50,35,35,65,5120,70,2,0.5,1,0,2,2,1,1,0.5,2,1,2,1,0.5,0,0.5,1,2
+Krokorok,Waruvileワルビル,552,5,"['Intimidate', 'Moxie', 'Anger Point']",ground,dark,0,50,1,33.4,Desert Croc Pokémon,1059860,90,351,82,45,60,45,45,74,5120,70,2,0.5,1,0,2,2,1,1,0.5,2,1,2,1,0.5,0,0.5,1,2
+Krookodile,Waruvialワルビアル,553,5,"['Intimidate', 'Moxie', 'Anger Point']",ground,dark,0,50,1.5,96.3,Intimidation Pokémon,1059860,45,519,117,80,95,65,70,92,5120,70,2,0.5,1,0,2,2,1,1,0.5,2,1,2,1,0.5,0,0.5,1,2
+Darumaka,Darumakkaダルマッカ,554,5,"['Hustle', 'Inner Focus']",fire,NA,0,50,0.6,37.5,Zen Charm Pokémon,1059860,120,315,90,45,70,15,45,50,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Darmanitan,Hihidarumaヒヒダルマ,555,5,"['Sheer Force', 'Zen Mode']",fire,fire,0,50,1.3,92.9,Blazing Pokémon,1059860,60,540,30,105,105,140,105,55,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Maractus,Maracacchiマラカッチ,556,5,"['Water Absorb', 'Chlorophyll', 'Storm Drain']",grass,NA,0,50,1,28,Cactus Pokémon,1000000,255,461,86,67,75,106,67,60,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Dwebble,Ishizumaiイシズマイ,557,5,"['Sturdy', 'Shell Armor', 'Weak Armor']",bug,rock,0,50,0.3,14.5,Rock Inn Pokémon,1000000,190,325,65,85,50,35,35,55,5120,70,1,1,1,1,1,1,1,1,1,1,1,1,0.5,0.5,1,2,2,2
+Crustle,Iwapalaceイワパレス,558,5,"['Sturdy', 'Shell Armor', 'Weak Armor']",bug,rock,0,50,1.4,200,Stone Home Pokémon,1000000,75,485,105,125,70,65,75,45,5120,70,1,1,1,1,1,1,1,1,1,1,1,1,0.5,0.5,1,2,2,2
+Scraggy,Zurugguズルッグ,559,5,"['Shed Skin', 'Moxie', 'Intimidate']",dark,fighting,0,50,0.6,11.8,Shedding Pokémon,1000000,180,348,75,70,50,35,70,48,3840,35,1,0.25,1,1,4,2,1,2,0.5,1,1,1,1,1,0,0.5,1,1
+Scrafty,Zuruzukinズルズキン,560,5,"['Shed Skin', 'Moxie', 'Intimidate']",dark,fighting,0,50,1.1,30,Hoodlum Pokémon,1000000,90,488,90,115,65,45,115,58,3840,70,1,0.25,1,1,4,2,1,2,0.5,1,1,1,1,1,0,0.5,1,1
+Sigilyph,Symbolerシンボラー,561,5,"['Wonder Skin ', 'Magic Guard', 'Tinted Lens']",psychic,flying,0,50,1.4,14,Avianoid Pokémon,1000000,45,490,58,80,72,103,80,97,5120,70,1,2,1,2,1,0.25,1,1,2,0.5,0,2,1,1,0.5,2,1,1
+Yamask,Desumasuデスマス,562,5,['Mummy'],ghost,NA,0,50,0.5,1.5,Spirit Pokémon,1000000,190,303,30,85,38,55,65,30,6400,70,0.5,2,1,1,1,0,1,1,2,1,1,1,0,0.5,1,1,1,1
+Cofagrigus,Desukarnデスカーン,563,5,['Mummy'],ghost,NA,0,50,1.7,76.5,Coffin Pokémon,1000000,90,483,50,145,58,95,105,30,6400,70,0.5,2,1,1,1,0,1,1,2,1,1,1,0,0.5,1,1,1,1
+Tirtouga,Protogaプロトーガ,564,5,"['Solid Rock', 'Sturdy', 'Swift Swim']",water,rock,0,88.1,0.7,16.5,Prototurtle Pokémon,1000000,45,355,78,103,54,53,45,22,7680,70,1,1,1,2,1,2,0.25,0.5,1,4,2,0.5,0.5,0.5,1,1,1,1
+Carracosta,Abagouraアバゴーラ,565,5,"['Solid Rock', 'Sturdy', 'Swift Swim']",water,rock,0,88.1,1.2,81,Prototurtle Pokémon,1000000,45,495,108,133,74,83,65,32,7680,70,1,1,1,2,1,2,0.25,0.5,1,4,2,0.5,0.5,0.5,1,1,1,1
+Archen,Archenアーケン,566,5,['Defeatist'],rock,flying,0,88.1,0.5,9.5,First Bird Pokémon,1000000,45,401,112,45,55,74,45,70,7680,70,0.5,1,1,2,1,1,0.5,0.5,1,1,0,2,0.5,0.5,1,2,2,2
+Archeops,Archeosアーケオス,567,5,['Defeatist'],rock,flying,0,88.1,1.4,32,First Bird Pokémon,1000000,45,567,140,65,75,112,65,110,7680,70,0.5,1,1,2,1,1,0.5,0.5,1,1,0,2,0.5,0.5,1,2,2,2
+Trubbish,Yabukuronヤブクロン,568,5,"['Stench', 'Sticky Hold', 'Aftermath']",poison,NA,0,50,0.6,31,Trash Bag Pokémon,1000000,190,329,50,62,50,40,62,65,5120,70,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+Garbodor,Dustdasダストダス,569,5,"['Stench', 'Weak Armor', 'Aftermath']",poison,NA,0,50,1.9,107.3,Trash Heap Pokémon,1000000,60,474,95,82,80,60,82,75,5120,70,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+Zorua,Zoruaゾロア,570,5,['Illusion'],dark,NA,0,88.1,0.7,12.5,Tricky Fox Pokémon,1059860,75,330,65,40,40,80,40,65,6400,70,2,0.5,1,1,2,2,1,1,0.5,1,1,1,1,1,0,1,1,1
+Zoroark,Zoroarkゾロアーク,571,5,['Illusion'],dark,NA,0,88.1,1.6,81.1,Illusion Fox Pokémon,1059860,45,510,105,60,60,120,60,105,5120,70,2,0.5,1,1,2,2,1,1,0.5,1,1,1,1,1,0,1,1,1
+Minccino,Chillarmyチラーミィ,572,5,"['Cute Charm', 'Technician', 'Skill Link']",normal,NA,0,24.6,0.4,5.8,Chinchilla Pokémon,800000,255,300,50,40,55,40,40,75,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Cinccino,Chillaccinoチラチーノ,573,5,"['Cute Charm', 'Technician', 'Skill Link']",normal,NA,0,24.6,0.5,7.5,Scarf Pokémon,800000,60,470,95,60,75,65,60,115,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Gothita,Gothimuゴチム,574,5,"['Frisk', 'Competitive', 'Shadow Tag']",psychic,NA,0,24.6,0.4,5.8,Fixation Pokémon,1059860,200,290,30,50,45,55,65,45,5120,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Gothorita,Gothimiruゴチミル,575,5,"['Frisk', 'Competitive', 'Shadow Tag']",psychic,NA,0,24.6,0.7,18,Manipulate Pokémon,1059860,100,390,45,70,60,75,85,55,5120,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Gothitelle,Gothiruselleゴチルゼル,576,5,"['Frisk', 'Competitive', 'Shadow Tag']",psychic,NA,0,24.6,1.5,44,Astral Body Pokémon,1059860,50,490,55,95,70,95,110,65,5120,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Solosis,Uniranユニラン,577,5,"['Overcoat', 'Magic Guard', 'Regenerator']",psychic,NA,0,50,0.3,1,Cell Pokémon,1059860,200,290,30,40,45,105,50,20,5120,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Duosion,Doublanダブラン,578,5,"['Overcoat', 'Magic Guard', 'Regenerator']",psychic,NA,0,50,0.6,8,Mitosis Pokémon,1059860,100,370,40,50,65,125,60,30,5120,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Reuniclus,Lanculusランクルス,579,5,"['Overcoat', 'Magic Guard', 'Regenerator']",psychic,NA,0,50,1,20.1,Multiplying Pokémon,1059860,50,490,65,75,110,125,85,30,5120,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Ducklett,Koaruhieコアルヒー,580,5,"['Keen Eye', 'Big Pecks', 'Hydration']",water,flying,0,50,0.5,5.5,Water Bird Pokémon,1000000,190,305,44,50,62,44,50,55,5120,70,0.5,1,1,4,1,0.5,0.5,1,1,1,0,1,1,1,1,2,0.5,0.5
+Swanna,Swannaスワンナ,581,5,"['Keen Eye', 'Big Pecks', 'Hydration']",water,flying,0,50,1.3,24.2,White Bird Pokémon,1000000,45,473,87,63,75,87,63,98,5120,70,0.5,1,1,4,1,0.5,0.5,1,1,1,0,1,1,1,1,2,0.5,0.5
+Vanillite,Vanipetiバニプッチ,582,5,"['Ice Body', 'Snow Cloak', 'Weak Armor']",ice,NA,0,50,0.4,5.7,Fresh Snow Pokémon,1250000,255,305,50,50,36,65,60,44,5120,70,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+Vanillish,Vanirichバニリッチ,583,5,"['Ice Body', 'Snow Cloak', 'Weak Armor']",ice,NA,0,50,1.1,41,Icy Snow Pokémon,1250000,120,395,65,65,51,80,75,59,5120,70,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+Vanilluxe,Baivanillaバイバニラ,584,5,"['Ice Body', 'Snow Warning', 'Weak Armor']",ice,NA,0,50,1.3,57.5,Snowstorm Pokémon,1250000,45,535,95,85,71,110,95,79,5120,70,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+Deerling,Shikijikaシキジカ,585,5,"['Chlorophyll', 'Sap Sipper', 'Serene Grace']",normal,grass,0,50,0.6,19.5,Season Pokémon,1000000,190,335,60,50,60,40,50,75,5120,70,2,1,1,0.5,1,2,2,2,0,0.5,0.5,2,1,2,1,1,1,0.5
+Sawsbuck,Mebukijikaメブキジカ,586,5,"['Chlorophyll', 'Sap Sipper', 'Serene Grace']",normal,grass,0,50,1.9,92.5,Season Pokémon,1000000,75,475,100,70,80,60,70,95,5120,70,2,1,1,0.5,1,2,2,2,0,0.5,0.5,2,1,2,1,1,1,0.5
+Emolga,Emongaエモンガ,587,5,"['Static', 'Motor Drive']",electric,flying,0,50,0.4,5,Sky Squirrel Pokémon,1000000,200,428,75,60,55,75,60,103,5120,70,0.5,1,1,1,1,0.5,1,0.5,1,0.5,0,2,1,1,1,2,0.5,1
+Karrablast,Kaburumoカブルモ,588,5,"['Swarm', 'Shed Skin', 'No Guard']",bug,NA,0,50,0.5,5.9,Clamping Pokémon,1000000,200,315,75,45,50,40,45,60,3840,70,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+Escavalier,Chevargoシュバルゴ,589,5,"['Swarm', 'Shell Armor', 'Overcoat']",bug,steel,0,50,1,33,Cavalry Pokémon,1000000,75,495,135,105,70,60,105,20,3840,70,0.5,1,0.5,1,0.5,1,4,1,1,0.25,1,0.5,0.5,0,0.5,1,0.5,1
+Foongus,Tamagetakeタマゲタケ,590,5,"['Effect Spore', 'Regenerator']",grass,poison,0,50,0.2,1,Mushroom Pokémon,1000000,190,294,55,45,69,55,55,15,5120,70,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+Amoonguss,Morobareruモロバレル,591,5,"['Effect Spore', 'Regenerator']",grass,poison,0,50,0.6,10.5,Mushroom Pokémon,1000000,75,464,85,70,114,85,80,30,5120,70,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+Frillish,Pururillプルリル,592,5,"['Water Absorb', 'Cursed Body', 'Damp']",water,ghost,0,50,1.2,33,Floating Pokémon,1000000,190,335,40,50,55,65,85,40,5120,70,0.5,2,1,2,1,0,0.5,1,2,2,1,0.5,0,0.5,1,1,0.5,0.5
+Jellicent,Burungelブルンゲル,593,5,"['Water Absorb', 'Cursed Body', 'Damp']",water,ghost,0,50,2.2,135,Floating Pokémon,1000000,60,480,60,70,100,85,105,60,5120,70,0.5,2,1,2,1,0,0.5,1,2,2,1,0.5,0,0.5,1,1,0.5,0.5
+Alomomola,Mamanbouママンボウ,594,5,"['Healer', 'Hydration', 'Regenerator']",water,NA,0,50,1.2,31.6,Caring Pokémon,800000,75,470,75,80,165,40,45,65,10240,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Joltik,Bachuruバチュル,595,5,"['Compoundeyes', 'Unnerve', 'Swarm']",bug,electric,0,50,0.1,0.6,Attaching Pokémon,1000000,190,319,47,50,50,57,50,65,5120,70,1,1,1,0.5,1,0.5,2,1,1,0.5,1,1,1,1,1,2,0.5,1
+Galvantula,Dentulaデンチュラ,596,5,"['Compoundeyes', 'Unnerve', 'Swarm']",bug,electric,0,50,0.8,14.3,EleSpider Pokémon,1000000,75,472,77,60,70,97,60,108,5120,70,1,1,1,0.5,1,0.5,2,1,1,0.5,1,1,1,1,1,2,0.5,1
+Ferroseed,Tesseedテッシード,597,5,['Iron Barbs'],grass,steel,0,50,0.6,18.8,Thorn Seed Pokémon,1000000,255,305,50,91,44,24,86,10,5120,70,1,1,0.5,0.5,0.5,2,4,1,1,0.25,1,1,0.5,0,0.5,0.5,0.5,0.5
+Ferrothorn,Nutreyナットレイ,598,5,"['Iron Barbs', 'Anticipation']",grass,steel,0,50,1,110,Thorn Pod Pokémon,1000000,90,489,94,131,74,54,116,20,5120,70,1,1,0.5,0.5,0.5,2,4,1,1,0.25,1,1,0.5,0,0.5,0.5,0.5,0.5
+Klink,Giaruギアル,599,5,"['Plus', 'Minus', 'Clear Body']",steel,NA,0,NA,0.3,21,Gear Pokémon,1059860,130,300,55,70,40,45,60,30,5120,70,0.5,1,0.5,1,0.5,2,2,0.5,1,0.5,2,0.5,0.5,0,0.5,0.5,0.5,1
+Klang,Gigiaruギギアル,600,5,"['Plus', 'Minus', 'Clear Body']",steel,NA,0,NA,0.6,51,Gear Pokémon,1059860,60,440,80,95,60,70,85,50,5120,70,0.5,1,0.5,1,0.5,2,2,0.5,1,0.5,2,0.5,0.5,0,0.5,0.5,0.5,1
+Klinklang,Gigigiaruギギギアル,601,5,"['Plus', 'Minus', 'Clear Body']",steel,NA,0,NA,0.6,81,Gear Pokémon,1059860,30,520,100,115,60,70,85,90,5120,70,0.5,1,0.5,1,0.5,2,2,0.5,1,0.5,2,0.5,0.5,0,0.5,0.5,0.5,1
+Tynamo,Shibishirasuシビシラス,602,5,['Levitate'],electric,NA,0,50,0.2,0.3,EleFish Pokémon,1250000,190,275,55,40,35,45,40,60,5120,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Eelektrik,Shibibeelシビビール,603,5,['Levitate'],electric,NA,0,50,1.2,22,EleFish Pokémon,1250000,60,405,85,70,65,75,70,40,5120,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Eelektross,Shibirudonシビルドン,604,5,['Levitate'],electric,NA,0,50,2.1,80.5,EleFish Pokémon,1250000,30,515,115,80,85,105,80,50,5120,70,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Elgyem,Ligrayリグレー,605,5,"['Telepathy', 'Synchronize', 'Analytic']",psychic,NA,0,50,0.5,9,Cerebral Pokémon,1000000,255,335,55,55,55,85,55,30,5120,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Beheeyem,Ohbemオーベム,606,5,"['Telepathy', 'Synchronize', 'Analytic']",psychic,NA,0,50,1,34.5,Cerebral Pokémon,1000000,90,485,75,75,75,125,95,40,5120,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Litwick,Hitomoshiヒトモシ,607,5,"['Flash Fire', 'Flame Body', 'Infiltrator']",ghost,fire,0,50,0.3,3.1,Candle Pokémon,1059860,190,275,30,55,50,65,55,20,5120,70,0.25,2,1,1,0.5,0,0.5,1,2,0.5,2,0.5,0,0.5,1,2,0.5,2
+Lampent,Lamplerランプラー,608,5,"['Flash Fire', 'Flame Body', 'Infiltrator']",ghost,fire,0,50,0.6,13,Lamp Pokémon,1059860,90,370,40,60,60,95,60,55,5120,70,0.25,2,1,1,0.5,0,0.5,1,2,0.5,2,0.5,0,0.5,1,2,0.5,2
+Chandelure,Chandelaシャンデラ,609,5,"['Flash Fire', 'Flame Body', 'Infiltrator']",ghost,fire,0,50,1,34.3,Luring Pokémon,1059860,45,520,55,90,60,145,90,80,5120,70,0.25,2,1,1,0.5,0,0.5,1,2,0.5,2,0.5,0,0.5,1,2,0.5,2
+Axew,Kibagoキバゴ,610,5,"['Rivalry', 'Mold Breaker', 'Unnerve']",dragon,NA,0,50,0.6,18,Tusk Pokémon,1250000,75,320,87,60,46,30,40,57,10240,35,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+Fraxure,Onondoオノンド,611,5,"['Rivalry', 'Mold Breaker', 'Unnerve']",dragon,NA,0,50,1,36,Axe Jaw Pokémon,1250000,60,410,117,70,66,40,50,67,10240,35,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+Haxorus,Ononokusオノノクス,612,5,"['Rivalry', 'Mold Breaker', 'Unnerve']",dragon,NA,0,50,1.8,105.5,Axe Jaw Pokémon,1250000,45,540,147,90,76,60,70,97,10240,35,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+Cubchoo,Kumasyunクマシュン,613,5,"['Snow Cloak', 'Slush Rush', 'Rattled']",ice,NA,0,50,0.5,8.5,Chill Pokémon,1000000,120,305,70,40,55,60,40,40,5120,70,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+Beartic,Tunbearツンベアー,614,5,"['Snow Cloak', 'Slush Rush', 'Swift Swim']",ice,NA,0,50,2.6,260,Freezing Pokémon,1000000,60,505,130,80,95,70,80,50,5120,70,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+Cryogonal,Freegeoフリージオ,615,5,['Levitate'],ice,NA,0,NA,1.1,148,Crystallizing Pokémon,1000000,25,515,50,50,80,95,135,105,6400,70,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+Shelmet,Chobomakiチョボマキ,616,5,"['Hydration', 'Shell Armor', 'Overcoat']",bug,NA,0,50,0.4,7.7,Snail Pokémon,1000000,200,305,40,85,50,40,65,25,3840,70,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+Accelgor,Agilderアギルダー,617,5,"['Hydration', 'Sticky Hold', 'Unburden']",bug,NA,0,50,0.8,25.3,Shell Out Pokémon,1000000,75,495,70,40,80,100,60,145,3840,70,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+Stunfisk,Maggyoマッギョ,618,5,"['Static', 'Limber', 'Sand Veil']",ground,electric,0,50,0.7,11,Trap Pokémon,1000000,75,471,66,84,109,81,99,32,5120,70,1,1,1,0,1,1,1,0.5,1,2,2,2,1,0.5,1,0.5,0.5,2
+Mienfoo,Kojofuコジョフー,619,5,"['Inner Focus', 'Regenerator', 'Reckless']",fighting,NA,0,50,0.9,20,Martial Arts Pokémon,1059860,180,350,85,50,45,55,50,65,6400,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Mienshao,Kojondoコジョンド,620,5,"['Inner Focus', 'Regenerator', 'Reckless']",fighting,NA,0,50,1.4,35.5,Martial Arts Pokémon,1059860,45,510,125,60,65,95,60,105,6400,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Druddigon,Crimganクリムガン,621,5,"['Rough Skin', 'Sheer Force', 'Mold Breaker']",dragon,NA,0,50,1.6,139,Cave Pokémon,1000000,45,485,120,90,77,60,90,48,7680,70,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+Golett,Gobitゴビット,622,5,"['Iron Fist', 'Klutz', 'No Guard']",ground,ghost,0,NA,1,92,Automaton Pokémon,1000000,190,303,74,50,59,35,50,35,6400,70,0.5,2,1,0,1,0,1,1,2,2,1,2,0,0.25,1,0.5,1,2
+Golurk,Goloogゴルーグ,623,5,"['Iron Fist', 'Klutz', 'No Guard']",ground,ghost,0,NA,2.8,330,Automaton Pokémon,1000000,90,483,124,80,89,55,80,55,6400,70,0.5,2,1,0,1,0,1,1,2,2,1,2,0,0.25,1,0.5,1,2
+Pawniard,Komatanaコマタナ,624,5,"['Defiant', 'Inner Focus', 'Pressure']",dark,steel,0,50,0.5,10.2,Sharp Blade Pokémon,1000000,120,340,85,70,45,40,40,60,5120,35,1,0.5,0.5,1,1,4,2,0.5,0.5,0.5,2,0.5,0.5,0,0,0.5,0.5,1
+Bisharp,Kirikizanキリキザン,625,5,"['Defiant', 'Inner Focus', 'Pressure']",dark,steel,0,50,1.6,70,Sword Blade Pokémon,1000000,45,490,125,100,65,60,70,70,5120,35,1,0.5,0.5,1,1,4,2,0.5,0.5,0.5,2,0.5,0.5,0,0,0.5,0.5,1
+Bouffalant,Buffronバッフロン,626,5,"['Reckless', 'Sap Sipper', 'Soundproof']",normal,NA,0,50,1.6,94.6,Bash Buffalo Pokémon,1000000,45,490,110,95,95,40,95,55,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Rufflet,Washibonワシボン,627,5,"['Keen Eye', 'Sheer Force', 'Hustle']",normal,flying,0,100,0.5,10.5,Eaglet Pokémon,1250000,190,350,83,50,70,37,50,60,5120,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Braviary,Warrgleウォーグル,628,5,"['Keen Eye', 'Sheer Force', 'Defiant']",normal,flying,0,100,1.5,41,Valiant Pokémon,1250000,60,510,123,75,100,57,75,80,5120,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Vullaby,Valchaiバルチャイ,629,5,"['Big Pecks', 'Overcoat', 'Weak Armor']",dark,flying,0,0,0.5,9,Diapered Pokémon,1250000,190,370,55,75,70,45,65,60,5120,35,1,0.5,1,2,2,1,1,1,0.5,0.5,0,2,1,1,0,2,1,1
+Mandibuzz,Vulginaバルジーナ,630,5,"['Big Pecks', 'Overcoat', 'Weak Armor']",dark,flying,0,0,1.2,39.5,Bone Vulture Pokémon,1250000,60,510,65,105,110,55,95,80,5120,35,1,0.5,1,2,2,1,1,1,0.5,0.5,0,2,1,1,0,2,1,1
+Heatmor,Kuitaranクイタラン,631,5,"['Gluttony', 'Flash Fire', 'White Smoke']",fire,NA,0,50,1.4,58,Anteater Pokémon,1000000,90,484,97,66,85,105,66,65,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Durant,Aiantアイアント,632,5,"['Swarm', 'Hustle', 'Truant']",bug,steel,0,50,0.3,33,Iron Ant Pokémon,1000000,90,484,109,112,58,48,48,109,5120,70,0.5,1,0.5,1,0.5,1,4,1,1,0.25,1,0.5,0.5,0,0.5,1,0.5,1
+Deino,Monozuモノズ,633,5,['Hustle'],dark,dragon,0,50,0.8,17.3,Irate Pokémon,1250000,45,300,65,50,52,45,50,38,10240,35,2,0.5,2,0.5,4,2,0.5,1,0.5,0.5,1,2,1,1,0,1,1,0.5
+Zweilous,Diheadジヘッド,634,5,['Hustle'],dark,dragon,0,50,1.4,50,Hostile Pokémon,1250000,45,420,85,70,72,65,70,58,10240,35,2,0.5,2,0.5,4,2,0.5,1,0.5,0.5,1,2,1,1,0,1,1,0.5
+Hydreigon,Sazandoraサザンドラ,635,5,['Levitate'],dark,dragon,0,50,1.8,160,Brutal Pokémon,1250000,45,600,105,90,92,125,90,98,10240,35,2,0.5,2,0.5,4,2,0.5,1,0.5,0.5,1,2,1,1,0,1,1,0.5
+Larvesta,Merlarvaメラルバ,636,5,"['Flame Body', 'Swarm']",bug,fire,0,50,1.1,28.8,Torch Pokémon,1250000,45,360,85,55,55,50,55,60,10240,70,0.5,1,1,1,0.5,0.5,1,2,1,0.25,1,0.5,1,1,1,4,0.5,2
+Volcarona,Ulgamothウルガモス,637,5,"['Flame Body', 'Swarm']",bug,fire,0,50,1.6,46,Sun Pokémon,1250000,15,550,60,65,85,135,105,100,10240,70,0.5,1,1,1,0.5,0.5,1,2,1,0.25,1,0.5,1,1,1,4,0.5,2
+Cobalion,Cobalonコバルオン,638,5,['Justified'],steel,fighting,1,NA,2.1,250,Iron Will Pokémon,1250000,3,580,90,129,91,90,72,108,20480,35,0.25,0.5,0.5,1,1,2,2,1,1,0.5,2,0.5,0.5,0,1,0.25,0.5,1
+Terrakion,Terrakionテラキオン,639,5,['Justified'],rock,fighting,1,NA,1.9,260,Cavern Pokémon,1250000,3,580,129,90,91,72,90,108,20480,35,0.5,0.5,1,1,2,2,0.5,1,1,2,2,1,0.5,0.5,2,0.5,2,2
+Virizion,Virizionビリジオン,640,5,['Justified'],grass,fighting,1,NA,2,200,Grassland Pokémon,1250000,3,580,90,72,91,90,129,108,20480,35,1,0.5,1,0.5,2,1,2,4,1,0.5,0.5,2,1,2,2,0.5,1,0.5
+Tornadus,Tornelos (keshin Forme)トルネロス,641,5,"['Prankster', 'Defiant', 'Regenerator']",flying,NA,1,100,1.5,63,Cyclone Pokémon,1250000,3,580,100,80,79,110,90,121,30720,90,0.5,1,1,2,1,0.5,1,1,1,0.5,0,2,1,1,1,2,1,1
+Thundurus,Voltolos (keshin Forme)ボルトロス,642,5,"['Prankster', 'Defiant', 'Volt Absorb']",electric,flying,1,100,1.5,61,Bolt Strike Pokémon,1250000,3,580,105,70,79,145,80,101,30720,90,0.5,1,1,1,1,0.5,1,0.5,1,0.5,0,2,1,1,1,2,0.5,1
+Reshiram,Reshiramレシラム,643,5,['Turboblaze'],dragon,fire,1,NA,3.2,330,Vast White Pokémon,1250000,3,680,120,100,100,150,120,90,30720,0,0.5,1,2,0.5,1,1,0.25,1,1,0.25,2,1,1,1,1,2,0.5,1
+Zekrom,Zekromゼクロム,644,5,['Teravolt'],dragon,electric,1,NA,2.9,345,Deep Black Pokémon,1250000,3,680,150,120,100,120,100,90,30720,0,1,1,2,0.25,2,1,0.5,0.5,1,0.5,2,2,1,1,1,1,0.5,0.5
+Landorus,Landlos (keshin Forme)ランドロス,645,5,"['Sand Force', 'Sheer Force', 'Intimidate']",ground,flying,1,100,1.5,68,Abundance Pokémon,1250000,3,600,145,90,89,105,80,91,30720,90,0.5,1,1,0,1,0.5,1,1,1,1,0,4,1,0.5,1,1,1,2
+Kyurem,Kyuremキュレム,646,5,"['Pressure', 'Teravolt', 'Turboblaze']",dragon,ice,1,NA,3,325,Boundary Pokémon,1250000,3,700,120,90,125,170,100,95,30720,0,1,1,2,0.5,2,2,1,1,1,0.5,1,1,1,1,1,2,2,0.5
+Keldeo,Keldeo (itsumo No Sugata)ケルディオ,647,5,['Justified'],water,fighting,1,NA,1.4,48.5,Colt Pokémon,1250000,3,580,72,90,91,129,90,108,20480,35,0.5,0.5,1,2,2,1,0.5,2,1,2,1,0.5,1,1,2,0.5,0.5,0.5
+Meloetta,Meloetta (step Forme)メロエッタ,648,5,['Serene Grace'],normal,psychic,1,NA,0.6,6.5,Melody Pokémon,1250000,3,600,128,90,100,77,77,128,30720,100,2,2,1,1,1,1,1,1,0,1,1,1,1,1,0.5,1,1,1
+Genesect,Genesectゲノセクト,649,5,['Download'],bug,steel,1,NA,1.5,82.5,Paleozoic Pokémon,1250000,3,600,120,95,71,120,95,99,30720,0,0.5,1,0.5,1,0.5,1,4,1,1,0.25,1,0.5,0.5,0,0.5,1,0.5,1
+Chespin,Harimaronハリマロン,650,6,"['Overgrow', 'Bulletproof']",grass,NA,0,88.1,0.4,9,Spiky Nut Pokémon,1059860,45,313,61,65,56,48,45,38,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Quilladin,Hariborgハリボーグ,651,6,"['Overgrow', 'Bulletproof']",grass,NA,0,88.1,0.7,29,Spiny Armor Pokémon,1059860,45,405,78,95,61,56,58,57,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Chesnaught,Brigarronブリガロン,652,6,"['Overgrow', 'Bulletproof']",grass,fighting,0,88.1,1.6,90,Spiny Armor Pokémon,1059860,45,530,107,122,88,74,75,64,5120,70,1,0.5,1,0.5,2,1,2,4,1,0.5,0.5,2,1,2,2,0.5,1,0.5
+Fennekin,Fokkoフォッコ,653,6,"['Blaze', 'Magician']",fire,NA,0,88.1,0.4,9.4,Fox Pokémon,1059860,45,307,45,40,40,62,60,60,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Braixen,Tairenarテールナー,654,6,"['Blaze', 'Magician']",fire,NA,0,88.1,1,14.5,Fox Pokémon,1059860,45,409,59,58,59,90,70,73,5120,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Delphox,Mahoxyマフォクシー,655,6,"['Blaze', 'Magician']",fire,psychic,0,88.1,1.5,39,Fox Pokémon,1059860,45,534,69,72,75,114,100,104,5120,70,1,2,1,1,0.5,0.5,0.5,1,2,0.5,2,0.5,1,1,0.5,2,0.5,2
+Froakie,Keromatsuケロマツ,656,6,"['Torrent', 'Protean']",water,NA,0,88.1,0.3,7,Bubble Frog Pokémon,1059860,45,314,56,40,41,62,44,71,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Frogadier,Gekogashiraゲコガシラ,657,6,"['Torrent', 'Protean']",water,NA,0,88.1,0.6,10.9,Bubble Frog Pokémon,1059860,45,405,63,52,54,83,56,97,5120,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Greninja,Gekkougaゲッコウガ,658,6,"['Torrent', 'Protean', 'Battle Bond']",water,dark,0,88.1,1.5,40,Ninja Pokémon,1059860,45,640,145,67,72,153,71,132,5120,70,2,0.5,1,2,2,2,0.5,1,0.5,2,1,0.5,1,1,0,1,0.5,0.5
+Bunnelby,Horubeeホルビー,659,6,"['Pickup', 'Cheek Pouch', 'Huge Power']",normal,NA,0,50,0.4,5,Digging Pokémon,1000000,255,237,36,38,38,32,36,57,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Diggersby,Horudoホルード,660,6,"['Pickup', 'Cheek Pouch', 'Huge Power']",normal,ground,0,50,1,42.4,Digging Pokémon,1000000,127,423,56,77,85,50,77,78,3840,70,1,1,1,0,1,2,1,1,0,2,1,2,1,0.5,1,0.5,1,2
+Fletchling,Yayakomaヤヤコマ,661,6,"['Big Pecks', 'Gale Wings']",normal,flying,0,50,0.3,1.7,Tiny Robin Pokémon,1059860,255,278,50,43,45,40,38,62,3840,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Fletchinder,Hinoyakomaヒノヤコマ,662,6,"['Flame Body', 'Gale Wings']",fire,flying,0,50,0.7,16,Ember Pokémon,1059860,120,382,73,55,62,56,52,84,3840,70,0.25,1,1,2,0.5,0.5,0.5,1,1,0.25,0,1,1,1,1,4,0.5,2
+Talonflame,Fiarrowファイアロー,663,6,"['Flame Body', 'Gale Wings']",fire,flying,0,50,1.2,24.5,Scorching Pokémon,1059860,45,499,81,71,78,74,69,126,3840,70,0.25,1,1,2,0.5,0.5,0.5,1,1,0.25,0,1,1,1,1,4,0.5,2
+Scatterbug,Kofukimushiコフキムシ,664,6,"['Shield Dust', 'Compoundeyes', 'Friend Guard']",bug,NA,0,50,0.3,2.5,Scatterdust Pokémon,1000000,255,200,35,40,38,27,25,35,3840,70,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+Spewpa,Kofuuraiコフーライ,665,6,"['Shed Skin', 'Friend Guard']",bug,NA,0,50,0.3,8.4,Scatterdust Pokémon,1000000,120,213,22,60,45,27,30,29,3840,70,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+Vivillon,Viviyonビビヨン,666,6,"['Shield Dust', 'Compoundeyes', 'Friend Guard']",bug,flying,0,50,1.2,17,Scale Pokémon,1000000,45,411,52,50,80,90,50,89,3840,70,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+Litleo,Shishikoシシコ,667,6,"['Rivalry', 'Unnerve', 'Moxie']",fire,normal,0,11.2,0.6,13.5,Lion Cub Pokémon,1059860,220,369,50,58,62,73,54,72,5120,70,0.5,1,1,1,0.5,2,0.5,1,0,0.5,2,0.5,1,1,1,2,0.5,2
+Pyroar,Kaenjishiカエンジシ,668,6,"['Rivalry', 'Unnerve', 'Moxie']",fire,normal,0,11.2,1.5,81.5,Royal Pokémon,1059860,65,507,68,72,86,109,66,106,5120,70,0.5,1,1,1,0.5,2,0.5,1,0,0.5,2,0.5,1,1,1,2,0.5,2
+Flabébé,Flabebeフラベベ,669,6,"['Flower Veil', 'Symbiosis']",fairy,NA,0,0,0.1,0.1,Single Bloom Pokémon,1000000,225,303,38,39,44,61,79,42,5120,70,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+Floette,Floetteフラエッテ,670,6,"['Flower Veil', 'Symbiosis']",fairy,NA,0,0,0.2,0.9,Fairy Pokémon,1000000,120,551,65,67,74,125,128,92,5120,70,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+Florges,Florgesフラージェス,671,6,"['Flower Veil', 'Symbiosis']",fairy,NA,0,0,1.1,10,Garden Pokémon,1000000,45,552,65,68,78,112,154,75,5120,70,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+Skiddo,Meecleメェークル,672,6,"['Sap Sipper', 'Grass Pelt']",grass,NA,0,50,0.9,31,Mount Pokémon,1000000,200,350,65,48,66,62,57,52,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Gogoat,Gogoatゴーゴート,673,6,"['Sap Sipper', 'Grass Pelt']",grass,NA,0,50,1.7,91,Mount Pokémon,1000000,45,531,100,62,123,97,81,68,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Pancham,Yanchamヤンチャム,674,6,"['Iron Fist', 'Mold Breaker', 'Scrappy']",fighting,NA,0,50,0.6,8,Playful Pokémon,1000000,220,348,82,62,67,46,48,43,6400,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Pangoro,Gorondaゴロンダ,675,6,"['Iron Fist', 'Mold Breaker', 'Scrappy']",fighting,dark,0,50,2.1,136,Daunting Pokémon,1000000,65,495,124,78,95,69,71,58,6400,70,1,0.25,1,1,4,2,1,2,0.5,1,1,1,1,1,0,0.5,1,1
+Furfrou,Trimmienトリミアン,676,6,['Fur Coat'],normal,NA,0,50,1.2,28,Poodle Pokémon,1000000,160,472,80,60,75,65,90,102,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Espurr,Nyasperニャスパー,677,6,"['Keen Eye', 'Infiltrator', 'Own Tempo']",psychic,NA,0,50,0.3,3.5,Restraint Pokémon,1000000,190,355,48,54,62,63,60,68,5120,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Meowstic,Nyaonixニャオニクス,678,6,"['Keen Eye', 'Infiltrator', 'Prankster', 'Competitive']",psychic,NA,0,50,0.6,8.5,Constraint Pokémon,1000000,75,466,48,76,74,83,81,104,5120,70,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Honedge,Hitotsukiヒトツキ,679,6,['No Guard'],steel,ghost,0,50,0.8,2,Sword Pokémon,1000000,180,325,80,100,45,35,37,28,5120,70,0.25,2,0.5,1,0.5,0,2,0.5,2,0.5,2,0.5,0,0,0.5,0.5,0.5,1
+Doublade,Nidangillニダンギル,680,6,['No Guard'],steel,ghost,0,50,0.8,4.5,Sword Pokémon,1000000,90,448,110,150,59,45,49,35,5120,70,0.25,2,0.5,1,0.5,0,2,0.5,2,0.5,2,0.5,0,0,0.5,0.5,0.5,1
+Aegislash,Gillgardギルガルド,681,6,['Stance Change'],steel,ghost,0,50,1.7,53,Royal Sword Pokémon,1000000,45,520,150,50,60,150,50,60,5120,70,0.25,2,0.5,1,0.5,0,2,0.5,2,0.5,2,0.5,0,0,0.5,0.5,0.5,1
+Spritzee,Shushupuシュシュプ,682,6,"['Healer', 'Aroma Veil']",fairy,NA,0,50,0.2,0.5,Perfume Pokémon,1000000,200,341,52,60,78,63,65,23,5120,70,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+Aromatisse,Frefuwanフレフワン,683,6,"['Healer', 'Aroma Veil']",fairy,NA,0,50,0.8,15.5,Fragrance Pokémon,1000000,140,462,72,72,101,99,89,29,5120,70,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+Swirlix,Peroppafuペロッパフ,684,6,"['Sweet Veil', 'Unburden']",fairy,NA,0,50,0.4,3.5,Cotton Candy Pokémon,1000000,200,341,48,66,62,59,57,49,5120,70,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+Slurpuff,Peroreamペロリーム,685,6,"['Sweet Veil', 'Unburden']",fairy,NA,0,50,0.8,5,Meringue Pokémon,1000000,140,480,80,86,82,85,75,72,5120,70,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+Inkay,Maaiikaマーイーカ,686,6,"['Contrary', 'Suction Cups', 'Infiltrator']",dark,psychic,0,50,0.4,3.5,Revolving Pokémon,1000000,190,288,54,53,53,37,46,45,5120,70,4,1,1,1,2,1,1,1,1,1,1,1,1,1,0,1,1,1
+Malamar,Calamaneroカラマネロ,687,6,"['Contrary', 'Suction Cups', 'Infiltrator']",dark,psychic,0,50,1.5,47,Overturning Pokémon,1000000,80,482,92,88,86,68,75,73,5120,70,4,1,1,1,2,1,1,1,1,1,1,1,1,1,0,1,1,1
+Binacle,Kameteteカメテテ,688,6,"['Tough Claws', 'Sniper', 'Pickpocket']",rock,water,0,50,0.5,31,Two-Handed Pokémon,1000000,120,306,52,67,42,39,56,50,5120,70,1,1,1,2,1,2,0.25,0.5,1,4,2,0.5,0.5,0.5,1,1,1,1
+Barbaracle,Gamenodesガメノデス,689,6,"['Tough Claws', 'Sniper', 'Pickpocket']",rock,water,0,50,1.3,96,Collective Pokémon,1000000,45,500,105,115,72,54,86,68,5120,70,1,1,1,2,1,2,0.25,0.5,1,4,2,0.5,0.5,0.5,1,1,1,1
+Skrelp,Kuzumoクズモー,690,6,"['Poison Point', 'Poison Touch', 'Adaptability']",poison,water,0,50,0.5,7.3,Mock Kelp Pokémon,1000000,225,320,60,60,50,60,60,30,5120,70,0.5,1,1,2,0.5,0.5,0.5,1,1,1,2,0.5,1,0.5,2,1,0.5,0.5
+Dragalge,Dramidoroドラミドロ,691,6,"['Poison Point', 'Poison Touch', 'Adaptability']",poison,dragon,0,50,1.8,81.5,Mock Kelp Pokémon,1000000,55,494,75,90,65,97,123,44,5120,70,0.5,1,2,0.5,1,0.5,0.5,1,1,0.25,2,2,1,0.5,2,1,1,0.5
+Clauncher,Udeppouウデッポウ,692,6,['Mega Launcher'],water,NA,0,50,0.5,8.3,Water Gun Pokémon,1250000,225,330,53,62,50,58,63,44,3840,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Clawitzer,Blosterブロスター,693,6,['Mega Launcher'],water,NA,0,50,1.3,35.3,Howitzer Pokémon,1250000,55,500,73,88,71,120,89,59,3840,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Helioptile,Erikiteruエリキテル,694,6,"['Dry Skin', 'Sand Veil', 'Solar Power']",electric,normal,0,50,0.5,6,Generator Pokémon,1000000,190,289,38,33,44,61,43,70,5120,70,1,1,1,0.5,1,2,1,0.5,0,1,2,1,1,1,1,1,0.5,1
+Heliolisk,Elezardエレザード,695,6,"['Dry Skin', 'Sand Veil', 'Solar Power']",electric,normal,0,50,1,21,Generator Pokémon,1000000,75,481,55,52,62,109,94,109,5120,70,1,1,1,0.5,1,2,1,0.5,0,1,2,1,1,1,1,1,0.5,1
+Tyrunt,Chigorasチゴラス,696,6,"['Strong Jaw', 'Sturdy']",rock,dragon,0,88.1,0.8,26,Royal Heir Pokémon,1000000,45,362,89,77,58,45,45,48,7680,70,1,1,2,0.5,2,2,0.25,0.5,1,1,2,2,0.5,0.5,1,1,2,1
+Tyrantrum,Gachigorasガチゴラス,697,6,"['Strong Jaw', 'Rock Head']",rock,dragon,0,88.1,2.5,270,Despot Pokémon,1000000,45,521,121,119,82,69,59,71,7680,70,1,1,2,0.5,2,2,0.25,0.5,1,1,2,2,0.5,0.5,1,1,2,1
+Amaura,Amarusアマルス,698,6,"['Refrigerate', 'Snow Warning']",rock,ice,0,88.1,1.3,25.2,Tundra Pokémon,1000000,45,362,59,50,77,67,63,46,7680,70,1,1,1,1,1,4,1,0.5,1,2,2,0.5,0.5,0.5,1,2,4,2
+Aurorus,Amarurugaアマルルガ,699,6,"['Refrigerate', 'Snow Warning']",rock,ice,0,88.1,2.7,225,Tundra Pokémon,1000000,45,521,77,72,123,99,92,58,7680,70,1,1,1,1,1,4,1,0.5,1,2,2,0.5,0.5,0.5,1,2,4,2
+Sylveon,Nymphiaニンフィア,700,6,"['Cute Charm', 'Pixilate']",fairy,NA,0,88.1,1,23.5,Intertwining Pokémon,1000000,45,525,65,65,95,110,130,60,8960,70,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+Hawlucha,Luchabullルチャブル,701,6,"['Limber', 'Unburden', 'Mold Breaker']",fighting,flying,0,50,0.8,21.5,Wrestling Pokémon,1000000,100,500,92,75,78,74,63,118,5120,70,0.25,0.5,1,2,2,0.5,1,2,1,0.5,0,2,1,1,2,1,1,1
+Dedenne,Dedenneデデンネ,702,6,"['Cheek Pouch', 'Pickup', 'Plus']",electric,fairy,0,50,0.2,2.2,Antenna Pokémon,1000000,180,431,58,57,67,81,67,101,5120,70,0.5,0.5,0,0.5,1,0.5,1,0.5,1,1,2,1,1,2,1,1,1,1
+Carbink,Melecieメレシー,703,6,"['Clear Body', 'Sturdy']",rock,fairy,0,NA,0.3,5.7,Jewel Pokémon,1250000,60,500,50,150,50,50,150,50,6400,70,0.5,0.5,0,1,1,1,0.5,0.5,1,2,2,1,0.5,1,1,1,4,2
+Goomy,Numeraヌメラ,704,6,"['Sap Sipper', 'Hydration', 'Gooey']",dragon,NA,0,50,0.3,2.8,Soft Tissue Pokémon,1250000,45,300,50,35,45,55,75,40,10240,35,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+Sliggoo,Numeilヌメイル,705,6,"['Sap Sipper', 'Hydration', 'Gooey']",dragon,NA,0,50,0.8,17.5,Soft Tissue Pokémon,1250000,45,452,75,53,68,83,113,60,10240,35,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+Goodra,Numelgonヌメルゴン,706,6,"['Sap Sipper', 'Hydration', 'Gooey']",dragon,NA,0,50,2,150.5,Dragon Pokémon,1250000,45,600,100,70,90,110,150,80,10240,35,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+Klefki,Cleffyクレッフィ,707,6,"['Prankster', 'Magician']",steel,fairy,0,50,0.2,3,Key Ring Pokémon,800000,75,470,80,91,57,80,87,75,5120,70,0.25,0.5,0,1,0.5,1,2,0.5,1,0.5,2,0.5,0.5,0,0.5,0.5,1,1
+Phantump,Bokureiボクレー,708,6,"['Natural Cure', 'Frisk', 'Harvest']",ghost,grass,0,50,0.4,7,Stump Pokémon,1000000,120,309,70,48,43,50,60,38,5120,70,1,2,1,0.5,1,0,2,2,2,0.5,0.5,2,0,1,1,1,1,0.5
+Trevenant,Ohrotオーロット,709,6,"['Natural Cure', 'Frisk', 'Harvest']",ghost,grass,0,50,1.5,71,Elder Tree Pokémon,1000000,60,474,110,76,85,65,82,56,5120,70,1,2,1,0.5,1,0,2,2,2,0.5,0.5,2,0,1,1,1,1,0.5
+Pumpkaboo,Bakecchaバケッチャ,710,6,"['Pickup', 'Frisk', 'Insomnia']",ghost,grass,0,50,0.8,15,Pumpkin Pokémon,1000000,120,335,66,70,59,44,55,41,5120,70,1,2,1,0.5,1,0,2,2,2,0.5,0.5,2,0,1,1,1,1,0.5
+Gourgeist,Pumpjinパンプジン,711,6,"['Pickup', 'Frisk', 'Insomnia']",ghost,grass,0,50,1.7,39,Pumpkin Pokémon,1000000,60,494,100,122,85,58,75,54,5120,70,1,2,1,0.5,1,0,2,2,2,0.5,0.5,2,0,1,1,1,1,0.5
+Bergmite,Kachikohruカチコール,712,6,"['Own Tempo', 'Ice Body', 'Sturdy']",ice,NA,0,50,1,99.5,Ice Chunk Pokémon,1000000,190,304,69,85,55,32,35,28,5120,70,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+Avalugg,Crebaseクレベース,713,6,"['Own Tempo', 'Ice Body', 'Sturdy']",ice,NA,0,50,2,505,Iceberg Pokémon,1000000,55,514,117,184,95,44,46,28,5120,70,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+Noibat,Onbatオンバット,714,6,"['Frisk', 'Infiltrator', 'Telepathy']",flying,dragon,0,50,0.5,8,Sound Wave Pokémon,1000000,190,245,30,35,40,45,40,55,5120,70,0.5,1,2,1,2,0.5,0.5,1,1,0.25,0,4,1,1,1,2,1,0.5
+Noivern,Onvernオンバーン,715,6,"['Frisk', 'Infiltrator', 'Telepathy']",flying,dragon,0,50,1.5,85,Sound Wave Pokémon,1000000,45,535,70,80,85,97,80,123,5120,70,0.5,1,2,1,2,0.5,0.5,1,1,0.25,0,4,1,1,1,2,1,0.5
+Xerneas,Xerneasゼルネアス,716,6,['Fairy Aura'],fairy,NA,1,NA,3,215,Life Pokémon,1250000,45,680,131,95,126,131,98,99,30720,0,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+Yveltal,Yveltalイベルタル,717,6,['Dark Aura'],dark,flying,1,NA,5.8,203,Destruction Pokémon,1250000,45,680,131,95,126,131,98,99,30720,0,1,0.5,1,2,2,1,1,1,0.5,0.5,0,2,1,1,0,2,1,1
+Zygarde,Zygarde (10% Forme)ジガルデ,718,6,"['Aura Break', 'Power Construct']",dragon,ground,1,NA,5,284.6,Order Pokémon,1250000,3,708,100,121,216,91,95,85,30720,0,1,1,2,0,2,1,0.5,1,1,1,1,4,1,0.5,1,0.5,1,1
+Diancie,Diancieディアンシー,719,6,['Clear Body'],rock,fairy,1,NA,0.7,8.8,Jewel Pokémon,1250000,3,700,160,110,50,160,110,110,6400,70,0.5,0.5,0,1,1,1,0.5,0.5,1,2,2,1,0.5,1,1,1,4,2
+Hoopa,Hoopa (imashimerareshi Hoopa)フーパ,720,6,['Magician'],psychic,ghost,1,NA,NA,NA,Mischief Pokémon (Confined)Djinn Pokémonn (Unbound),1250000,3,680,160,60,80,170,130,80,30720,100,1,4,1,1,1,0,1,1,4,1,1,1,0,0.5,0.5,1,1,1
+Volcanion,Volcanionボルケニオン,721,6,['Water Absorb'],fire,water,1,NA,1.7,195,Steam Pokémon,1250000,3,600,110,120,80,130,90,70,30720,100,0.5,1,1,2,0.5,1,0.25,1,1,1,2,0.25,1,1,1,2,0.25,1
+Rowlet,Mokurohモクロー,722,7,"['Overgrow', 'Long Reach']",grass,flying,0,88.1,0.3,1.5,Grass Quill Pokémon,1059860,45,320,55,55,68,50,50,42,3840,70,1,1,1,1,1,0.5,2,2,1,0.25,0,4,1,2,1,2,1,0.5
+Dartrix,Fukuthrowフクスロー,723,7,"['Overgrow', 'Long Reach']",grass,flying,0,88.1,0.7,16,Blade Quill Pokémon,1059860,45,420,75,75,78,70,70,52,3840,70,1,1,1,1,1,0.5,2,2,1,0.25,0,4,1,2,1,2,1,0.5
+Decidueye,Junaiperジュナイパー,724,7,"['Overgrow', 'Long Reach']",grass,ghost,0,88.1,1.6,36.6,Arrow Quill Pokémon,1059860,45,530,107,75,78,100,100,70,3840,70,1,2,1,0.5,1,0,2,2,2,0.5,0.5,2,0,1,1,1,1,0.5
+Litten,Nyabbyニャビー,725,7,"['Blaze', 'Intimidate']",fire,NA,0,88.1,0.4,4.3,Fire Cat Pokémon,1059860,45,320,65,40,45,60,40,70,3840,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Torracat,Nyaheatニャヒート,726,7,"['Blaze', 'Intimidate']",fire,NA,0,88.1,0.7,25,Fire Cat Pokémon,1059860,45,420,85,50,65,80,50,90,3840,70,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+Incineroar,Gaogaenガオガエン,727,7,"['Blaze', 'Intimidate']",fire,dark,0,88.1,1.8,83,Heel Pokémon,1059860,45,530,115,90,95,80,90,60,3840,70,1,0.5,1,1,1,2,0.5,1,0.5,0.5,2,0.5,1,1,0,2,0.5,2
+Popplio,Ashimariアシマリ,728,7,"['Torrent', 'Liquid Voice']",water,NA,0,88.1,0.4,7.5,Sea Lion Pokémon,1059860,45,320,54,54,50,66,56,40,3840,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Brionne,Osyamariオシャマリ,729,7,"['Torrent', 'Liquid Voice']",water,NA,0,88.1,0.6,17.5,Pop Star Pokémon,1059860,45,420,69,69,60,91,81,50,3840,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Primarina,Ashireneアシレーヌ,730,7,"['Torrent', 'Liquid Voice']",water,fairy,0,88.1,1.8,44,Soloist Pokémon,1059860,45,530,74,74,80,126,116,60,3840,70,0.5,0.5,0,2,1,0.5,0.5,1,1,2,1,0.5,1,2,1,1,1,0.5
+Pikipek,Tsutsukeraツツケラ,731,7,"['Keen Eye', 'Skill Link', 'Pickup']",normal,flying,0,50,0.3,1.2,Woodpecker Pokémon,1000000,255,265,75,30,35,30,30,65,3840,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Trumbeak,Kerarappaケララッパ,732,7,"['Keen Eye', 'Skill Link', 'Pickup']",normal,flying,0,50,0.6,14.8,Bugle Beak Pokémon,1000000,120,355,85,50,55,40,50,75,3840,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Toucannon,Dodekabashiドデカバシ,733,7,"['Keen Eye', 'Skill Link', 'Sheer Force']",normal,flying,0,50,1.1,26,Cannon Pokémon,1000000,45,485,120,75,80,75,75,60,3840,70,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+Yungoos,Youngooseヤングース,734,7,"['Stakeout', 'Strong Jaw', 'Adaptability']",normal,NA,0,50,0.4,6,Loitering Pokémon,1000000,255,253,70,30,48,30,30,45,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Gumshoos,Dekagooseデカグース,735,7,"['Stakeout', 'Strong Jaw', 'Adaptability']",normal,NA,0,50,0.7,14.2,Stakeout Pokémon,1000000,127,418,110,60,88,55,60,45,3840,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Grubbin,Agojimushiアゴジムシ,736,7,['Swarm'],bug,NA,0,50,0.4,4.4,Larva Pokémon,1000000,255,300,62,45,47,55,45,46,3840,70,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+Charjabug,Dendimushiデンヂムシ,737,7,['Battery'],bug,electric,0,50,0.5,10.5,Battery Pokémon,1000000,120,400,82,95,57,55,75,36,3840,70,1,1,1,0.5,1,0.5,2,1,1,0.5,1,1,1,1,1,2,0.5,1
+Vikavolt,Kuwagannonクワガノン,738,7,['Levitate'],bug,electric,0,50,1.5,45,Stag Beetle Pokémon,1000000,45,500,70,90,77,145,75,43,3840,70,1,1,1,0.5,1,0.5,2,1,1,0.5,1,1,1,1,1,2,0.5,1
+Crabrawler,Makenkaniマケンカニ,739,7,"['Hyper Cutter', 'Iron Fist', 'Anger Point']",fighting,NA,0,50,0.6,7,Boxing Pokémon,1000000,225,338,82,57,47,42,47,63,5120,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Crabominable,Kekenkaniケケンカニ,740,7,"['Hyper Cutter', 'Iron Fist', 'Anger Point']",fighting,ice,0,50,1.7,180,Woolly Crab Pokémon,1000000,60,478,132,77,97,62,67,43,5120,70,0.5,0.5,1,1,2,2,2,2,1,1,1,0.5,1,1,2,1,2,1
+Oricorio,Odoridori (pachipachi Style)オドリドリ,741,7,['Dancer'],fire,flying,0,24.6,0.6,3.4,Dancing Pokémon,1000000,45,476,70,70,75,98,70,93,5120,70,0.25,1,1,2,0.5,0.5,0.5,1,1,0.25,0,1,1,1,1,4,0.5,2
+Cutiefly,Abulyアブリー,742,7,"['Honey Gather', 'Shield Dust', 'Sweet Veil']",bug,fairy,0,50,0.1,0.2,Bee Fly Pokémon,1000000,190,304,45,40,40,55,40,84,5120,70,0.5,0.5,0,1,1,0.25,2,2,1,0.5,0.5,1,1,2,1,2,2,1
+Ribombee,Aburibbonアブリボン,743,7,"['Honey Gather', 'Shield Dust', 'Sweet Veil']",bug,fairy,0,50,0.2,0.5,Bee Fly Pokémon,1000000,75,464,55,60,60,95,70,124,5120,70,0.5,0.5,0,1,1,0.25,2,2,1,0.5,0.5,1,1,2,1,2,2,1
+Rockruff,Iwankoイワンコ,744,7,"['Keen Eye', 'Vital Spirit', 'Steadfast']",rock,NA,0,50,0.5,9.2,Puppy Pokémon,1000000,190,280,65,40,45,30,40,60,3840,70,1,1,1,1,1,2,0.5,0.5,1,2,2,1,0.5,0.5,1,1,2,2
+Lycanroc,Lugarugan (mahiru No Sugata)ルガルガン,745,7,"['Keen Eye', 'Sand Rush', 'Steadfast', 'Keen Eye', 'Vital Spirit', 'No Guard']",rock,NA,0,50,NA,NA,Wolf Pokémon,1000000,90,487,115,75,85,55,75,82,3840,70,1,1,1,1,1,2,0.5,0.5,1,2,2,1,0.5,0.5,1,1,2,2
+Wishiwashi,Yowashi (tandoku No Sugata)ヨワシ,746,7,['Schooling'],water,NA,0,50,0.2,0.3,Small Fry Pokémon,800000,60,620,140,130,45,140,135,30,3840,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Mareanie,Hidoideヒドイデ,747,7,"['Merciless', 'Limber', 'Regenerator']",poison,water,0,50,0.4,8,Brutal Star Pokémon,1000000,190,305,53,62,50,43,52,45,5120,70,0.5,1,1,2,0.5,0.5,0.5,1,1,1,2,0.5,1,0.5,2,1,0.5,0.5
+Toxapex,Dohidoideドヒドイデ,748,7,"['Merciless', 'Limber', 'Regenerator']",poison,water,0,50,0.7,14.5,Brutal Star Pokémon,1000000,75,495,63,152,50,53,142,35,5120,70,0.5,1,1,2,0.5,0.5,0.5,1,1,1,2,0.5,1,0.5,2,1,0.5,0.5
+Mudbray,Dorobankoドロバンコ,749,7,"['Own Tempo', 'Stamina', 'Inner Focus']",ground,NA,0,50,1,110,Donkey Pokémon,1000000,190,385,100,70,70,45,55,45,5120,70,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+Mudsdale,Banbadoroバンバドロ,750,7,"['Own Tempo', 'Stamina', 'Inner Focus']",ground,NA,0,50,2.5,920,Draft Horse Pokémon,1000000,60,500,125,100,100,55,85,35,5120,70,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+Dewpider,Shizukumoシズクモ,751,7,"['Water Bubble', 'Water Absorb']",water,bug,0,50,0.3,4,Water Bubble Pokémon,1000000,200,269,40,52,38,40,72,27,3840,70,1,1,1,2,1,0.5,1,2,1,1,0.5,0.5,1,1,1,2,0.5,0.5
+Araquanid,Onishizukumoオニシズクモ,752,7,"['Water Bubble', 'Water Absorb']",water,bug,0,50,1.8,82,Water Bubble Pokémon,1000000,100,454,70,92,68,50,132,42,3840,70,1,1,1,2,1,0.5,1,2,1,1,0.5,0.5,1,1,1,2,0.5,0.5
+Fomantis,Karikiriカリキリ,753,7,"['Leaf Guard', 'Contrary']",grass,NA,0,50,0.3,1.5,Sickle Grass Pokémon,1000000,190,250,55,35,40,50,35,35,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Lurantis,Lalantesラランテス,754,7,"['Leaf Guard', 'Contrary']",grass,NA,0,50,0.9,18.5,Bloom Sickle Pokémon,1000000,75,480,105,90,70,80,90,45,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Morelull,Nemasyuネマシュ,755,7,"['Illuminate', 'Effect Spore', 'Rain Dish']",grass,fairy,0,50,0.2,1.5,Illuminating Pokémon,1000000,190,285,35,55,40,65,75,15,5120,70,1,0.5,0,0.5,1,0.5,2,2,1,0.5,0.5,2,1,4,1,1,2,0.5
+Shiinotic,Mashadeマシェード,756,7,"['Illuminate', 'Effect Spore', 'Rain Dish']",grass,fairy,0,50,1,11.5,Illuminating Pokémon,1000000,75,405,45,80,60,90,100,30,5120,70,1,0.5,0,0.5,1,0.5,2,2,1,0.5,0.5,2,1,4,1,1,2,0.5
+Salandit,Yatoumoriヤトウモリ,757,7,"['Corrosion', 'Oblivious']",poison,fire,0,88.1,0.6,4.8,Toxic Lizard Pokémon,1000000,120,320,44,40,48,71,40,77,5120,70,0.25,1,1,1,0.25,0.5,0.5,1,1,0.25,4,0.5,1,0.5,2,2,0.5,2
+Salazzle,Ennewtエンニュート,758,7,"['Corrosion', 'Oblivious']",poison,fire,0,0,1.2,22.2,Toxic Lizard Pokémon,1000000,45,480,64,60,68,111,60,117,5120,70,0.25,1,1,1,0.25,0.5,0.5,1,1,0.25,4,0.5,1,0.5,2,2,0.5,2
+Stufful,Nuikogumaヌイコグマ,759,7,"['Fluffy', 'Klutz', 'Cute Charm']",normal,fighting,0,50,0.5,6.8,Flailing Pokémon,1000000,140,340,75,50,70,45,50,50,3840,70,0.5,0.5,1,1,2,2,1,2,0,1,1,1,1,1,2,0.5,1,1
+Bewear,Kiterugumaキテルグマ,760,7,"['Fluffy', 'Klutz', 'Unnerve']",normal,fighting,0,50,2.1,135,Strong Arm Pokémon,1000000,70,500,125,80,120,55,60,60,3840,70,0.5,0.5,1,1,2,2,1,2,0,1,1,1,1,1,2,0.5,1,1
+Bounsweet,Amakajiアマカジ,761,7,"['Leaf Guard', 'Oblivious', 'Sweet Veil']",grass,NA,0,0,0.3,3.2,Fruit Pokémon,1059860,235,210,30,38,42,30,38,32,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Steenee,Amamaikoアママイコ,762,7,"['Leaf Guard', 'Oblivious', 'Sweet Veil']",grass,NA,0,0,0.7,8.2,Fruit Pokémon,1059860,120,290,40,48,52,40,48,62,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Tsareena,Amajoアマージョ,763,7,"['Leaf Guard', 'Queenly Majesty', 'Sweet Veil']",grass,NA,0,0,1.2,21.4,Fruit Pokémon,1059860,45,510,120,98,72,50,98,72,5120,70,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+Comfey,Cuwawaキュワワー,764,7,"['Flower Veil', 'Triage', 'Natural Cure']",fairy,NA,0,24.6,0.1,0.3,Posy Picker Pokémon,800000,60,485,52,90,51,82,110,100,5120,70,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+Oranguru,Yareyuutanヤレユータン,765,7,"['Inner Focus', 'Telepathy', 'Symbiosis']",normal,psychic,0,50,1.5,76,Sage Pokémon,1250000,45,490,60,80,90,90,110,60,5120,70,2,2,1,1,1,1,1,1,0,1,1,1,1,1,0.5,1,1,1
+Passimian,Nagetukesaruナゲツケサル,766,7,"['Receiver', 'Defiant']",fighting,NA,0,50,2,82.8,Teamwork Pokémon,1250000,45,490,120,90,100,40,60,80,5120,70,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+Wimpod,Kosokumushiコソクムシ,767,7,['Wimp Out'],bug,water,0,50,0.5,12,Turn Tail Pokémon,1000000,90,230,35,40,25,20,30,80,5120,70,1,1,1,2,1,0.5,1,2,1,1,0.5,0.5,1,1,1,2,0.5,0.5
+Golisopod,Gusokumushaグソクムシャ,768,7,['Emergency Exit'],bug,water,0,50,2,108,Hard Scale Pokémon,1000000,45,530,125,140,75,60,90,40,5120,70,1,1,1,2,1,0.5,1,2,1,1,0.5,0.5,1,1,1,2,0.5,0.5
+Sandygast,Sunabaスナバァ,769,7,"['Water Compaction', 'Sand Veil']",ghost,ground,0,50,0.5,70,Sand Heap Pokémon,1000000,140,320,55,80,55,70,45,15,3840,70,0.5,2,1,0,1,0,1,1,2,2,1,2,0,0.25,1,0.5,1,2
+Palossand,Sirodethnaシロデスナ,770,7,"['Water Compaction', 'Sand Veil']",ghost,ground,0,50,1.3,250,Sand Castle Pokémon,1000000,60,480,75,110,85,100,75,35,3840,70,0.5,2,1,0,1,0,1,1,2,2,1,2,0,0.25,1,0.5,1,2
+Pyukumuku,Namakobushiナマコブシ,771,7,"['Innards Out', 'Unaware']",water,NA,0,50,0.3,1.2,Sea Cucumber Pokémon,800000,60,410,60,130,55,30,130,5,3840,70,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+Type: Null,Type: Nullタイプ：ヌル,772,7,['Battle Armor'],normal,NA,0,NA,1.9,120.5,Synthetic Pokémon,1250000,3,534,95,95,95,95,95,59,30720,0,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Silvally,Silvadyシルヴァディ,773,7,['RKS System'],normal,NA,0,NA,2.3,100.5,Synthetic Pokémon,1250000,3,570,95,95,95,95,95,95,30720,0,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Minior,Metenoメテノ,774,7,['Shields Down'],rock,flying,0,NA,0.3,40,Meteor Pokémon,1059860,30 (Meteorite)255 (Core),500,100,60,60,100,60,120,6400,70,0.5,1,1,2,1,1,0.5,0.5,1,1,0,2,0.5,0.5,1,2,2,2
+Komala,Nekkoaraネッコアラ,775,7,['Comatose'],normal,NA,0,50,0.4,19.9,Drowsing Pokémon,1250000,45,480,115,65,65,75,95,65,5120,70,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+Turtonator,Bakugamesバクガメス,776,7,['Shell Armor'],fire,dragon,0,50,2,212,Blast Turtle Pokémon,1000000,70,485,78,135,60,91,85,36,5120,70,0.5,1,2,0.5,1,1,0.25,1,1,0.25,2,1,1,1,1,2,0.5,1
+Togedemaru,Togedemaruトゲデマル,777,7,"['Iron Barbs', 'Lightningrod', 'Sturdy']",electric,steel,0,50,0.3,3.3,Roly-Poly Pokémon,1000000,180,435,98,63,65,40,73,96,2560,70,0.5,1,0.5,0.5,0.5,2,2,0.25,1,0.5,4,0.5,0.5,0,0.5,0.5,0.25,1
+Mimikyu,Mimikkyuミミッキュ,778,7,['Disguise'],ghost,fairy,0,50,0.2,0.7,Disguise Pokémon,1000000,45,476,90,80,55,50,105,96,5120,70,0.25,1,0,1,1,0,1,1,2,1,1,1,0,1,1,1,2,1
+Bruxish,Hagigishiriハギギシリ,779,7,"['Dazzling', 'Strong Jaw', 'Wonder Skin ']",water,psychic,0,50,0.9,19,Gnash Teeth Pokémon,1000000,80,475,105,70,68,70,70,92,3840,70,2,2,1,2,1,0.5,0.5,1,2,2,1,0.5,1,1,0.5,1,0.5,0.5
+Drampa,Jijilongジジーロン,780,7,"['Berserk', 'Sap Sipper', 'Cloud Nine']",normal,dragon,0,50,3,185,Placid Pokémon,1000000,70,485,60,85,78,135,91,36,5120,70,1,1,2,0.5,2,2,0.5,1,0,0.5,1,2,1,1,1,1,1,0.5
+Dhelmise,Dadarinダダリン,781,7,['Steelworker'],ghost,grass,0,NA,3.9,210,Sea Creeper Pokémon,1000000,25,517,131,100,70,86,90,40,6400,70,1,2,1,0.5,1,0,2,2,2,0.5,0.5,2,0,1,1,1,1,0.5
+Jangmo-o,Jyarakoジャラコ,782,7,"['Bulletproof', 'Soundproof', 'Overcoat']",dragon,NA,0,50,0.6,29.7,Scaly Pokémon,1250000,45,300,55,65,45,45,45,45,10240,70,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+Hakamo-o,Jyarangoジャランゴ,783,7,"['Bulletproof', 'Soundproof', 'Overcoat']",dragon,fighting,0,50,1.2,47,Scaly Pokémon,1250000,45,420,75,90,55,65,70,65,10240,70,0.5,0.5,2,0.5,4,1,0.5,2,1,0.5,1,2,1,1,2,0.5,1,0.5
+Kommo-o,Jyararangaジャラランガ,784,7,"['Bulletproof', 'Soundproof', 'Overcoat']",dragon,fighting,0,50,1.6,78.2,Scaly Pokémon,1250000,45,600,110,125,75,100,105,85,10240,70,0.5,0.5,2,0.5,4,1,0.5,2,1,0.5,1,2,1,1,2,0.5,1,0.5
+Tapu Koko,Kapu-kokekoカプ・コケコ,785,7,"['Electric Surge', 'Telepathy']",electric,fairy,1,NA,1.8,20.5,Land Spirit Pokémon,1250000,3,570,115,85,70,95,75,130,3840,70,0.5,0.5,0,0.5,1,0.5,1,0.5,1,1,2,1,1,2,1,1,1,1
+Tapu Lele,Kapu-tetefuカプ・テテフ,786,7,"['Psychic Surge', 'Telepathy']",psychic,fairy,1,NA,1.2,18.6,Land Spirit Pokémon,1250000,3,570,85,75,70,130,115,95,3840,70,1,1,0,1,1,0.25,1,1,2,1,1,1,1,2,0.5,1,2,1
+Tapu Bulu,Kapu-bululカプ・ブルル,787,7,"['Grassy Surge', 'Telepathy']",grass,fairy,1,NA,1.9,45.5,Land Spirit Pokémon,1250000,3,570,130,115,70,85,95,75,3840,70,1,0.5,0,0.5,1,0.5,2,2,1,0.5,0.5,2,1,4,1,1,2,0.5
+Tapu Fini,Kapu-rehireカプ・レヒレ,788,7,"['Misty Surge', 'Telepathy']",water,fairy,1,NA,1.3,21.2,Land Spirit Pokémon,1250000,3,570,75,115,70,95,130,85,3840,70,0.5,0.5,0,2,1,0.5,0.5,1,1,2,1,0.5,1,2,1,1,1,0.5
+Cosmog,Cosmogコスモッグ,789,7,['Unaware'],psychic,NA,1,NA,0.2,0.1,Nebula Pokémon,1250000,45,200,29,31,43,29,31,37,30720,0,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Cosmoem,Cosmovumコスモウム,790,7,['Sturdy'],psychic,NA,1,NA,0.1,999.9,Protostar Pokémon,1250000,45,400,29,131,43,29,131,37,30720,0,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Solgaleo,Solgaleoソルガレオ,791,7,['Full Metal Body'],psychic,steel,1,NA,3.4,230,Sunne Pokémon,1250000,45,680,137,107,137,113,89,97,30720,0,1,2,0.5,1,0.5,1,2,0.5,2,0.5,2,0.5,0.5,0,0.25,0.5,0.5,1
+Lunala,Lunalaルナアーラ,792,7,['Shadow Shield'],psychic,ghost,1,NA,4,120,Moone Pokémon,1250000,45,680,113,89,137,137,107,97,30720,0,1,4,1,1,1,0,1,1,4,1,1,1,0,0.5,0.5,1,1,1
+Nihilego,Uturoidウツロイド,793,7,['Beast Boost'],rock,poison,1,NA,1.2,55.5,Parasite Pokémon,1250000,45,570,53,47,109,127,131,103,30720,0,0.5,1,1,1,0.5,1,0.5,0.5,1,1,4,1,0.5,0.25,2,1,2,2
+Buzzwole,Massivoonマッシブーン,794,7,['Beast Boost'],bug,fighting,1,NA,2.4,333.6,Swollen Pokémon,1250000,25,570,139,139,107,53,53,79,30720,0,0.5,0.5,1,1,2,0.5,2,4,1,0.5,0.5,1,1,1,2,1,1,1
+Pheromosa,Pheroacheフェローチェ,795,7,['Beast Boost'],bug,fighting,1,NA,1.8,25,Lissome Pokémon,1250000,255,570,137,37,71,137,37,151,30720,0,0.5,0.5,1,1,2,0.5,2,4,1,0.5,0.5,1,1,1,2,1,1,1
+Xurkitree,Denjyumokuデンジュモク,796,7,['Beast Boost'],electric,NA,1,NA,3.8,100,Glowing Pokémon,1250000,30,570,89,71,83,173,71,83,30720,0,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+Celesteela,Tekkaguyaテッカグヤ,797,7,['Beast Boost'],steel,flying,1,NA,9.2,999.9,Launch Pokémon,1250000,25,570,101,103,97,107,101,61,30720,0,0.25,1,0.5,2,0.5,1,2,0.5,1,0.25,0,1,0.5,0,0.5,1,0.5,1
+Kartana,Kamiturugiカミツルギ,798,7,['Beast Boost'],grass,steel,1,NA,0.3,0.1,Drawn Sword Pokémon,1250000,255,570,181,131,59,59,31,109,30720,0,1,1,0.5,0.5,0.5,2,4,1,1,0.25,1,1,0.5,0,0.5,0.5,0.5,0.5
+Guzzlord,Akuzikingアクジキング,799,7,['Beast Boost'],dark,dragon,1,NA,5.5,888,Junkivore Pokémon,1250000,15,570,101,53,223,97,53,43,30720,0,2,0.5,2,0.5,4,2,0.5,1,0.5,0.5,1,2,1,1,0,1,1,0.5
+Necrozma,Necrozmaネクロズマ,800,7,['Prism Armor'],psychic,NA,1,NA,2.4,230,Prism Pokémon,1250000,3,600,107,101,97,127,89,79,30720,0,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+Magearna,Magearnaマギアナ,801,7,['Soul-Heart'],steel,fairy,1,NA,1,80.5,Artificial Pokémon,1250000,3,600,95,115,80,130,115,65,30720,0,0.25,0.5,0,1,0.5,1,2,0.5,1,0.5,2,0.5,0.5,0,0.5,0.5,1,1

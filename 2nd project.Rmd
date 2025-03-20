@@ -1,0 +1,137 @@
+---
+title: "2nd Additional task"
+author: "Mykola Chuprinskiy, Paul, Faradina Radwa, Abe"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output:
+  prettydoc::html_pretty:
+    theme: leonids
+---
+
+```{r, echo=FALSE}
+library(tidyverse)
+library(caret)
+library(glmnet)
+library(ggplot2)
+```
+
+# Dataset and variables
+
+We have chosen the dataset of Housing Sales in King County, USA (kc_house_data.csv). The dataset's wide range of variables, including house prices, number of bedrooms, bathrooms, living space, and lot size,  provide lots of opportunity to investigate links and develop research questions. These variables can be used in predictive analyses. Furthermore, scatter plots, histograms, and bar charts can be used to efficiently represent the data and demonstrate the correlations between variables.
+
+For this project, we will focus on using `price` as our dependent variable to measure outcomes. To explore the factors influencing the price of the house in the USA, we will utilize `sqft_living` and `view` as our independent variables.
+
+```{r}
+data <- read.csv("kc_house_data.csv")
+
+summary(data)
+
+sum(is.na(data))
+
+data <- na.omit(data)
+
+# Convert 'view' to factor and exclude 'view' = 0
+data$view <- factor(data$view, levels = c(0, 1, 2, 3, 4))
+filtered_data <- data %>% filter(view != 0)
+
+# Ensure 'condition' is a factor
+data$condition <- factor(data$condition, levels = c(1, 2, 3, 4, 5))
+```
+# Cuctom Theme
+We have modified the classic theme.
+
+```{r}
+custom_theme <- theme(
+  plot.title = element_text(hjust = 0.5, size = 20, face = "bold"),
+  axis.title = element_text(size = 14),
+  axis.text = element_text(size = 12),
+  legend.position = "bottom"
+)
+```
+
+# Visualization
+
+We explore and learn about the structure of the data set of Housing Sales in King County, USA (kc_house_data.csv) by constructing 3 different type of graphs.
+
+```{r}
+ggplot(filtered_data, aes(x = sqft_living, y = price, color = view)) +
+  geom_point(alpha = 0.6) +
+  scale_color_manual(values = c("1" = "red", "2" = "orange", "3" = "yellow", "4" = "green")) +
+  labs(title = "Scatter Plot of Price vs Living and View (Excluding View = 0)",
+       x = "Living Space (sqft)",
+       y = "Price ($)",
+       color = "View") +
+  theme_minimal() +
+  custom_theme +
+  geom_smooth(method = "lm", color = "black", se = FALSE)
+
+
+ggplot(data, aes(x = price)) +
+  geom_histogram(binwidth = 50000, fill = "skyblue", color = "white", alpha = 0.7) +
+  labs(title = "Distribution of House Prices",
+       x = "Price ($)",
+       y = "Frequency") +
+  theme_classic() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 20, face = "bold"),
+    axis.title = element_text(size = 14)
+  ) +
+  scale_x_continuous(labels = scales::dollar)
+
+
+ggplot(filtered_data, aes(x = view, y = price, fill = view)) +
+  geom_boxplot(alpha = 0.7) +
+  scale_fill_brewer(palette = "Set3") +
+  labs(title = "House Prices by View (Excluding View = 0)",
+       x = "View",
+       y = "Price ($)",
+       fill = "View") +
+  theme_light() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 20, face = "bold"),
+    axis.title = element_text(size = 14),
+    legend.position = "none"
+  ) +
+  scale_y_continuous(labels = scales::dollar)
+
+
+```
+
+# Research question
+
+After thoroughly examining the dataset, we have decided to focus this project on investigating the research question: "Does the price of a house in the King County, USA significantly depend on its size of living space and view quality?" This question will guide our analysis as we look into the possible effects of these particular property attributes on the overall grading of housing.
+
+# Linear regression
+
+The next step is to do a linear regression analysis to ensure the ability to reproduce our research findings. This statistical method will allow us to quantitatively assess the relationship between variables, thereby validating our research question.
+
+```{r}
+set.seed(123)
+trainIndex <- createDataPartition(filtered_data$price, p = 0.8, list = FALSE)
+trainData <- filtered_data[trainIndex, ]
+testData <- filtered_data[-trainIndex, ]                                                        # Prepare the data for modeling
+
+
+x <- model.matrix(price ~ sqft_living + view + condition, trainData)[, -1]                        # Model matrix for Lasso regression
+y <- trainData$price
+
+
+lasso_model <- cv.glmnet(x, y, alpha = 1)                                                         # Lasso regression
+
+
+best_lambda <- lasso_model$lambda.min                                                             # Best lambda
+
+
+final_model <- glmnet(x, y, alpha = 1, lambda = best_lambda)                                      # Fit the final model on the entire training data
+
+
+x_test <- model.matrix(price ~ sqft_living + view + condition, testData)[, -1]                    # Predict on the test data
+predictions <- predict(final_model, s = best_lambda, newx = x_test)
+
+mse <- mean((predictions - testData$price)^2)
+mse
+
+```
+
+# Conclusion
+
+We will continue to pursue our proposed research question, as the linear regression analysis has yielded positive results, confirming the reproducibility of our findings. The current validation confirms the reliability of our approach and encourages further research into the relationship between prices, living space size, and view quality of Housing in King County, USA.
